@@ -236960,8 +236960,7 @@
         "currencies": [
           {
             "id": 5379,
-            "amount": 1,
-            "hq": true
+            "amount": 1
           }
         ],
         "items": [
@@ -236975,8 +236974,7 @@
         "currencies": [
           {
             "id": 5060,
-            "amount": 1,
-            "hq": true
+            "amount": 1
           }
         ],
         "items": [
@@ -236990,8 +236988,7 @@
         "currencies": [
           {
             "id": 5060,
-            "amount": 1,
-            "hq": true
+            "amount": 1
           }
         ],
         "items": [
@@ -237005,8 +237002,7 @@
         "currencies": [
           {
             "id": 5067,
-            "amount": 1,
-            "hq": true
+            "amount": 1
           }
         ],
         "items": [
@@ -237020,8 +237016,7 @@
         "currencies": [
           {
             "id": 5289,
-            "amount": 1,
-            "hq": true
+            "amount": 1
           }
         ],
         "items": [
@@ -237035,8 +237030,7 @@
         "currencies": [
           {
             "id": 5330,
-            "amount": 1,
-            "hq": true
+            "amount": 1
           }
         ],
         "items": [
@@ -237050,8 +237044,7 @@
         "currencies": [
           {
             "id": 5474,
-            "amount": 1,
-            "hq": true
+            "amount": 1
           }
         ],
         "items": [
@@ -237065,8 +237058,7 @@
         "currencies": [
           {
             "id": 4648,
-            "amount": 1,
-            "hq": true
+            "amount": 1
           }
         ],
         "items": [
@@ -237080,8 +237072,7 @@
         "currencies": [
           {
             "id": 8032,
-            "amount": 1,
-            "hq": true
+            "amount": 1
           }
         ],
         "items": [
@@ -237095,8 +237086,7 @@
         "currencies": [
           {
             "id": 8033,
-            "amount": 1,
-            "hq": true
+            "amount": 1
           }
         ],
         "items": [
@@ -237110,8 +237100,7 @@
         "currencies": [
           {
             "id": 8034,
-            "amount": 1,
-            "hq": true
+            "amount": 1
           }
         ],
         "items": [
@@ -237125,8 +237114,7 @@
         "currencies": [
           {
             "id": 8035,
-            "amount": 1,
-            "hq": true
+            "amount": 1
           }
         ],
         "items": [
@@ -237140,8 +237128,7 @@
         "currencies": [
           {
             "id": 8036,
-            "amount": 1,
-            "hq": true
+            "amount": 1
           }
         ],
         "items": [
@@ -237155,8 +237142,7 @@
         "currencies": [
           {
             "id": 8037,
-            "amount": 1,
-            "hq": true
+            "amount": 1
           }
         ],
         "items": [
@@ -237170,8 +237156,7 @@
         "currencies": [
           {
             "id": 8038,
-            "amount": 1,
-            "hq": true
+            "amount": 1
           }
         ],
         "items": [
@@ -237185,8 +237170,7 @@
         "currencies": [
           {
             "id": 8039,
-            "amount": 1,
-            "hq": true
+            "amount": 1
           }
         ],
         "items": [
@@ -241526,8 +241510,7 @@
         "currencies": [
           {
             "id": 7612,
-            "amount": 2,
-            "hq": true
+            "amount": 2
           }
         ],
         "items": [
@@ -241541,8 +241524,7 @@
         "currencies": [
           {
             "id": 7613,
-            "amount": 2,
-            "hq": true
+            "amount": 2
           }
         ],
         "items": [
@@ -241556,8 +241538,7 @@
         "currencies": [
           {
             "id": 7614,
-            "amount": 2,
-            "hq": true
+            "amount": 2
           }
         ],
         "items": [
@@ -241571,8 +241552,7 @@
         "currencies": [
           {
             "id": 7615,
-            "amount": 2,
-            "hq": true
+            "amount": 2
           }
         ],
         "items": [
@@ -241586,8 +241566,7 @@
         "currencies": [
           {
             "id": 7616,
-            "amount": 2,
-            "hq": true
+            "amount": 2
           }
         ],
         "items": [
@@ -241601,8 +241580,7 @@
         "currencies": [
           {
             "id": 7617,
-            "amount": 2,
-            "hq": true
+            "amount": 2
           }
         ],
         "items": [
@@ -241616,8 +241594,7 @@
         "currencies": [
           {
             "id": 7618,
-            "amount": 5,
-            "hq": true
+            "amount": 5
           }
         ],
         "items": [
@@ -241631,8 +241608,7 @@
         "currencies": [
           {
             "id": 7619,
-            "amount": 5,
-            "hq": true
+            "amount": 5
           }
         ],
         "items": [
@@ -248667,8 +248643,7 @@
         "currencies": [
           {
             "id": 7612,
-            "amount": 1,
-            "hq": true
+            "amount": 1
           }
         ],
         "items": [
@@ -248682,8 +248657,7 @@
         "currencies": [
           {
             "id": 7613,
-            "amount": 1,
-            "hq": true
+            "amount": 1
           }
         ],
         "items": [
@@ -248697,8 +248671,7 @@
         "currencies": [
           {
             "id": 7614,
-            "amount": 1,
-            "hq": true
+            "amount": 1
           }
         ],
         "items": [
@@ -248712,8 +248685,7 @@
         "currencies": [
           {
             "id": 7615,
-            "amount": 1,
-            "hq": true
+            "amount": 1
           }
         ],
         "items": [
@@ -248727,8 +248699,7 @@
         "currencies": [
           {
             "id": 7616,
-            "amount": 1,
-            "hq": true
+            "amount": 1
           }
         ],
         "items": [
@@ -248742,8 +248713,7 @@
         "currencies": [
           {
             "id": 7617,
-            "amount": 1,
-            "hq": true
+            "amount": 1
           }
         ],
         "items": [
@@ -248757,8 +248727,7 @@
         "currencies": [
           {
             "id": 7618,
-            "amount": 2,
-            "hq": true
+            "amount": 2
           }
         ],
         "items": [
@@ -248772,8 +248741,7 @@
         "currencies": [
           {
             "id": 7619,
-            "amount": 2,
-            "hq": true
+            "amount": 2
           }
         ],
         "items": [
@@ -248787,8 +248755,7 @@
         "currencies": [
           {
             "id": 7612,
-            "amount": 1,
-            "hq": true
+            "amount": 1
           }
         ],
         "items": [
@@ -248802,8 +248769,7 @@
         "currencies": [
           {
             "id": 7613,
-            "amount": 1,
-            "hq": true
+            "amount": 1
           }
         ],
         "items": [
@@ -248817,8 +248783,7 @@
         "currencies": [
           {
             "id": 7614,
-            "amount": 1,
-            "hq": true
+            "amount": 1
           }
         ],
         "items": [
@@ -248832,8 +248797,7 @@
         "currencies": [
           {
             "id": 7615,
-            "amount": 1,
-            "hq": true
+            "amount": 1
           }
         ],
         "items": [
@@ -248847,8 +248811,7 @@
         "currencies": [
           {
             "id": 7616,
-            "amount": 1,
-            "hq": true
+            "amount": 1
           }
         ],
         "items": [
@@ -248862,8 +248825,7 @@
         "currencies": [
           {
             "id": 7617,
-            "amount": 1,
-            "hq": true
+            "amount": 1
           }
         ],
         "items": [
@@ -248877,8 +248839,7 @@
         "currencies": [
           {
             "id": 7618,
-            "amount": 2,
-            "hq": true
+            "amount": 2
           }
         ],
         "items": [
@@ -248892,8 +248853,7 @@
         "currencies": [
           {
             "id": 7619,
-            "amount": 2,
-            "hq": true
+            "amount": 2
           }
         ],
         "items": [
@@ -248907,8 +248867,7 @@
         "currencies": [
           {
             "id": 7612,
-            "amount": 1,
-            "hq": true
+            "amount": 1
           }
         ],
         "items": [
@@ -248922,8 +248881,7 @@
         "currencies": [
           {
             "id": 7613,
-            "amount": 1,
-            "hq": true
+            "amount": 1
           }
         ],
         "items": [
@@ -248937,8 +248895,7 @@
         "currencies": [
           {
             "id": 7614,
-            "amount": 1,
-            "hq": true
+            "amount": 1
           }
         ],
         "items": [
@@ -248952,8 +248909,7 @@
         "currencies": [
           {
             "id": 7615,
-            "amount": 1,
-            "hq": true
+            "amount": 1
           }
         ],
         "items": [
@@ -248967,8 +248923,7 @@
         "currencies": [
           {
             "id": 7616,
-            "amount": 1,
-            "hq": true
+            "amount": 1
           }
         ],
         "items": [
@@ -248982,8 +248937,7 @@
         "currencies": [
           {
             "id": 7617,
-            "amount": 1,
-            "hq": true
+            "amount": 1
           }
         ],
         "items": [
@@ -248997,8 +248951,7 @@
         "currencies": [
           {
             "id": 7618,
-            "amount": 2,
-            "hq": true
+            "amount": 2
           }
         ],
         "items": [
@@ -249012,8 +248965,7 @@
         "currencies": [
           {
             "id": 7619,
-            "amount": 2,
-            "hq": true
+            "amount": 2
           }
         ],
         "items": [
@@ -249027,8 +248979,7 @@
         "currencies": [
           {
             "id": 7612,
-            "amount": 1,
-            "hq": true
+            "amount": 1
           }
         ],
         "items": [
@@ -249042,8 +248993,7 @@
         "currencies": [
           {
             "id": 7613,
-            "amount": 1,
-            "hq": true
+            "amount": 1
           }
         ],
         "items": [
@@ -249057,8 +249007,7 @@
         "currencies": [
           {
             "id": 7614,
-            "amount": 1,
-            "hq": true
+            "amount": 1
           }
         ],
         "items": [
@@ -249072,8 +249021,7 @@
         "currencies": [
           {
             "id": 7615,
-            "amount": 1,
-            "hq": true
+            "amount": 1
           }
         ],
         "items": [
@@ -249087,8 +249035,7 @@
         "currencies": [
           {
             "id": 7616,
-            "amount": 1,
-            "hq": true
+            "amount": 1
           }
         ],
         "items": [
@@ -249102,8 +249049,7 @@
         "currencies": [
           {
             "id": 7617,
-            "amount": 1,
-            "hq": true
+            "amount": 1
           }
         ],
         "items": [
@@ -249117,8 +249063,7 @@
         "currencies": [
           {
             "id": 7618,
-            "amount": 2,
-            "hq": true
+            "amount": 2
           }
         ],
         "items": [
@@ -249132,8 +249077,7 @@
         "currencies": [
           {
             "id": 7619,
-            "amount": 2,
-            "hq": true
+            "amount": 2
           }
         ],
         "items": [
@@ -249147,8 +249091,7 @@
         "currencies": [
           {
             "id": 7612,
-            "amount": 1,
-            "hq": true
+            "amount": 1
           }
         ],
         "items": [
@@ -249162,8 +249105,7 @@
         "currencies": [
           {
             "id": 7613,
-            "amount": 1,
-            "hq": true
+            "amount": 1
           }
         ],
         "items": [
@@ -249177,8 +249119,7 @@
         "currencies": [
           {
             "id": 7614,
-            "amount": 1,
-            "hq": true
+            "amount": 1
           }
         ],
         "items": [
@@ -249192,8 +249133,7 @@
         "currencies": [
           {
             "id": 7615,
-            "amount": 1,
-            "hq": true
+            "amount": 1
           }
         ],
         "items": [
@@ -249207,8 +249147,7 @@
         "currencies": [
           {
             "id": 7616,
-            "amount": 1,
-            "hq": true
+            "amount": 1
           }
         ],
         "items": [
@@ -249222,8 +249161,7 @@
         "currencies": [
           {
             "id": 7617,
-            "amount": 1,
-            "hq": true
+            "amount": 1
           }
         ],
         "items": [
@@ -249237,8 +249175,7 @@
         "currencies": [
           {
             "id": 7618,
-            "amount": 2,
-            "hq": true
+            "amount": 2
           }
         ],
         "items": [
@@ -249252,8 +249189,7 @@
         "currencies": [
           {
             "id": 7619,
-            "amount": 2,
-            "hq": true
+            "amount": 2
           }
         ],
         "items": [
@@ -249838,8 +249774,7 @@
           },
           {
             "id": 10100,
-            "amount": 5,
-            "hq": true
+            "amount": 5
           },
           {
             "id": 10124,
@@ -249861,8 +249796,7 @@
           },
           {
             "id": 10101,
-            "amount": 5,
-            "hq": true
+            "amount": 5
           },
           {
             "id": 10124,
@@ -249884,8 +249818,7 @@
           },
           {
             "id": 10102,
-            "amount": 5,
-            "hq": true
+            "amount": 5
           },
           {
             "id": 10124,
@@ -249907,8 +249840,7 @@
           },
           {
             "id": 10103,
-            "amount": 5,
-            "hq": true
+            "amount": 5
           },
           {
             "id": 10124,
@@ -249930,8 +249862,7 @@
           },
           {
             "id": 10104,
-            "amount": 5,
-            "hq": true
+            "amount": 5
           },
           {
             "id": 10124,
@@ -249953,8 +249884,7 @@
           },
           {
             "id": 10105,
-            "amount": 5,
-            "hq": true
+            "amount": 5
           },
           {
             "id": 10124,
@@ -249976,8 +249906,7 @@
           },
           {
             "id": 10106,
-            "amount": 5,
-            "hq": true
+            "amount": 5
           },
           {
             "id": 10124,
@@ -249999,8 +249928,7 @@
           },
           {
             "id": 10107,
-            "amount": 5,
-            "hq": true
+            "amount": 5
           },
           {
             "id": 10124,
@@ -350315,8 +350243,7 @@
           },
           {
             "id": 29645,
-            "amount": 20,
-            "hq": true
+            "amount": 20
           }
         ],
         "items": [
@@ -350334,8 +350261,7 @@
           },
           {
             "id": 29646,
-            "amount": 20,
-            "hq": true
+            "amount": 20
           }
         ],
         "items": [
@@ -350353,8 +350279,7 @@
           },
           {
             "id": 29647,
-            "amount": 20,
-            "hq": true
+            "amount": 20
           }
         ],
         "items": [
@@ -350372,8 +350297,7 @@
           },
           {
             "id": 29648,
-            "amount": 20,
-            "hq": true
+            "amount": 20
           }
         ],
         "items": [
@@ -350391,8 +350315,7 @@
           },
           {
             "id": 29649,
-            "amount": 20,
-            "hq": true
+            "amount": 20
           }
         ],
         "items": [
@@ -350410,8 +350333,7 @@
           },
           {
             "id": 29650,
-            "amount": 20,
-            "hq": true
+            "amount": 20
           }
         ],
         "items": [
@@ -350429,8 +350351,7 @@
           },
           {
             "id": 29651,
-            "amount": 20,
-            "hq": true
+            "amount": 20
           }
         ],
         "items": [
@@ -350448,8 +350369,7 @@
           },
           {
             "id": 29652,
-            "amount": 20,
-            "hq": true
+            "amount": 20
           }
         ],
         "items": [
@@ -350538,8 +350458,7 @@
           },
           {
             "id": 29653,
-            "amount": 30,
-            "hq": true
+            "amount": 30
           }
         ],
         "items": [
@@ -350557,8 +350476,7 @@
           },
           {
             "id": 29654,
-            "amount": 30,
-            "hq": true
+            "amount": 30
           }
         ],
         "items": [
@@ -350576,8 +350494,7 @@
           },
           {
             "id": 29655,
-            "amount": 30,
-            "hq": true
+            "amount": 30
           }
         ],
         "items": [
@@ -350595,8 +350512,7 @@
           },
           {
             "id": 29656,
-            "amount": 30,
-            "hq": true
+            "amount": 30
           }
         ],
         "items": [
@@ -350614,8 +350530,7 @@
           },
           {
             "id": 29657,
-            "amount": 30,
-            "hq": true
+            "amount": 30
           }
         ],
         "items": [
@@ -350633,8 +350548,7 @@
           },
           {
             "id": 29658,
-            "amount": 30,
-            "hq": true
+            "amount": 30
           }
         ],
         "items": [
@@ -350652,8 +350566,7 @@
           },
           {
             "id": 29659,
-            "amount": 30,
-            "hq": true
+            "amount": 30
           }
         ],
         "items": [
@@ -350671,8 +350584,7 @@
           },
           {
             "id": 29660,
-            "amount": 30,
-            "hq": true
+            "amount": 30
           }
         ],
         "items": [
