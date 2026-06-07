@@ -1,6 +1,6 @@
 const { execSync } = require('child_process');
 const { platform } = require('os');
-const { renameSync } = require('fs');
+const { renameSync, unlinkSync } = require('fs');
 
 const {
   SIGN_TOOL_PATH = 'C:\\Program Files (x86)\\Windows Kits\\10\\bin\\x64\\signtool.exe',
@@ -10,22 +10,25 @@ const {
 const SITE = 'https://ffxivteamcraft.com';
 
 const signOnWindows = (filePath, name, certPath, password) => {
+  // certutil import may fail if cert is already in the store — log but continue.
   try {
     execSync(
       `certutil -f -p "${password}" -importPfx My "${certPath}" NoRoot`,
       { stdio: 'inherit' }
     );
-  } catch {
-    console.error('Unable to import certificate');
+  } catch (err) {
+    console.error('Unable to import certificate:', err.message);
   }
 
+  // signtool failure means the binary is unsigned — re-throw so the build fails.
   try {
     execSync(
       `"${SIGN_TOOL_PATH}" sign /a /s My /sm /t "${TIMESTAMP_SERVER}" /d "${name}" /du "${SITE}" "${filePath}"`,
       { stdio: 'inherit' }
     );
-  } catch {
+  } catch (err) {
     console.error(`Signing ${filePath} failed`);
+    throw err;
   }
 };
 
@@ -37,8 +40,12 @@ const signOnLinux = (filePath, name, certPath, password) => {
       { stdio: 'inherit' }
     );
     renameSync(tmp, filePath);
-  } catch {
+  } catch (err) {
+    // Remove any partial output before re-throwing so subsequent runs don't
+    // accidentally pick up a corrupted .signed file.
+    try { unlinkSync(tmp); } catch {}
     console.error(`Signing ${filePath} failed`);
+    throw err;
   }
 };
 

@@ -17,6 +17,30 @@
 * Install [Bun](https://bun.sh/) (>= 1.3) — used as the package manager and JS runtime
 * Install local dev dependencies: `bun install` while current directory is this repo
 
+#### Building the Windows installer from Linux
+
+The Windows build uses the Squirrel installer, which is a .NET application that electron-builder runs via Mono during packaging. To cross-compile from Linux you need Mono:
+
+```bash
+# Arch / CachyOS
+sudo pacman -S mono
+
+# Ubuntu / Debian
+sudo apt install mono-complete
+```
+
+Wine is **not** required. Signing on Linux uses `osslsigncode` (not `signtool.exe`), so there is no Wine dependency at any stage. For signed builds, also install `osslsigncode`:
+
+```bash
+# Arch / CachyOS (AUR)
+paru -S osslsigncode
+
+# Ubuntu / Debian
+sudo apt install osslsigncode
+```
+
+Once Mono is installed, `bun run build:windows` will produce an unsigned installer in `release/`. Set `WIN_CSC_LINK` and `WIN_CSC_KEY_PASSWORD` for a signed build.
+
 #### Windows 10 environment
 
 To build Electron on Windows, node-gyp is required and depends on some external tools:

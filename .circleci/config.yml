@@ -1,12 +1,22 @@
 defaults: &defaults
   working_directory: ~/ffxiv-teamcraft
   docker:
-    - image: cimg/node:20.14-browsers
+    - image: cimg/node:22.14-browsers
 
 
 version: 2.1
-orbs:
-  win: circleci/windows@5.0.0
+
+commands:
+  install_bun:
+    description: Install Bun and add it to PATH for subsequent steps
+    steps:
+      - run:
+          name: Install Bun
+          command: |
+            curl -fsSL https://bun.sh/install | bash
+            echo 'export PATH="$HOME/.bun/bin:$PATH"' >> $BASH_ENV
+
+
 jobs:
   setup:
     <<: *defaults
@@ -16,18 +26,20 @@ jobs:
       - run:
           name: Show current branch
           command: echo ${CIRCLE_BRANCH}
+      - install_bun
       - restore_cache:
-          name: Restore Yarn Package Cache
+          name: Restore Bun package cache
           keys:
-            - yarn-packages-{{ checksum "yarn.lock" }}
+            - bun-packages-{{ checksum "bun.lock" }}
+            - bun-packages-
       - run:
-          name: Install local dependencies
-          command: yarn install --immutable --ignore-scripts
+          name: Install dependencies
+          command: bun install --frozen-lockfile --ignore-scripts
       - save_cache:
-          name: Save Yarn Package Cache
-          key: yarn-packages-{{ checksum "yarn.lock" }}
+          name: Save Bun package cache
+          key: bun-packages-{{ checksum "bun.lock" }}
           paths:
-            - ~/.cache/yarn
+            - ~/.bun/install/cache
       - persist_to_workspace:
           root: ~/
           paths:
@@ -40,9 +52,10 @@ jobs:
     steps:
       - attach_workspace:
           at: ~/
+      - install_bun
       - run:
-          name: Lint code and JSON
-          command: yarn run lint
+          name: Lint
+          command: bun run lint
 
 
   test:
@@ -50,12 +63,13 @@ jobs:
     steps:
       - attach_workspace:
           at: ~/
+      - install_bun
       - run:
-          name: Testing
-          command: yarn run test
+          name: Test
+          command: bun run test
       - run:
           name: Codecov upload
-          command: yarn run codecov
+          command: bun run codecov
 
 
   build:
@@ -64,13 +78,14 @@ jobs:
     steps:
       - attach_workspace:
           at: ~/
+      - install_bun
       - run:
-          name: Building
+          name: Build web
           command: |
             if [ "${CIRCLE_BRANCH}" == "master" ]; then
-                yarn run build:prod
+                bun run build:prod
             else
-                yarn run build:beta
+                bun run build:beta
             fi
           no_output_timeout: 30m
       - persist_to_workspace:
@@ -85,9 +100,10 @@ jobs:
     steps:
       - attach_workspace:
           at: ~/
+      - install_bun
       - run:
-          name: Building
-          command: yarn api:build
+          name: Build API
+          command: bun run api:build
       - persist_to_workspace:
           root: ~/
           paths:
@@ -106,7 +122,7 @@ jobs:
           fingerprints:
             - "fe:16:5e:5a:4c:4a:3e:36:80:a7:13:5b:1f:64:7b:e0"
       - run:
-          name: Deploying cdn to OVH server
+          name: Deploy CDN to OVH server
           command: bash tools/cdn/deploy.sh
       - store_artifacts:
           path: ./rsync.log
@@ -117,9 +133,11 @@ jobs:
     steps:
       - attach_workspace:
           at: ~/
+      - install_bun
       - run:
-          name: Deploying web
+          name: Deploy web to Firebase
           command: ./node_modules/.bin/firebase deploy -P default --only hosting --token "$FIREBASE_TOKEN"
+
 
   deploy-api:
     working_directory: ~/ffxiv-teamcraft
@@ -129,52 +147,46 @@ jobs:
       - attach_workspace:
           at: ~/
       - run:
-          name: Authorize GCloud Command Line Tool
-          command: |
-            echo $GCLOUD_SERVICE_KEY | gcloud auth activate-service-account --key-file=-
+          name: Authorize GCloud
+          command: echo $GCLOUD_SERVICE_KEY | gcloud auth activate-service-account --key-file=-
       - run:
-          name: Deploy Could Run TC API
-          command: gcloud builds submit --config ./apps/api/cloudbuild.yaml . && gcloud beta run deploy api --image gcr.io/ffxivteamcraft/api --region us-central1 --allow-unauthenticated --update-secrets=XIVAPI_KEY=XIVAPI_KEY:latest --update-secrets=FFCAFE_KEY=FFCAFE_KEY:latest
+          name: Deploy Cloud Run TC API
+          command: >
+            gcloud builds submit --config ./apps/api/cloudbuild.yaml . &&
+            gcloud beta run deploy api --image gcr.io/ffxivteamcraft/api
+            --region us-central1 --allow-unauthenticated
+            --update-secrets=XIVAPI_KEY=XIVAPI_KEY:latest
+            --update-secrets=FFCAFE_KEY=FFCAFE_KEY:latest
 
 
+  # Builds and publishes the Windows Squirrel installer via Linux cross-compilation.
+  # Replaces the old Windows executor job — mono is all that is needed for Squirrel.
+  # Sign credentials are read from WIN_CSC_LINK / WIN_CSC_KEY_PASSWORD env vars;
+  # signing is skipped automatically when they are not set.
   release-desktop:
-    executor:
-      name: win/default
-    working_directory: ~/ffxiv-teamcraft
+    <<: *defaults
+    resource_class: large
     steps:
-      - attach_workspace:
-          at: ~/
+      - checkout
+      - install_bun
       - restore_cache:
+          name: Restore Bun package cache
           keys:
-            - v2-deps-{ .Branch }-{ checksum "yarn.lock" }
-      - run: choco install wget -y
+            - bun-packages-{{ checksum "bun.lock" }}
+            - bun-packages-
       - run:
-          command: wget https://bootstrap.pypa.io/get-pip.py -P C:\Users\circleci\Downloads\
-          shell: cmd.exe
+          name: Install Mono (Squirrel.exe runs via Mono on Linux)
+          command: sudo apt-get update -qq && sudo apt-get install -y mono-complete
       - run:
-          command: python C:\Users\circleci\Downloads\get-pip.py
-          shell: cmd.exe
+          name: Install osslsigncode (Authenticode signing on Linux)
+          command: sudo apt-get install -y osslsigncode
       - run:
-          command: pip install setuptools
-          shell: cmd.exe
+          name: Install dependencies
+          command: bun install --frozen-lockfile
       - run:
-          command: wget https://nodejs.org/dist/v20.14.0/node-v20.14.0-x64.msi -P C:\Users\circleci\Downloads\
-          shell: cmd.exe
-      - run: MsiExec.exe /i C:\Users\circleci\Downloads\node-v20.14.0-x64.msi /qn
-      - run:
-          name: Install yarn
-          command: |
-             Start-Process powershell -verb runAs -Args "-start GeneralProfile"
-             nvm install 20.14.0
-             nvm use 20.14.0
-             npm i -g yarn
-      - run:
-          name: Reinstalling dependencies for windows
-          command: yarn install --immutable
-      - run:
-          name: Deploying desktop on github
+          name: Build and publish Windows installer
+          command: bun run build:windows:publish
           no_output_timeout: 30m
-          command: yarn run electron:setup:publish
       - persist_to_workspace:
           root: ~/
           paths:
@@ -186,18 +198,19 @@ jobs:
     resource_class: large
     steps:
       - checkout
+      - install_bun
       - restore_cache:
+          name: Restore Bun package cache
           keys:
-            - yarn-packages-{{ checksum "yarn.lock" }}
+            - bun-packages-{{ checksum "bun.lock" }}
+            - bun-packages-
       - run:
           name: Install dependencies
-          command: yarn install --immutable
+          command: bun install --frozen-lockfile
       - run:
           name: Build and publish AppImage
-          command: yarn build:appimage:publish
+          command: bun run build:appimage:publish
           no_output_timeout: 30m
-          environment:
-            NODE_OPTIONS: --max-old-space-size=4096
 
 
   deploy-staging:
@@ -205,8 +218,9 @@ jobs:
     steps:
       - attach_workspace:
           at: ~/
+      - install_bun
       - run:
-          name: Deploying web
+          name: Deploy staging to Firebase
           command: ./node_modules/.bin/firebase deploy -P beta --only hosting --token "$FIREBASE_TOKEN"
 
 
@@ -260,4 +274,3 @@ workflows:
           filters:
             branches:
               only: staging
-
