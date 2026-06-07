@@ -65,9 +65,11 @@
     },
     "win": {
       "icon": "./tools/build/icon.ico",
-      "publisherName": "FFXIV Teamcraft",
       "target": "squirrel",
-      "sign": "./tools/build/sign-windows.js",
+      "signtoolOptions": {
+        "publisherName": "FFXIV Teamcraft",
+        "sign": "./tools/build/sign-windows.js"
+      },
       "publish": {
         "provider": "github",
         "releaseType": "release"
@@ -114,6 +116,8 @@
     "electron:setup:build-dev:dir": "bun run electron:build && electron-builder -w --dir",
     "electron:setup:build-beta": "del-cli release/* && bun run electron:build && bun run build:electron-dev && electron-builder -w",
     "electron:setup:publish": "bun run build:electron-prod && bun run electron:build && electron-builder -w -p always",
+    "build:windows": "del-cli release/* && bun run build:electron-prod && bun run electron:build && electron-builder -w",
+    "build:windows:publish": "bun run build:electron-prod && bun run electron:build && electron-builder -w -p always",
     "build:appimage": "del-cli release/* && bun run build:electron-prod && bun run electron:build && electron-builder --linux",
     "build:appimage:publish": "bun run build:electron-prod && bun run electron:build && electron-builder --linux -p always",
     "postinstall": "electron-builder install-app-deps",
