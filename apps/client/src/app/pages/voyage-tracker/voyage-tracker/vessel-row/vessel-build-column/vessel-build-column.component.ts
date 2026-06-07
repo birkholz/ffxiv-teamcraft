@@ -19,7 +19,6 @@ import { NgClass, AsyncPipe } from '@angular/common';
     templateUrl: './vessel-build-column.component.html',
     styleUrls: ['./vessel-build-column.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [NzPopoverModule, NgClass, ExtendedModule, FlexModule, AsyncPipe, TranslateModule]
 })
 export class VesselBuildColumnComponent {

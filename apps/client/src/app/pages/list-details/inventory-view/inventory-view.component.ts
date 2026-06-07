@@ -16,11 +16,10 @@ import { FlexModule } from '@angular/flex-layout/flex';
 import { DialogComponent } from '../../../core/dialog.component';
 
 @Component({
-  selector: 'app-inventory-view',
-  templateUrl: './inventory-view.component.html',
-  styleUrls: ['./inventory-view.component.less'],
-  standalone: true,
-  imports: [FlexModule, NzSwitchModule, FormsModule, NzToolTipModule, ItemNameClipboardDirective, AsyncPipe, I18nPipe, TranslateModule, ItemNamePipe, LazyIconPipe]
+    selector: 'app-inventory-view',
+    templateUrl: './inventory-view.component.html',
+    styleUrls: ['./inventory-view.component.less'],
+    imports: [FlexModule, NzSwitchModule, FormsModule, NzToolTipModule, ItemNameClipboardDirective, AsyncPipe, I18nPipe, TranslateModule, ItemNamePipe, LazyIconPipe]
 })
 export class InventoryViewComponent extends DialogComponent implements OnInit {
 

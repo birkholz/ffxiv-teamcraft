@@ -17,7 +17,6 @@ import { NzListModule } from 'ng-zorro-antd/list';
     selector: 'app-instances',
     templateUrl: './instances.component.html',
     styleUrls: ['./instances.component.less'],
-    standalone: true,
     imports: [NzListModule, FlexModule, DbButtonComponent, RouterLink, NzButtonModule, NzIconModule, AsyncPipe, I18nPipe, I18nRowPipe, MapNamePipe, LazyRowPipe]
 })
 export class InstancesComponent extends ItemDetailsPopup {

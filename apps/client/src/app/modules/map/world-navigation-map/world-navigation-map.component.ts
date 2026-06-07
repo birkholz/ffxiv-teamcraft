@@ -28,11 +28,10 @@ import { DialogComponent } from '../../../core/dialog.component';
 import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 
 @Component({
-  selector: 'app-world-navigation-map',
-  templateUrl: './world-navigation-map.component.html',
-  styleUrls: ['./world-navigation-map.component.less'],
-  standalone: true,
-  imports: [FlexModule, NzButtonModule, NzWaveModule, NzIconModule, NzSelectModule, FormsModule, MapComponent, NzListModule, NzToolTipModule, ClipboardDirective, NzSpinModule, AsyncPipe, DecimalPipe, NodeTypeIconPipe, LazyIconPipe, I18nPipe, TranslateModule, I18nRowPipe]
+    selector: 'app-world-navigation-map',
+    templateUrl: './world-navigation-map.component.html',
+    styleUrls: ['./world-navigation-map.component.less'],
+    imports: [FlexModule, NzButtonModule, NzWaveModule, NzIconModule, NzSelectModule, FormsModule, MapComponent, NzListModule, NzToolTipModule, ClipboardDirective, NzSpinModule, AsyncPipe, DecimalPipe, NodeTypeIconPipe, LazyIconPipe, I18nPipe, TranslateModule, I18nRowPipe]
 })
 export class WorldNavigationMapComponent extends DialogComponent implements OnInit {
   private destroyRef = inject(DestroyRef);

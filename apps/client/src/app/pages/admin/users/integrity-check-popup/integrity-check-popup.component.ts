@@ -15,12 +15,11 @@ import { DialogComponent } from '../../../../core/dialog.component';
 import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 
 @Component({
-  selector: 'app-integrity-check-popup',
-  templateUrl: './integrity-check-popup.component.html',
-  styleUrls: ['./integrity-check-popup.component.less'],
-  changeDetection: ChangeDetectionStrategy.OnPush,
-  standalone: true,
-  imports: [FlexModule, NzButtonModule, NzIconModule, NzWaveModule, NzToolTipModule, AsyncPipe, TranslateModule]
+    selector: 'app-integrity-check-popup',
+    templateUrl: './integrity-check-popup.component.html',
+    styleUrls: ['./integrity-check-popup.component.less'],
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    imports: [FlexModule, NzButtonModule, NzIconModule, NzWaveModule, NzToolTipModule, AsyncPipe, TranslateModule]
 })
 export class IntegrityCheckPopupComponent extends DialogComponent {
 

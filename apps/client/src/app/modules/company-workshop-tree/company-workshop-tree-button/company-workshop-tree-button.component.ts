@@ -13,7 +13,6 @@ import { NzButtonModule } from 'ng-zorro-antd/button';
     templateUrl: './company-workshop-tree-button.component.html',
     styleUrls: ['./company-workshop-tree-button.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [NzButtonModule, NzWaveModule, NzToolTipModule, NzIconModule, TranslateModule]
 })
 export class CompanyWorkshopTreeButtonComponent {

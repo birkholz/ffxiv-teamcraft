@@ -44,7 +44,6 @@ import { NgIf, NgFor, AsyncPipe } from '@angular/common';
     selector: 'app-quest',
     templateUrl: './quest.component.html',
     styleUrls: ['./quest.component.less'],
-    standalone: true,
     imports: [NgIf, FlexModule, I18nNameComponent, DbButtonComponent, NgFor, NzToolTipModule, I18nDisplayComponent, MapPositionComponent, DbCommentsComponent, NzDividerModule, NzCardModule, NzListModule, RouterLink, NzTagModule, ItemIconComponent, XivapiActionTooltipDirective, ItemRarityDirective, NzButtonModule, NzIconModule, PageLoaderComponent, AsyncPipe, I18nPipe, TranslateModule, I18nRowPipe, ItemNamePipe, ActionIconPipe, ActionNamePipe, IfMobilePipe, XivapiIconPipe, LazyIconPipe, LazyRowPipe]
 })
 export class QuestComponent extends TeamcraftPageComponent {

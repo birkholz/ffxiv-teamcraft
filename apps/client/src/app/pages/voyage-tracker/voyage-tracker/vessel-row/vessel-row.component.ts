@@ -23,7 +23,6 @@ import { FlexModule } from '@angular/flex-layout/flex';
     templateUrl: './vessel-row.component.html',
     styleUrls: ['./vessel-row.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [FlexModule, NzButtonModule, NzIconModule, VesselRankColumnComponent, VesselBuildColumnComponent, VesselVoyageColumnComponent, AsyncPipe, DatePipe, TranslateModule, TimerPipe]
 })
 export class VesselRowComponent extends TeamcraftComponent {

@@ -16,7 +16,6 @@ import { FlexModule } from '@angular/flex-layout/flex';
     selector: 'app-db',
     templateUrl: './db.component.html',
     styleUrls: ['./db.component.less'],
-    standalone: true,
     imports: [FlexModule, QuickSearchComponent, RouterOutlet]
 })
 export class DbComponent extends TeamcraftComponent implements OnInit {

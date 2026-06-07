@@ -22,7 +22,6 @@ import { AsyncPipe } from '@angular/common';
     selector: 'app-favorites',
     templateUrl: './favorites.component.html',
     styleUrls: ['./favorites.component.less'],
-    standalone: true,
     imports: [NzListModule, WorkshopPanelComponent, ListPanelComponent, RotationPanelComponent, RotationFolderPanelComponent, AsyncPipe, TranslateModule]
 })
 export class FavoritesComponent {

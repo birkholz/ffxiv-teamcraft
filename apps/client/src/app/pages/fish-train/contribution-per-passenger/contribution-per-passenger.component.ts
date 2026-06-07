@@ -19,7 +19,6 @@ import { NzSwitchModule } from 'ng-zorro-antd/switch';
     selector: 'app-contribution-per-passenger',
     templateUrl: './contribution-per-passenger.component.html',
     styleUrls: ['./contribution-per-passenger.component.less'],
-    standalone: true,
     imports: [NzSwitchModule, FormsModule, NgxEchartsModule, NzEmptyModule, AsyncPipe, TranslateModule]
 })
 export class ContributionPerPassengerComponent extends TeamcraftComponent {

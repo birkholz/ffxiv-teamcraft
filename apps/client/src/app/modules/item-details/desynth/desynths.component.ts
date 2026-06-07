@@ -15,7 +15,6 @@ import { NzListModule } from 'ng-zorro-antd/list';
     templateUrl: './desynths.component.html',
     styleUrls: ['./desynths.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [NzListModule, LazyScrollComponent, FlexModule, ItemRarityDirective, DbButtonComponent, ItemIconComponent, I18nPipe, ItemNamePipe, LazyIconPipe]
 })
 export class DesynthsComponent extends ItemDetailsPopup {

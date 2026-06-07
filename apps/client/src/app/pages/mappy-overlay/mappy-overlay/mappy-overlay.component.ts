@@ -23,7 +23,6 @@ import { OverlayContainerComponent } from '../../../modules/overlay-container/ov
     templateUrl: './mappy-overlay.component.html',
     styleUrls: ['./mappy-overlay.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [OverlayContainerComponent, NzToolTipModule, NzCheckboxModule, FormsModule, NzButtonModule, NzWaveModule, NzIconModule, FullpageMessageComponent, AsyncPipe, DecimalPipe, I18nPipe, I18nRowPipe]
 })
 export class MappyOverlayComponent implements OnInit {

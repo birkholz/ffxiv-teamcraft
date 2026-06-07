@@ -19,7 +19,6 @@ import { PageLoaderComponent } from '../../../modules/page-loader/page-loader/pa
     templateUrl: './crafting-replay-folder.component.html',
     styleUrls: ['./crafting-replay-folder.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [PageLoaderComponent, FolderPageComponent, CraftingReplayRowComponent, AsyncPipe]
 })
 export class CraftingReplayFolderComponent extends TeamcraftComponent {

@@ -31,11 +31,10 @@ import { DialogComponent } from '../../../core/dialog.component';
 import { NzInputNumberComponent } from 'ng-zorro-antd/input-number';
 
 @Component({
-  selector: 'app-item-picker',
-  templateUrl: './item-picker.component.html',
-  styleUrls: ['./item-picker.component.less'],
-  standalone: true,
-  imports: [NzButtonModule, NzInputModule, FormsModule, NzCheckboxModule, RouterLink, NzListModule, LazyScrollComponent, I18nNameComponent, ItemIconComponent, NzToolTipModule, FlexModule, NzWaveModule, NzIconModule, AsyncPipe, TranslateModule, XivapiIconPipe, CustomItemNamePipe, JobUnicodePipe, IfRegionsPipe, NzSpinModule, NzInputNumberComponent]
+    selector: 'app-item-picker',
+    templateUrl: './item-picker.component.html',
+    styleUrls: ['./item-picker.component.less'],
+    imports: [NzButtonModule, NzInputModule, FormsModule, NzCheckboxModule, RouterLink, NzListModule, LazyScrollComponent, I18nNameComponent, ItemIconComponent, NzToolTipModule, FlexModule, NzWaveModule, NzIconModule, AsyncPipe, TranslateModule, XivapiIconPipe, CustomItemNamePipe, JobUnicodePipe, IfRegionsPipe, NzSpinModule, NzInputNumberComponent]
 })
 export class ItemPickerComponent extends DialogComponent implements OnInit {
 

@@ -15,7 +15,6 @@ import { DialogComponent } from '../../../../core/dialog.component';
     selector: 'app-verification-popup',
     templateUrl: './verification-popup.component.html',
     styleUrls: ['./verification-popup.component.less'],
-    standalone: true,
     imports: [NzAlertModule, NzButtonModule, NzWaveModule, AsyncPipe, TranslateModule]
 })
 export class VerificationPopupComponent extends DialogComponent implements OnDestroy {

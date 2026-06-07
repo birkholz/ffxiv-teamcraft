@@ -11,7 +11,6 @@ import { FlexModule } from '@angular/flex-layout/flex';
     templateUrl: './remove-ads-popup.component.html',
     styleUrls: ['./remove-ads-popup.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [FlexModule, NzDividerModule, NzButtonModule, NzWaveModule, TranslateModule]
 })
 export class RemoveAdsPopupComponent {

@@ -32,7 +32,6 @@ import { NzCardModule } from 'ng-zorro-antd/card';
     templateUrl: './metrics-display-editor.component.html',
     styleUrls: ['./metrics-display-editor.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [NzCardModule, TutorialStepDirective, FlexModule, NzButtonModule, NzWaveModule, NzPopconfirmModule, NzIconModule, NzDividerModule, NzGridModule, NzFormModule, NzSelectModule, FormsModule, NzCheckboxModule, NzInputModule, AsyncPipe, TranslateModule, I18nPipe]
 })
 export class MetricsDisplayEditorComponent {

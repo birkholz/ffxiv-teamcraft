@@ -15,7 +15,6 @@ import { FlexModule } from '@angular/flex-layout/flex';
     selector: 'app-overlay-container',
     templateUrl: './overlay-container.component.html',
     styleUrls: ['./overlay-container.component.less'],
-    standalone: true,
     imports: [FlexModule, NzButtonModule, NzIconModule, NzSliderModule, FormsModule, NzSwitchModule]
 })
 export class OverlayContainerComponent implements OnInit {

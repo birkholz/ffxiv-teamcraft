@@ -8,11 +8,10 @@ import { AsyncPipe } from '@angular/common';
 import { DialogComponent } from '../../../core/dialog.component';
 
 @Component({
-  selector: 'app-progress-popup',
-  templateUrl: './progress-popup.component.html',
-  styleUrls: ['./progress-popup.component.less'],
-  standalone: true,
-  imports: [NzProgressModule, NzSpinModule, AsyncPipe]
+    selector: 'app-progress-popup',
+    templateUrl: './progress-popup.component.html',
+    styleUrls: ['./progress-popup.component.less'],
+    imports: [NzProgressModule, NzSpinModule, AsyncPipe]
 })
 export class ProgressPopupComponent extends DialogComponent implements OnInit {
 

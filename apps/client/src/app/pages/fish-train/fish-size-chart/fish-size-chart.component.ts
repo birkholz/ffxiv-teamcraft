@@ -21,7 +21,6 @@ import { PageLoaderComponent } from '../../../modules/page-loader/page-loader/pa
     selector: 'app-fish-size-chart',
     templateUrl: './fish-size-chart.component.html',
     styleUrls: ['./fish-size-chart.component.less'],
-    standalone: true,
     imports: [PageLoaderComponent, NgxEchartsModule, NzEmptyModule, TranslateModule]
 })
 export class FishSizeChartComponent extends TeamcraftComponent {

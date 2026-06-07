@@ -36,7 +36,6 @@ import { AsyncPipe, DecimalPipe, DatePipe } from '@angular/common';
     templateUrl: './list-pricing-row.component.html',
     styleUrls: ['./list-pricing-row.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [NzGridModule, FlexModule, NzCheckboxModule, FormsModule, ItemIconComponent, I18nNameComponent, ClipboardDirective, MarketboardIconComponent, NzTagModule, NzButtonModule, NzWaveModule, NzToolTipModule, NzSwitchModule, NzIconModule, NzInputModule, AsyncPipe, DecimalPipe, DatePipe, I18nPipe, TranslateModule, ItemNamePipe, WorldNamePipe]
 })
 export class ListPricingRowComponent extends TeamcraftComponent {

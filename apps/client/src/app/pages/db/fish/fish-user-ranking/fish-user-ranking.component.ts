@@ -16,7 +16,6 @@ import { NzCardModule } from 'ng-zorro-antd/card';
     templateUrl: './fish-user-ranking.component.html',
     styleUrls: ['./fish-user-ranking.component.less', '../../common-db.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [NzCardModule, FlexModule, ItemIconComponent, NzListModule, AsyncPipe, DatePipe, I18nPipe, TranslateModule, ItemNamePipe]
 })
 export class FishUserRankingComponent {

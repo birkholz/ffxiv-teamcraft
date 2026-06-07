@@ -26,7 +26,6 @@ import { FlexModule } from '@angular/flex-layout/flex';
     selector: 'app-food-picker',
     templateUrl: './food-picker.component.html',
     styleUrls: ['./food-picker.component.less'],
-    standalone: true,
     imports: [FlexModule, NzSelectModule, FormsModule, NzListModule, DbButtonComponent, ItemIconComponent, I18nNameComponent, MarketboardIconComponent, AsyncPipe, I18nPipe, TranslateModule, I18nRowPipe, LazyIconPipe]
 })
 export class FoodPickerComponent extends TeamcraftComponent {

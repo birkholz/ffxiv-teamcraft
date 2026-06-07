@@ -40,7 +40,8 @@ import { RelationshipsComponent } from '../../item-details/relationships/relatio
 import { uniq } from 'lodash';
 
 @Component({
-  template: ''
+    template: '',
+    standalone: false
 })
 export class AbstractItemRowComponent extends TeamcraftOptimizedComponent implements OnInit {
 

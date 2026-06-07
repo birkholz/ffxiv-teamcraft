@@ -11,7 +11,6 @@ import { AsyncPipe, UpperCasePipe } from '@angular/common';
     templateUrl: './i18n-display.component.html',
     styleUrls: ['./i18n-display.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [FlexModule, AsyncPipe, UpperCasePipe, UiTextPipe]
 })
 export class I18nDisplayComponent implements OnChanges {

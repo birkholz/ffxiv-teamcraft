@@ -11,7 +11,6 @@ import { FlexModule } from '@angular/flex-layout/flex';
     templateUrl: './tutorial-step.component.html',
     styleUrls: ['./tutorial-step.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [FlexModule, NzButtonModule, NzWaveModule, TranslateModule]
 })
 export class TutorialStepComponent {

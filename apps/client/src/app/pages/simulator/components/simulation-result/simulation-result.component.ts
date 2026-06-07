@@ -29,7 +29,6 @@ import { NzCardModule } from 'ng-zorro-antd/card';
     templateUrl: './simulation-result.component.html',
     styleUrls: ['./simulation-result.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [NzCardModule, FlexModule, ItemIconComponent, NzToolTipModule, ItemNameClipboardDirective, I18nNameComponent, NzButtonModule, NzWaveModule, NzIconModule, NzInputNumberModule, FormsModule, NzProgressModule, NgStyle, ExtendedModule, NzDividerModule, DecimalPipe, TranslateModule, FloorPipe, IfMobilePipe, IngameStarsPipe, I18nPipe, I18nRowPipe]
 })
 export class SimulationResultComponent {

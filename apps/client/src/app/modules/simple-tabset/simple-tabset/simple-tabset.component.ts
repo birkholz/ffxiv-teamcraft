@@ -8,7 +8,6 @@ import { FlexModule } from '@angular/flex-layout/flex';
     templateUrl: './simple-tabset.component.html',
     styleUrls: ['./simple-tabset.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [FlexModule]
 })
 export class SimpleTabsetComponent implements AfterContentInit {

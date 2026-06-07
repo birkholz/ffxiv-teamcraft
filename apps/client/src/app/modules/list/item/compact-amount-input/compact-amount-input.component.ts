@@ -18,7 +18,6 @@ import { NzButtonModule } from 'ng-zorro-antd/button';
     selector: 'app-compact-amount-input',
     templateUrl: './compact-amount-input.component.html',
     styleUrls: ['./compact-amount-input.component.less'],
-    standalone: true,
     imports: [NzButtonModule, NzWaveModule, NzIconModule, NzInputNumberModule, FormsModule]
 })
 export class CompactAmountInputComponent extends TeamcraftComponent {

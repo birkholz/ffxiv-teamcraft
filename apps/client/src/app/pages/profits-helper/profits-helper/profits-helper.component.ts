@@ -34,7 +34,6 @@ import { FlexModule } from '@angular/flex-layout/flex';
     templateUrl: './profits-helper.component.html',
     styleUrls: ['./profits-helper.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [FlexModule, NzButtonModule, NzWaveModule, NzToolTipModule, NzIconModule, NzTableModule, ItemIconComponent, I18nNameComponent, MarketboardIconComponent, NzSpinModule, NzGridModule, NzCardModule, NzCheckboxModule, FormsModule, NgTemplateOutlet, NzInputNumberModule, NzEmptyModule, AsyncPipe, DecimalPipe, DatePipe, TranslateModule, JobUnicodePipe]
 })
 export class ProfitsHelperComponent {

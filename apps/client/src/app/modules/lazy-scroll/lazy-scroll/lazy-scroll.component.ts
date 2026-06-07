@@ -7,7 +7,6 @@ import { NgTemplateOutlet } from '@angular/common';
     templateUrl: './lazy-scroll.component.html',
     styleUrls: ['./lazy-scroll.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [CdkVirtualScrollViewport, CdkFixedSizeVirtualScroll, CdkVirtualForOf, NgTemplateOutlet]
 })
 export class LazyScrollComponent {

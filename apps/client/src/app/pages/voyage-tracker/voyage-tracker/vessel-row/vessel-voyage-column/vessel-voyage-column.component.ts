@@ -20,7 +20,6 @@ import { NzPopoverModule } from 'ng-zorro-antd/popover';
     templateUrl: './vessel-voyage-column.component.html',
     styleUrls: ['./vessel-voyage-column.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [NzPopoverModule, NzBreadCrumbModule, NzButtonModule, NzIconModule, AsyncPipe, TranslateModule, LazyRowPipe, NzPipesModule]
 })
 export class VesselVoyageColumnComponent {

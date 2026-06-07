@@ -29,7 +29,6 @@ interface FishDetailsStatsSummary {
     templateUrl: './fish-details-container.component.html',
     styleUrls: ['./fish-details-container.component.less', '../../common-db.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [FlexModule, NzButtonModule, NzIconModule, NzToolTipModule, NzSelectModule, FormsModule, AsyncPipe, DecimalPipe, I18nPipe, TranslateModule, I18nRowPipe, XivapiIconPipe, LazyRowPipe]
 })
 export class FishDetailsContainerComponent {

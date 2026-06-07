@@ -28,12 +28,11 @@ import { FloorPipe } from '../../../pipes/pipes/floor.pipe';
 import { HourDisplayPipe } from '../../../pipes/pipes/hour-display.pipe';
 
 @Component({
-  selector: 'app-node-details',
-  templateUrl: './node-details.component.html',
-  styleUrls: ['./node-details.component.less'],
-  changeDetection: ChangeDetectionStrategy.OnPush,
-  standalone: true,
-  imports: [FlexModule, DbButtonComponent, NzTagModule, NzToolTipModule, AlarmButtonComponent, NzButtonModule, NzIconModule, AsyncPipe, DecimalPipe, TranslateModule, XivapiIconPipe, WeatherIconPipe, MapNamePipe, LazyRowPipe, I18nPipe, I18nRowPipe, AlarmDisplayPipe, I18nNameComponent, LazyIconPipe, FloorPipe, HourDisplayPipe]
+    selector: 'app-node-details',
+    templateUrl: './node-details.component.html',
+    styleUrls: ['./node-details.component.less'],
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    imports: [FlexModule, DbButtonComponent, NzTagModule, NzToolTipModule, AlarmButtonComponent, NzButtonModule, NzIconModule, AsyncPipe, DecimalPipe, TranslateModule, XivapiIconPipe, WeatherIconPipe, MapNamePipe, LazyRowPipe, I18nPipe, I18nRowPipe, AlarmDisplayPipe, I18nNameComponent, LazyIconPipe, FloorPipe, HourDisplayPipe]
 })
 export class NodeDetailsComponent {
 

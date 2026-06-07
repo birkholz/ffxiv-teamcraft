@@ -21,12 +21,11 @@ import { FlexModule } from '@angular/flex-layout/flex';
 import { DialogComponent } from '../../../core/dialog.component';
 
 @Component({
-  selector: 'app-list-split-popup',
-  templateUrl: './list-split-popup.component.html',
-  styleUrls: ['./list-split-popup.component.less'],
-  changeDetection: ChangeDetectionStrategy.OnPush,
-  standalone: true,
-  imports: [FlexModule, NzButtonModule, NzWaveModule, LazyScrollComponent, NzCheckboxModule, FormsModule, ItemIconComponent, I18nPipe, TranslateModule, ItemNamePipe]
+    selector: 'app-list-split-popup',
+    templateUrl: './list-split-popup.component.html',
+    styleUrls: ['./list-split-popup.component.less'],
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    imports: [FlexModule, NzButtonModule, NzWaveModule, LazyScrollComponent, NzCheckboxModule, FormsModule, ItemIconComponent, I18nPipe, TranslateModule, ItemNamePipe]
 })
 export class ListSplitPopupComponent extends DialogComponent {
 

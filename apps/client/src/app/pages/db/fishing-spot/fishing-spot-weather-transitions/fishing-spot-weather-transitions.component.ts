@@ -23,7 +23,6 @@ import { NzCardModule } from 'ng-zorro-antd/card';
     styleUrls: ['./fishing-spot-weather-transitions.component.less', '../../common-db.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
     providers: [FishingSpotUtilsService],
-    standalone: true,
     imports: [NzCardModule, FlexModule, NzButtonModule, NzIconModule, AsyncPipe, DecimalPipe, DatePipe, I18nPipe, TranslateModule, I18nRowPipe, XivapiIconPipe, WeatherIconPipe]
 })
 export class FishingSpotWeatherTransitionsComponent {

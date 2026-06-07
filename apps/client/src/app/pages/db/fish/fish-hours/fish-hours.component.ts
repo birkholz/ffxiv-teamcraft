@@ -20,7 +20,6 @@ import { NzCardModule } from 'ng-zorro-antd/card';
     templateUrl: './fish-hours.component.html',
     styleUrls: ['./fish-hours.component.less', '../../common-db.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [NzCardModule, FlexModule, NzToolTipModule, NzSwitchModule, FormsModule, NgxEchartsModule, AsyncPipe, TranslateModule, XivapiIconPipe, LazyRowPipe]
 })
 export class FishHoursComponent {

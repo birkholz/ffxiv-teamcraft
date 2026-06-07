@@ -16,11 +16,10 @@ import { AsyncPipe, DatePipe, DecimalPipe } from '@angular/common';
 import { DialogComponent } from '../../../core/dialog.component';
 
 @Component({
-  selector: 'app-marketboard-popup',
-  templateUrl: './marketboard-popup.component.html',
-  styleUrls: ['./marketboard-popup.component.less'],
-  standalone: true,
-  imports: [NzAlertModule, FlexModule, NzTableModule, AsyncPipe, DecimalPipe, DatePipe, I18nPipe, TranslateModule, WorldNamePipe]
+    selector: 'app-marketboard-popup',
+    templateUrl: './marketboard-popup.component.html',
+    styleUrls: ['./marketboard-popup.component.less'],
+    imports: [NzAlertModule, FlexModule, NzTableModule, AsyncPipe, DecimalPipe, DatePipe, I18nPipe, TranslateModule, WorldNamePipe]
 })
 export class MarketboardPopupComponent extends DialogComponent implements OnInit {
 

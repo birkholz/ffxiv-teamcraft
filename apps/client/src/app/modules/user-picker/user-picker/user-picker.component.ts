@@ -25,11 +25,10 @@ import { AsyncPipe, NgFor, NgIf } from '@angular/common';
 import { DialogComponent } from '../../../core/dialog.component';
 
 @Component({
-  selector: 'app-user-picker',
-  templateUrl: './user-picker.component.html',
-  styleUrls: ['./user-picker.component.less'],
-  standalone: true,
-  imports: [NgIf, NzGridModule, NzFormModule, NzInputModule, FormsModule, NzAutocompleteModule, ReactiveFormsModule, NgFor, PageLoaderComponent, NzListModule, NzButtonModule, NzWaveModule, UserAvatarComponent, NzDividerModule, NzSpinModule, AsyncPipe, TranslateModule, CharacterNamePipe]
+    selector: 'app-user-picker',
+    templateUrl: './user-picker.component.html',
+    styleUrls: ['./user-picker.component.less'],
+    imports: [NgIf, NzGridModule, NzFormModule, NzInputModule, FormsModule, NzAutocompleteModule, ReactiveFormsModule, NgFor, PageLoaderComponent, NzListModule, NzButtonModule, NzWaveModule, UserAvatarComponent, NzDividerModule, NzSpinModule, AsyncPipe, TranslateModule, CharacterNamePipe]
 })
 export class UserPickerComponent extends DialogComponent implements OnInit {
 

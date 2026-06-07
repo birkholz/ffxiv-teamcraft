@@ -21,11 +21,10 @@ import { FlexModule } from '@angular/flex-layout/flex';
 import { DialogComponent } from '../../../core/dialog.component';
 
 @Component({
-  selector: 'app-inventory-synthesis-popup',
-  templateUrl: './inventory-synthesis-popup.component.html',
-  styleUrls: ['./inventory-synthesis-popup.component.less'],
-  standalone: true,
-  imports: [FlexModule, NzCheckboxModule, FormsModule, NzCardModule, ItemIconComponent, NzButtonModule, NzIconModule, NzToolTipModule, InventoryPositionComponent, AsyncPipe, I18nPipe, TranslateModule, ItemNamePipe]
+    selector: 'app-inventory-synthesis-popup',
+    templateUrl: './inventory-synthesis-popup.component.html',
+    styleUrls: ['./inventory-synthesis-popup.component.less'],
+    imports: [FlexModule, NzCheckboxModule, FormsModule, NzCardModule, ItemIconComponent, NzButtonModule, NzIconModule, NzToolTipModule, InventoryPositionComponent, AsyncPipe, I18nPipe, TranslateModule, ItemNamePipe]
 })
 export class InventorySynthesisPopupComponent extends DialogComponent implements OnInit {
 

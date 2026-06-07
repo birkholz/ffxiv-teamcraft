@@ -38,7 +38,6 @@ import { NgIf, NgFor, AsyncPipe, DecimalPipe } from '@angular/common';
     selector: 'app-leve',
     templateUrl: './leve.component.html',
     styleUrls: ['./leve.component.less'],
-    standalone: true,
     imports: [NgIf, FlexModule, I18nNameComponent, DbButtonComponent, NgFor, NzToolTipModule, I18nDisplayComponent, DbCommentsComponent, NzDividerModule, NzCardModule, NzListModule, ItemIconComponent, ItemRarityDirective, MapPositionComponent, RouterLink, NzTagModule, PageLoaderComponent, AsyncPipe, DecimalPipe, I18nPipe, TranslateModule, I18nRowPipe, ItemNamePipe, IfMobilePipe, XivapiIconPipe, LazyIconPipe]
 })
 export class LeveComponent extends TeamcraftPageComponent {

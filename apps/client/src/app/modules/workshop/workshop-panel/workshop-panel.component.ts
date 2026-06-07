@@ -40,7 +40,6 @@ import { NzCollapseModule } from 'ng-zorro-antd/collapse';
     templateUrl: './workshop-panel.component.html',
     styleUrls: ['./workshop-panel.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [NzCollapseModule, CdkDropList, FlexModule, CdkDrag, ListPanelComponent, NzGridModule, NzButtonModule, NzWaveModule, NzToolTipModule, ClipboardDirective, NzIconModule, RouterLink, NzPopconfirmModule, NzDropDownModule, NzMenuModule, AsyncPipe, TranslateModule]
 })
 export class WorkshopPanelComponent {

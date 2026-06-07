@@ -28,7 +28,6 @@ import { FlexModule } from '@angular/flex-layout/flex';
     selector: 'app-community-lists',
     templateUrl: './community-lists.component.html',
     styleUrls: ['./community-lists.component.less'],
-    standalone: true,
     imports: [FlexModule, NzInputModule, FormsModule, NzSelectModule, NzButtonModule, NzWaveModule, NzToolTipModule, NzIconModule, PageLoaderComponent, ListPanelComponent, NzPaginationModule, FullpageMessageComponent, AsyncPipe, TranslateModule]
 })
 export class CommunityListsComponent implements OnDestroy {

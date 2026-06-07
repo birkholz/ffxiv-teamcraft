@@ -37,7 +37,6 @@ import { NgIf, NgFor, AsyncPipe } from '@angular/common';
     templateUrl: './aggregate-item-row.component.html',
     styleUrls: ['./aggregate-item-row.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [NgIf, FlexModule, NzGridModule, ItemIconComponent, NzButtonModule, NzIconModule, NzToolTipModule, ItemNameClipboardDirective, I18nNameComponent, NzTagModule, NgFor, UserAvatarComponent, NzWaveModule, InventoryPositionComponent, NzDropDownModule, NzMenuModule, TutorialStepDirective, AlarmButtonComponent, MapPositionComponent, NzPopoverModule, NzInputNumberModule, FormsModule, ItemSourcesDisplayComponent, AsyncPipe, I18nPipe, TranslateModule, I18nRowPipe, ItemNamePipe, CeilPipe, LazyIconPipe]
 })
 export class AggregateItemRowComponent extends AbstractItemRowComponent implements OnInit {

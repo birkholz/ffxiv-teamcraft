@@ -41,11 +41,10 @@ import { NzButtonModule } from 'ng-zorro-antd/button';
 import { FlexModule } from '@angular/flex-layout/flex';
 
 @Component({
-  selector: 'app-inventory-optimizer',
-  templateUrl: './inventory-optimizer.component.html',
-  styleUrls: ['./inventory-optimizer.component.less'],
-  standalone: true,
-  imports: [FlexModule, NzButtonModule, NzWaveModule, NzPopconfirmModule, NzSwitchModule, FormsModule, NgIf, FullpageMessageComponent, NzSpinModule, NgFor, NzCollapseModule, ClipboardDirective, NzIconModule, NgSwitch, NgSwitchCase, NzInputModule, NzSelectModule, NzToolTipModule, NzListModule, ItemIconComponent, ItemNameClipboardDirective, InventoryPositionComponent, PageLoaderComponent, AsyncPipe, I18nPipe, TranslateModule, ItemNamePipe]
+    selector: 'app-inventory-optimizer',
+    templateUrl: './inventory-optimizer.component.html',
+    styleUrls: ['./inventory-optimizer.component.less'],
+    imports: [FlexModule, NzButtonModule, NzWaveModule, NzPopconfirmModule, NzSwitchModule, FormsModule, NgIf, FullpageMessageComponent, NzSpinModule, NgFor, NzCollapseModule, ClipboardDirective, NzIconModule, NgSwitch, NgSwitchCase, NzInputModule, NzSelectModule, NzToolTipModule, NzListModule, ItemIconComponent, ItemNameClipboardDirective, InventoryPositionComponent, PageLoaderComponent, AsyncPipe, I18nPipe, TranslateModule, ItemNamePipe]
 })
 export class InventoryOptimizerComponent {
 

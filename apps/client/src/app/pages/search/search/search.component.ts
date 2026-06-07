@@ -63,11 +63,10 @@ import { NzSelectModule } from 'ng-zorro-antd/select';
 import { FlexModule } from '@angular/flex-layout/flex';
 
 @Component({
-  selector: 'app-search',
-  templateUrl: './search.component.html',
-  styleUrls: ['./search.component.less'],
-  standalone: true,
-  imports: [FlexModule, NzSelectModule, TutorialStepDirective, FormsModule, NzSpinModule, ReactiveFormsModule, NzButtonModule, NzIconModule, NzInputModule, NgTemplateOutlet, NzWaveModule, NzToolTipModule, ClipboardDirective, NzAutocompleteModule, NzInputNumberModule, MouseWheelDirective, NzCheckboxModule, NzCardModule, SearchJobPickerComponent, NzGridModule, SimpleTabsetComponent, SimpleTabComponent, SearchIntroComponent, NzRadioModule, NzPopconfirmModule, ItemIconComponent, I18nNameComponent, ItemDetailsBoxComponent, RouterLink, PageLoaderComponent, NzPaginationModule, SearchResultComponent, FullpageMessageComponent, AsyncPipe, UpperCasePipe, DecimalPipe, I18nPipe, TranslateModule, I18nRowPipe, IfMobilePipe, XivapiL12nPipe, JobUnicodePipe]
+    selector: 'app-search',
+    templateUrl: './search.component.html',
+    styleUrls: ['./search.component.less'],
+    imports: [FlexModule, NzSelectModule, TutorialStepDirective, FormsModule, NzSpinModule, ReactiveFormsModule, NzButtonModule, NzIconModule, NzInputModule, NgTemplateOutlet, NzWaveModule, NzToolTipModule, ClipboardDirective, NzAutocompleteModule, NzInputNumberModule, MouseWheelDirective, NzCheckboxModule, NzCardModule, SearchJobPickerComponent, NzGridModule, SimpleTabsetComponent, SimpleTabComponent, SearchIntroComponent, NzRadioModule, NzPopconfirmModule, ItemIconComponent, I18nNameComponent, ItemDetailsBoxComponent, RouterLink, PageLoaderComponent, NzPaginationModule, SearchResultComponent, FullpageMessageComponent, AsyncPipe, UpperCasePipe, DecimalPipe, I18nPipe, TranslateModule, I18nRowPipe, IfMobilePipe, XivapiL12nPipe, JobUnicodePipe]
 })
 export class SearchComponent extends TeamcraftComponent implements OnInit {
 

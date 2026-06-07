@@ -34,12 +34,11 @@ import { AsyncPipe, DecimalPipe, NgFor, NgIf } from '@angular/common';
 import { FlexModule } from '@angular/flex-layout/flex';
 
 @Component({
-  selector: 'app-allagan-reports',
-  templateUrl: './allagan-reports.component.html',
-  styleUrls: ['./allagan-reports.component.less'],
-  changeDetection: ChangeDetectionStrategy.OnPush,
-  standalone: true,
-  imports: [FlexModule, NgIf, NzSelectModule, FormsModule, NgFor, NzDividerModule, NzCardModule, NzStatisticModule, NzEmptyModule, LazyScrollComponent, ItemIconComponent, I18nNameComponent, NzButtonModule, NzToolTipModule, RouterLink, NzIconModule, NzWaveModule, NzPopconfirmModule, NzGridModule, NzTagModule, ReportSourceDisplayComponent, ReportSourceCompactDetailsComponent, PageLoaderComponent, AsyncPipe, DecimalPipe, TranslateModule]
+    selector: 'app-allagan-reports',
+    templateUrl: './allagan-reports.component.html',
+    styleUrls: ['./allagan-reports.component.less'],
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    imports: [FlexModule, NgIf, NzSelectModule, FormsModule, NgFor, NzDividerModule, NzCardModule, NzStatisticModule, NzEmptyModule, LazyScrollComponent, ItemIconComponent, I18nNameComponent, NzButtonModule, NzToolTipModule, RouterLink, NzIconModule, NzWaveModule, NzPopconfirmModule, NzGridModule, NzTagModule, ReportSourceDisplayComponent, ReportSourceCompactDetailsComponent, PageLoaderComponent, AsyncPipe, DecimalPipe, TranslateModule]
 })
 export class AllaganReportsComponent {
 

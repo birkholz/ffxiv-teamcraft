@@ -13,7 +13,6 @@ import { LazyScrollComponent } from '../../lazy-scroll/lazy-scroll/lazy-scroll.c
     templateUrl: './quests.component.html',
     styleUrls: ['./quests.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [LazyScrollComponent, FlexModule, RouterLink, DbButtonComponent, I18nPipe, I18nRowPipe]
 })
 export class QuestsComponent extends ItemDetailsPopup<number[]> {

@@ -29,7 +29,6 @@ import { NzCardModule } from 'ng-zorro-antd/card';
     templateUrl: './fishing-spot-available-fishes.component.html',
     styleUrls: ['./fishing-spot-available-fishes.component.less', '../../common-db.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [NzCardModule, FlexModule, ItemIconComponent, DbButtonComponent, AlarmButtonComponent, NzButtonModule, NzWaveModule, NzToolTipModule, NzIconModule, AsyncPipe, I18nPipe, TranslateModule, ItemNamePipe, LazyIconPipe]
 })
 export class FishingSpotAvailableFishesComponent {

@@ -23,7 +23,6 @@ import { FlexModule } from '@angular/flex-layout/flex';
             useExisting: forwardRef(() => PredatorsInputComponent),
             multi: true
         }],
-    standalone: true,
     imports: [FlexModule, NzSelectModule, FormsModule, NzInputModule, NzButtonModule, NzWaveModule, NzIconModule, ItemIconComponent, I18nNameComponent, I18nPipe, TranslateModule, ItemNamePipe]
 })
 export class PredatorsInputComponent implements ControlValueAccessor {

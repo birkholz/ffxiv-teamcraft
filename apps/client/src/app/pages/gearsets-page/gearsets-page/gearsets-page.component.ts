@@ -28,11 +28,10 @@ import { FlexModule } from '@angular/flex-layout/flex';
 import { PageLoaderComponent } from '../../../modules/page-loader/page-loader/page-loader.component';
 
 @Component({
-  selector: 'app-gearsets-page',
-  templateUrl: './gearsets-page.component.html',
-  styleUrls: ['./gearsets-page.component.less'],
-  standalone: true,
-  imports: [PageLoaderComponent, FlexModule, NzButtonModule, NzWaveModule, NzIconModule, GearsetRowComponent, NzDividerModule, FullpageMessageComponent, CdkDropList, CdkDrag, NgTemplateOutlet, FolderComponent, AsyncPipe, TranslateModule]
+    selector: 'app-gearsets-page',
+    templateUrl: './gearsets-page.component.html',
+    styleUrls: ['./gearsets-page.component.less'],
+    imports: [PageLoaderComponent, FlexModule, NzButtonModule, NzWaveModule, NzIconModule, GearsetRowComponent, NzDividerModule, FullpageMessageComponent, CdkDropList, CdkDrag, NgTemplateOutlet, FolderComponent, AsyncPipe, TranslateModule]
 })
 export class GearsetsPageComponent extends TeamcraftComponent implements OnInit {
 

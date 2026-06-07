@@ -9,7 +9,6 @@ import { FlexModule } from '@angular/flex-layout/flex';
     templateUrl: './mogstation.component.html',
     styleUrls: ['./mogstation.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [FlexModule, DecimalPipe, CurrencyPipe]
 })
 export class MogstationComponent extends ItemDetailsPopup<MogstationItem> {

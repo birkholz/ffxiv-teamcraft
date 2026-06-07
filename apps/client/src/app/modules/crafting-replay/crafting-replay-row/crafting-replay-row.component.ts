@@ -29,7 +29,6 @@ import { FlexModule } from '@angular/flex-layout/flex';
     templateUrl: './crafting-replay-row.component.html',
     styleUrls: ['./crafting-replay-row.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [FlexModule, NzButtonModule, NzWaveModule, NzToolTipModule, NzIconModule, RouterLink, ClipboardDirective, NzPopconfirmModule, ItemIconComponent, ActionComponent, DatePipe, ItemNamePipe, TeamcraftLinkPipe, CraftingActionPipe, TranslateModule, I18nPipe]
 })
 export class CraftingReplayRowComponent {

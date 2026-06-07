@@ -26,7 +26,6 @@ import { NzAlertModule } from 'ng-zorro-antd/alert';
     templateUrl: './merge-lists-popup.component.html',
     styleUrls: ['./merge-lists-popup.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [NzAlertModule, NgTemplateOutlet, FlexModule, NzButtonModule, NzWaveModule, NzCheckboxModule, FormsModule, NzListModule, NzTagModule, NzToolTipModule, AsyncPipe, UpperCasePipe, TranslateModule]
 })
 export class MergeListsPopupComponent extends AbstractListsSelectionPopupComponent {

@@ -32,11 +32,10 @@ import { FlexModule } from '@angular/flex-layout/flex';
 import { NgIf, NgFor, AsyncPipe } from '@angular/common';
 
 @Component({
-  selector: 'app-action',
-  templateUrl: './action.component.html',
-  styleUrls: ['./action.component.less'],
-  standalone: true,
-  imports: [NgIf, FlexModule, I18nNameComponent, DbButtonComponent, NgFor, NzToolTipModule, I18nDisplayComponent, DbCommentsComponent, NzDividerModule, NzCardModule, NzListModule, XivapiActionTooltipDirective, PageLoaderComponent, AsyncPipe, I18nPipe, TranslateModule, ActionIconPipe, ActionNamePipe, IfMobilePipe, XivapiIconPipe, LazyRowPipe, NzPipesModule]
+    selector: 'app-action',
+    templateUrl: './action.component.html',
+    styleUrls: ['./action.component.less'],
+    imports: [NgIf, FlexModule, I18nNameComponent, DbButtonComponent, NgFor, NzToolTipModule, I18nDisplayComponent, DbCommentsComponent, NzDividerModule, NzCardModule, NzListModule, XivapiActionTooltipDirective, PageLoaderComponent, AsyncPipe, I18nPipe, TranslateModule, ActionIconPipe, ActionNamePipe, IfMobilePipe, XivapiIconPipe, LazyRowPipe, NzPipesModule]
 })
 export class ActionComponent extends TeamcraftPageComponent {
 

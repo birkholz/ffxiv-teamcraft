@@ -19,7 +19,6 @@ import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
     selector: 'app-gearset-folder',
     templateUrl: './gearset-folder.component.html',
     styleUrls: ['./gearset-folder.component.less'],
-    standalone: true,
     imports: [PageLoaderComponent, FolderPageComponent, GearsetRowComponent, AsyncPipe]
 })
 export class GearsetFolderComponent {

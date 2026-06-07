@@ -6,7 +6,6 @@ import { ChangeDetectionStrategy, ChangeDetectorRef, Component, Input } from '@a
     templateUrl: './simple-tab.component.html',
     styleUrls: ['./simple-tab.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: []
 })
 export class SimpleTabComponent {

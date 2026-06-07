@@ -44,12 +44,11 @@ import { AsyncPipe } from '@angular/common';
 import { FlexModule } from '@angular/flex-layout/flex';
 
 @Component({
-  selector: 'app-item-sources-display',
-  templateUrl: './item-sources-display.component.html',
-  styleUrls: ['./item-sources-display.component.less'],
-  changeDetection: ChangeDetectionStrategy.OnPush,
-  standalone: true,
-  imports: [FlexModule, NzButtonModule, NzIconModule, NzToolTipModule, NzWaveModule, ItemIconComponent, CompanyWorkshopTreeButtonComponent, AsyncPipe, I18nPipe, TranslateModule, NodeTypeIconPipe, XivapiIconPipe, LazyIconPipe, TradeIconPipe, JobUnicodePipe, LazyRowPipe]
+    selector: 'app-item-sources-display',
+    templateUrl: './item-sources-display.component.html',
+    styleUrls: ['./item-sources-display.component.less'],
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    imports: [FlexModule, NzButtonModule, NzIconModule, NzToolTipModule, NzWaveModule, ItemIconComponent, CompanyWorkshopTreeButtonComponent, AsyncPipe, I18nPipe, TranslateModule, NodeTypeIconPipe, XivapiIconPipe, LazyIconPipe, TradeIconPipe, JobUnicodePipe, LazyRowPipe]
 })
 export class ItemSourcesDisplayComponent extends TeamcraftComponent {
   @Input()

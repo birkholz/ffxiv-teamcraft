@@ -27,7 +27,6 @@ import { DialogComponent } from '../../dialog.component';
     selector: 'app-character-link-popup',
     templateUrl: './character-link-popup.component.html',
     styleUrls: ['./character-link-popup.component.less'],
-    standalone: true,
     imports: [NgIf, NzGridModule, NzFormModule, NzInputModule, FormsModule, NzAutocompleteModule, ReactiveFormsModule, NgFor, NzButtonModule, NzWaveModule, NzListModule, NzDividerModule, NzCheckboxModule, NzSpinModule, AsyncPipe, TranslateModule]
 })
 export class CharacterLinkPopupComponent extends DialogComponent {

@@ -78,11 +78,10 @@ import { FlexModule } from '@angular/flex-layout/flex';
 import { AsyncPipe, DecimalPipe, NgFor, NgIf, NgSwitch, NgSwitchCase, NgTemplateOutlet } from '@angular/common';
 
 @Component({
-  selector: 'app-item',
-  templateUrl: './item.component.html',
-  styleUrls: ['./item.component.less'],
-  standalone: true,
-  imports: [NgIf, FlexModule, ItemRarityDirective, I18nNameComponent, DbButtonComponent, NzButtonModule, NzInputModule, FormsModule, NzWaveModule, NzToolTipModule, NzIconModule, NgFor, MarketboardIconComponent, RouterLink, I18nDisplayComponent, FishComponent, NzDividerModule, FullpageMessageComponent, NzCardModule, LazyScrollComponent, ItemIconComponent, NzTableModule, NzListModule, NgSwitch, NgSwitchCase, GardeningComponent, HuntingComponent, IslandAnimalComponent, TradesComponent, TreasuresComponent, FatesComponent, MogstationComponent, GatheredByComponent, InstancesComponent, ReducedFromComponent, DesynthsComponent, VendorsComponent, VoyagesComponent, VenturesComponent, MapPositionComponent, AchievementsComponent, QuestsComponent, DbCommentsComponent, NgTemplateOutlet, PageLoaderComponent, AsyncPipe, DecimalPipe, I18nPipe, TranslateModule, I18nRowPipe, ItemNamePipe, IfMobilePipe, NodeTypeIconPipe, XivapiIconPipe, IngameStarsPipe, LazyIconPipe, JobUnicodePipe, LazyRowPipe]
+    selector: 'app-item',
+    templateUrl: './item.component.html',
+    styleUrls: ['./item.component.less'],
+    imports: [NgIf, FlexModule, ItemRarityDirective, I18nNameComponent, DbButtonComponent, NzButtonModule, NzInputModule, FormsModule, NzWaveModule, NzToolTipModule, NzIconModule, NgFor, MarketboardIconComponent, RouterLink, I18nDisplayComponent, FishComponent, NzDividerModule, FullpageMessageComponent, NzCardModule, LazyScrollComponent, ItemIconComponent, NzTableModule, NzListModule, NgSwitch, NgSwitchCase, GardeningComponent, HuntingComponent, IslandAnimalComponent, TradesComponent, TreasuresComponent, FatesComponent, MogstationComponent, GatheredByComponent, InstancesComponent, ReducedFromComponent, DesynthsComponent, VendorsComponent, VoyagesComponent, VenturesComponent, MapPositionComponent, AchievementsComponent, QuestsComponent, DbCommentsComponent, NgTemplateOutlet, PageLoaderComponent, AsyncPipe, DecimalPipe, I18nPipe, TranslateModule, I18nRowPipe, ItemNamePipe, IfMobilePipe, NodeTypeIconPipe, XivapiIconPipe, IngameStarsPipe, LazyIconPipe, JobUnicodePipe, LazyRowPipe]
 })
 export class ItemComponent extends TeamcraftPageComponent implements OnInit, OnDestroy {
   public noData = false;

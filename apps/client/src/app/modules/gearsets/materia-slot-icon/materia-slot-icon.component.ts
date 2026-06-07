@@ -12,7 +12,6 @@ import { FlexModule } from '@angular/flex-layout/flex';
     templateUrl: './materia-slot-icon.component.html',
     styleUrls: ['./materia-slot-icon.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [FlexModule, AsyncPipe]
 })
 export class MateriaSlotIconComponent {

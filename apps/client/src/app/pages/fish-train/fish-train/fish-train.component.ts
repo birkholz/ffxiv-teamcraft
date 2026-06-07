@@ -76,7 +76,6 @@ import { NgIf, NgFor, NgTemplateOutlet, AsyncPipe, LowerCasePipe, DatePipe } fro
     selector: 'app-fish-train',
     templateUrl: './fish-train.component.html',
     styleUrls: ['./fish-train.component.less'],
-    standalone: true,
     imports: [NgIf, FullpageMessageComponent, NzCardModule, ItemIconComponent, I18nNameComponent, NzToolTipModule, NzDividerModule, NzGridModule, FishingBaitComponent, NzButtonModule, NzWaveModule, NzPopoverModule, NzSpaceModule, ClipboardDirective, MapComponent, NzPageHeaderModule, UserAvatarComponent, NzIconModule, NzInputModule, NzSelectModule, FormsModule, NgFor, NzTagModule, NzSwitchModule, NzPopconfirmModule, NzAlertModule, NzAffixModule, NzSliderModule, NzStepsModule, NgForTrackByIdDirective, MapPositionComponent, NgTemplateOutlet, NzStatisticModule, ContributionPerPassengerComponent, FishBreakdownComponent, BaitBreakdownComponent, FishSizeChartComponent, PageLoaderComponent, AsyncPipe, LowerCasePipe, DatePipe, TranslateModule, I18nPipe, TimerPipe, ItemNamePipe, ActionIconPipe, ActionNamePipe, IfMobilePipe, XivapiIconPipe, MapNamePipe, HooksetActionIdPipe]
 })
 export class FishTrainComponent extends TeamcraftComponent {

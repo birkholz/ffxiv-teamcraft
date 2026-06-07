@@ -1,4 +1,4 @@
-import { APP_INITIALIZER } from '@angular/core';
+import { inject, provideAppInitializer } from '@angular/core';
 import { CraftingReplayService } from './modules/crafting-replay/crafting-replay.service';
 import { PacketCaptureTrackerService } from './core/electron/packet-capture-tracker.service';
 import { GubalService } from './core/api/gubal.service';
@@ -6,56 +6,46 @@ import { RetainersService } from './core/electron/retainers.service';
 import { InventoryService } from './modules/inventory/inventory.service';
 
 export const APP_INITIALIZERS = [
-  {
-    provide: APP_INITIALIZER,
-    useFactory: (craftingReplayService: CraftingReplayService) => {
+  provideAppInitializer(() => {
+        const initializerFn = ((craftingReplayService: CraftingReplayService) => {
       return () => {
         craftingReplayService.init();
       };
-    },
-    deps: [CraftingReplayService],
-    multi: true
-  },
-  {
-    provide: APP_INITIALIZER,
-    useFactory: (service: PacketCaptureTrackerService) => {
+    })(inject(CraftingReplayService));
+        return initializerFn();
+      }),
+  provideAppInitializer(() => {
+        const initializerFn = ((service: PacketCaptureTrackerService) => {
       return () => {
         service.init();
       };
-    },
-    deps: [PacketCaptureTrackerService],
-    multi: true
-  },
-  {
-    provide: APP_INITIALIZER,
-    useFactory: (service: GubalService) => {
+    })(inject(PacketCaptureTrackerService));
+        return initializerFn();
+      }),
+  provideAppInitializer(() => {
+        const initializerFn = ((service: GubalService) => {
       return () => {
         setTimeout(() => {
           service.init();
         }, 10000);
       };
-    },
-    deps: [GubalService],
-    multi: true
-  },
-  {
-    provide: APP_INITIALIZER,
-    useFactory: (service: RetainersService) => {
+    })(inject(GubalService));
+        return initializerFn();
+      }),
+  provideAppInitializer(() => {
+        const initializerFn = ((service: RetainersService) => {
       return () => {
         service.init();
       };
-    },
-    deps: [RetainersService],
-    multi: true
-  },
-  {
-    provide: APP_INITIALIZER,
-    useFactory: (service: InventoryService) => {
+    })(inject(RetainersService));
+        return initializerFn();
+      }),
+  provideAppInitializer(() => {
+        const initializerFn = ((service: InventoryService) => {
       return () => {
         service.init();
       };
-    },
-    deps: [InventoryService],
-    multi: true
-  }
+    })(inject(InventoryService));
+        return initializerFn();
+      })
 ];

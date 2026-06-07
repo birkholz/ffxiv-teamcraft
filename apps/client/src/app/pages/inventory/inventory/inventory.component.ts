@@ -44,7 +44,6 @@ import { NgIf, NgFor, AsyncPipe, DecimalPipe } from '@angular/common';
     selector: 'app-inventory',
     templateUrl: './inventory.component.html',
     styleUrls: ['./inventory.component.less'],
-    standalone: true,
     imports: [NgIf, FlexModule, NzSelectModule, FormsModule, NgFor, NzButtonModule, NzInputModule, NzIconModule, NzToolTipModule, NzWaveModule, NzDropDownModule, NzMenuModule, ClipboardDirective, NzPopconfirmModule, NzGridModule, NzSpinModule, NzCardModule, ItemIconComponent, CdkVirtualScrollViewport, CdkFixedSizeVirtualScroll, NzListModule, CdkVirtualForOf, I18nNameComponent, InventoryPositionComponent, DbButtonComponent, FullpageMessageComponent, AsyncPipe, DecimalPipe, I18nPipe, TranslateModule, LazyIconPipe]
 })
 export class InventoryComponent {

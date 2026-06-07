@@ -34,7 +34,6 @@ import { NgIf, NgFor, AsyncPipe, DecimalPipe } from '@angular/common';
     selector: 'app-npc',
     templateUrl: './npc.component.html',
     styleUrls: ['./npc.component.less'],
-    standalone: true,
     imports: [NgIf, FlexModule, I18nNameComponent, DbButtonComponent, NgFor, NzToolTipModule, I18nDisplayComponent, DbCommentsComponent, NzDividerModule, NzCardModule, MapComponent, NzListModule, RouterLink, TradesComponent, PageLoaderComponent, AsyncPipe, DecimalPipe, I18nPipe, TranslateModule, I18nRowPipe, IfMobilePipe, XivapiIconPipe]
 })
 export class NpcComponent extends TeamcraftPageComponent {

@@ -17,11 +17,10 @@ import { AsyncPipe } from '@angular/common';
 import { DialogComponent } from '../../../core/dialog.component';
 
 @Component({
-  selector: 'app-tags-popup',
-  templateUrl: './tags-popup.component.html',
-  styleUrls: ['./tags-popup.component.less'],
-  standalone: true,
-  imports: [FlexModule, NzSelectModule, FormsModule, NzButtonModule, NzWaveModule, PageLoaderComponent, AsyncPipe, TranslateModule]
+    selector: 'app-tags-popup',
+    templateUrl: './tags-popup.component.html',
+    styleUrls: ['./tags-popup.component.less'],
+    imports: [FlexModule, NzSelectModule, FormsModule, NzButtonModule, NzWaveModule, PageLoaderComponent, AsyncPipe, TranslateModule]
 })
 export class TagsPopupComponent extends DialogComponent implements OnInit {
 

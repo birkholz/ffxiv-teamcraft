@@ -18,7 +18,6 @@ import { NzListModule } from 'ng-zorro-antd/list';
     templateUrl: './vendors.component.html',
     styleUrls: ['./vendors.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [NzListModule, FlexModule, NzTagModule, DbButtonComponent, MapPositionComponent, AsyncPipe, I18nPipe, TranslateModule, I18nRowPipe, ClosestAetherytePipe]
 })
 export class VendorsComponent extends ItemDetailsPopup<Vendor[]> implements OnInit {

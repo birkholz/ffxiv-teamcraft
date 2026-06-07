@@ -19,7 +19,6 @@ import { FlexModule } from '@angular/flex-layout/flex';
     templateUrl: './workshop-planning.component.html',
     styleUrls: ['./workshop-planning.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [FlexModule, ItemIconComponent, NzToolTipModule, NzButtonModule, NzWaveModule, NzIconModule, NzEmptyModule, I18nNameComponent, NzDividerModule, DecimalPipe, DatePipe, TranslateModule]
 })
 export class WorkshopPlanningComponent {

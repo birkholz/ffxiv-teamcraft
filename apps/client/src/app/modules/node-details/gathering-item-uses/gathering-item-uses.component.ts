@@ -17,7 +17,6 @@ import { AsyncPipe } from '@angular/common';
     templateUrl: './gathering-item-uses.component.html',
     styleUrls: ['./gathering-item-uses.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [NzPopoverModule, FlexModule, AsyncPipe, TranslateModule, ItemNamePipe, XivapiIconPipe, LazyIconPipe, I18nPipe]
 })
 export class GatheringItemUsesComponent {

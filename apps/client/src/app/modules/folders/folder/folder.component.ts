@@ -20,12 +20,11 @@ import { FlexModule } from '@angular/flex-layout/flex';
 import { NzCollapseModule } from 'ng-zorro-antd/collapse';
 
 @Component({
-  selector: 'app-folder',
-  templateUrl: './folder.component.html',
-  styleUrls: ['./folder.component.less'],
-  changeDetection: ChangeDetectionStrategy.OnPush,
-  standalone: true,
-  imports: [NzCollapseModule, FlexModule, NzButtonModule, NzWaveModule, NzToolTipModule, NzIconModule, ClipboardDirective, RouterLink, NzPopconfirmModule, CdkDropList, CdkDrag, NgTemplateOutlet, TranslateModule]
+    selector: 'app-folder',
+    templateUrl: './folder.component.html',
+    styleUrls: ['./folder.component.less'],
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    imports: [NzCollapseModule, FlexModule, NzButtonModule, NzWaveModule, NzToolTipModule, NzIconModule, ClipboardDirective, RouterLink, NzPopconfirmModule, CdkDropList, CdkDrag, NgTemplateOutlet, TranslateModule]
 })
 export class FolderComponent<T extends DataModel> implements OnInit {
 

@@ -17,7 +17,6 @@ import { DialogComponent } from '../../../core/dialog.component';
     templateUrl: './commission-rating-popup.component.html',
     styleUrls: ['./commission-rating-popup.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [FormsModule, NzFormModule, ReactiveFormsModule, NzGridModule, NzRateModule, NzInputModule, FlexModule, NzButtonModule, NzWaveModule, TranslateModule]
 })
 export class CommissionRatingPopupComponent extends DialogComponent implements OnInit {

@@ -42,7 +42,6 @@ import { NgIf, NgFor, AsyncPipe, LowerCasePipe } from '@angular/common';
     templateUrl: './step-by-step-details.component.html',
     styleUrls: ['./step-by-step-details.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [NgIf, NzGridModule, NzProgressModule, NzSelectModule, FormsModule, NgFor, NzButtonModule, NzIconModule, NzWaveModule, MapComponent, StepByStepDatatypeComponent, NzCardModule, LazyScrollComponent, StepByStepRowComponent, AsyncPipe, LowerCasePipe, I18nPipe, TranslateModule, MapNamePipe]
 })
 export class StepByStepDetailsComponent extends StepByStepComponent implements OnInit {

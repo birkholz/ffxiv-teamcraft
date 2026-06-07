@@ -44,7 +44,6 @@ import { NgIf, NgFor, AsyncPipe, DecimalPipe } from '@angular/common';
     templateUrl: './spearfishing-spot.component.html',
     styleUrls: ['./spearfishing-spot.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [NgIf, FlexModule, I18nNameComponent, DbButtonComponent, NgFor, NzToolTipModule, DbCommentsComponent, NzDividerModule, NzCardModule, MapComponent, NzListModule, ItemIconComponent, ItemRarityDirective, NzTagModule, AlarmButtonComponent, PageLoaderComponent, AsyncPipe, DecimalPipe, I18nPipe, TranslateModule, TimerPipe, I18nRowPipe, IfMobilePipe, NodeTypeIconPipe, IngameStarsPipe, LazyRowPipe, AlarmDisplayPipe]
 })
 export class SpearfishingSpotComponent extends TeamcraftPageComponent {

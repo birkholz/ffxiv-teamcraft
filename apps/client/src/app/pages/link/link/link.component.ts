@@ -11,7 +11,6 @@ import { PageLoaderComponent } from '../../../modules/page-loader/page-loader/pa
     selector: 'app-link',
     templateUrl: './link.component.html',
     styleUrls: ['./link.component.less'],
-    standalone: true,
     imports: [PageLoaderComponent, FullpageMessageComponent, TranslateModule]
 })
 export class LinkComponent {

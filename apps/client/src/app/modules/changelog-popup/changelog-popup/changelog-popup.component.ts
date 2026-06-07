@@ -13,8 +13,7 @@ import { PirschEventDirective } from '../../../core/analytics/pirsch-event.direc
     templateUrl: './changelog-popup.component.html',
     styleUrls: ['./changelog-popup.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
-  imports: [NzDividerModule, MarkdownModule, TranslateModule, PirschEventDirective]
+    imports: [NzDividerModule, MarkdownModule, TranslateModule, PirschEventDirective]
 })
 export class ChangelogPopupComponent implements OnInit {
   public patchNotes: typeof environment.patchNotes;

@@ -25,7 +25,6 @@ import { DialogComponent } from '../../../core/dialog.component';
     templateUrl: './commission-edition-popup.component.html',
     styleUrls: ['./commission-edition-popup.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [NzAlertModule, FormsModule, NzFormModule, ReactiveFormsModule, NzGridModule, NzInputModule, NzSelectModule, NzInputNumberModule, NzCheckboxModule, FlexModule, NzButtonModule, NzWaveModule, NzToolTipModule, ClipboardDirective, TranslateModule]
 })
 export class CommissionEditionPopupComponent extends DialogComponent implements OnInit {

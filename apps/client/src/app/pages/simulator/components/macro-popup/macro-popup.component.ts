@@ -24,11 +24,10 @@ import { FlexModule } from '@angular/flex-layout/flex';
 import { DialogComponent } from '../../../../core/dialog.component';
 
 @Component({
-  selector: 'app-macro-popup',
-  templateUrl: './macro-popup.component.html',
-  styleUrls: ['./macro-popup.component.less'],
-  standalone: true,
-  imports: [FlexModule, NzAlertModule, NzCheckboxModule, FormsModule, NzGridModule, NzFormModule, NzInputNumberModule, NzInputModule, NzButtonModule, NzWaveModule, ClipboardDirective, NzIconModule, TranslateModule]
+    selector: 'app-macro-popup',
+    templateUrl: './macro-popup.component.html',
+    styleUrls: ['./macro-popup.component.less'],
+    imports: [FlexModule, NzAlertModule, NzCheckboxModule, FormsModule, NzGridModule, NzFormModule, NzInputNumberModule, NzInputModule, NzButtonModule, NzWaveModule, ClipboardDirective, NzIconModule, TranslateModule]
 })
 export class MacroPopupComponent extends DialogComponent implements OnInit {
 

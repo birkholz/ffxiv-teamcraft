@@ -21,7 +21,6 @@ import { FlexModule } from '@angular/flex-layout/flex';
     templateUrl: './map-position.component.html',
     styleUrls: ['./map-position.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [FlexModule, NzButtonModule, NzWaveModule, NzToolTipModule, NzIconModule, MapNamePipe, I18nPipe, TranslateModule, I18nRowPipe]
 })
 export class MapPositionComponent {

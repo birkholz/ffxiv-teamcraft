@@ -16,7 +16,6 @@ import { FlexModule } from '@angular/flex-layout/flex';
     selector: 'app-inventory-import-popup',
     templateUrl: './inventory-import-popup.component.html',
     styleUrls: ['./inventory-import-popup.component.less'],
-    standalone: true,
     imports: [FlexModule, NzSelectModule, FormsModule, NzButtonModule, NzWaveModule, AsyncPipe, TranslateModule]
 })
 export class InventoryImportPopupComponent {

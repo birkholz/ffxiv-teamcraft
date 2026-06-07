@@ -124,11 +124,10 @@ import { AsyncPipe, NgStyle } from '@angular/common';
 import { toObservable } from '@angular/core/rxjs-interop';
 
 @Component({
-  selector: 'app-simulator',
-  templateUrl: './simulator.component.html',
-  styleUrls: ['./simulator.component.less'],
-  standalone: true,
-  imports: [FlexModule, NzButtonModule, NzWaveModule, NzToolTipModule, TutorialStepDirective, NzIconModule, NzPopconfirmModule, ClipboardDirective, NzBadgeModule, FavoriteButtonComponent, NzTagModule, NzSwitchModule, FormsModule, NzCollapseModule, NzSelectModule, NzAlertModule, ReactiveFormsModule, NzGridModule, NzFormModule, NzInputModule, NzInputNumberModule, NzCheckboxModule, NzListModule, ItemIconComponent, SimulationResultComponent, NzCardModule, CdkDropListGroup, NgStyle, ExtendedModule, CdkDropList, ActionComponent, CdkDrag, FullpageMessageComponent, AsyncPipe, TranslateModule, ItemNamePipe, FloorPipe, ActionNamePipe, IfMobilePipe, JobUnicodePipe, I18nPipe, I18nRowPipe]
+    selector: 'app-simulator',
+    templateUrl: './simulator.component.html',
+    styleUrls: ['./simulator.component.less'],
+    imports: [FlexModule, NzButtonModule, NzWaveModule, NzToolTipModule, TutorialStepDirective, NzIconModule, NzPopconfirmModule, ClipboardDirective, NzBadgeModule, FavoriteButtonComponent, NzTagModule, NzSwitchModule, FormsModule, NzCollapseModule, NzSelectModule, NzAlertModule, ReactiveFormsModule, NzGridModule, NzFormModule, NzInputModule, NzInputNumberModule, NzCheckboxModule, NzListModule, ItemIconComponent, SimulationResultComponent, NzCardModule, CdkDropListGroup, NgStyle, ExtendedModule, CdkDropList, ActionComponent, CdkDrag, FullpageMessageComponent, AsyncPipe, TranslateModule, ItemNamePipe, FloorPipe, ActionNamePipe, IfMobilePipe, JobUnicodePipe, I18nPipe, I18nRowPipe]
 })
 export class SimulatorComponent implements OnInit, AfterViewInit, OnDestroy {
 

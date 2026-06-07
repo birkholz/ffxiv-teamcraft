@@ -21,7 +21,6 @@ import { FlexModule } from '@angular/flex-layout/flex';
     templateUrl: './commissions-page.component.html',
     styleUrls: ['./commissions-page.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [FlexModule, NzButtonModule, NzWaveModule, NzToolTipModule, NzIconModule, NzAlertModule, NzDividerModule, FullpageMessageComponent, CommissionPanelComponent, PageLoaderComponent, AsyncPipe, TranslateModule]
 })
 export class CommissionsPageComponent implements OnInit {

@@ -24,7 +24,6 @@ import { SeoService } from '../../../../core/seo/seo.service';
     selector: 'app-rotation-folder-page',
     templateUrl: './rotation-folder-page.component.html',
     styleUrls: ['./rotation-folder-page.component.less'],
-    standalone: true,
     imports: [NzCardModule, UserAvatarComponent, FlexModule, FavoriteButtonComponent, RotationPanelComponent, FullpageMessageComponent, PageLoaderComponent, AsyncPipe, TranslateModule, CharacterNamePipe]
 })
 export class RotationFolderPageComponent {

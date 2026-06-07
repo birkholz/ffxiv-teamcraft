@@ -36,7 +36,6 @@ import { uniq } from 'lodash';
     selector: 'app-gc-supply',
     templateUrl: './gc-supply.component.html',
     styleUrls: ['./gc-supply.component.less'],
-    standalone: true,
     imports: [FormsModule, NzFormModule, ReactiveFormsModule, NzGridModule, NzButtonModule, NzInputModule, NzToolTipModule, NzWaveModule, NzIconModule, FlexModule, NzSelectModule, FullpageMessageComponent, PageLoaderComponent, AsyncPipe, TranslateModule, I18nPipe, I18nRowPipe, ItemNamePipe, LazyIconPipe, KeysPipe, JobUnicodePipe]
 })
 export class GcSupplyComponent {

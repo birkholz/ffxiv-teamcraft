@@ -24,7 +24,6 @@ import { AsyncPipe } from '@angular/common';
     selector: 'app-workshop-details',
     templateUrl: './workshop-details.component.html',
     styleUrls: ['./workshop-details.component.less'],
-    standalone: true,
     imports: [NzCardModule, NzAvatarModule, FlexModule, FavoriteButtonComponent, NgForTrackByKeyDirective, ListPanelComponent, FullpageMessageComponent, PageLoaderComponent, AsyncPipe, TranslateModule]
 })
 export class WorkshopDetailsComponent {

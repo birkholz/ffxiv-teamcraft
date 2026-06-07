@@ -31,7 +31,6 @@ import { AsyncPipe } from '@angular/common';
     selector: 'app-commission-import',
     templateUrl: './commission-import.component.html',
     styleUrls: ['./commission-import.component.less'],
-    standalone: true,
     imports: [FlexModule, ItemIconComponent, FullpageMessageComponent, NzButtonModule, NzWaveModule, PageLoaderComponent, AsyncPipe, I18nPipe, TranslateModule, ItemNamePipe]
 })
 export class CommissionImportComponent {

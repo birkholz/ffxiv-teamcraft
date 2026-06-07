@@ -37,11 +37,10 @@ import { NzButtonComponent } from 'ng-zorro-antd/button';
 import { NzIconDirective } from 'ng-zorro-antd/icon';
 
 @Component({
-  selector: 'app-patch',
-  templateUrl: './patch.component.html',
-  styleUrls: ['./patch.component.less'],
-  standalone: true,
-  imports: [NgIf, FlexModule, I18nDisplayComponent, RouterLink, NzDividerModule, NzIconDirective, NzCardModule, NzListModule, LazyScrollComponent, DbButtonComponent, ItemIconComponent, DbCommentsComponent, PageLoaderComponent, AsyncPipe, I18nPipe, TranslateModule, I18nRowPipe, ItemNamePipe, ActionIconPipe, ActionNamePipe, IfMobilePipe, XivapiIconPipe, XivapiL12nPipe, LazyIconPipe, MapIdPipe, LazyRowPipe, NzButtonComponent, DatePipe]
+    selector: 'app-patch',
+    templateUrl: './patch.component.html',
+    styleUrls: ['./patch.component.less'],
+    imports: [NgIf, FlexModule, I18nDisplayComponent, RouterLink, NzDividerModule, NzIconDirective, NzCardModule, NzListModule, LazyScrollComponent, DbButtonComponent, ItemIconComponent, DbCommentsComponent, PageLoaderComponent, AsyncPipe, I18nPipe, TranslateModule, I18nRowPipe, ItemNamePipe, ActionIconPipe, ActionNamePipe, IfMobilePipe, XivapiIconPipe, XivapiL12nPipe, LazyIconPipe, MapIdPipe, LazyRowPipe, NzButtonComponent, DatePipe]
 })
 export class PatchComponent extends TeamcraftPageComponent {
 

@@ -14,7 +14,6 @@ import { FlexModule } from '@angular/flex-layout/flex';
     selector: 'app-fishing-bait',
     templateUrl: './fishing-bait.component.html',
     styleUrls: ['./fishing-bait.component.less'],
-    standalone: true,
     imports: [FlexModule, ItemIconComponent, NzButtonModule, NzIconModule, I18nPipe, TranslateModule, ItemNamePipe, TugNamePipe]
 })
 export class FishingBaitComponent {

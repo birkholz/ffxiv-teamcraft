@@ -21,11 +21,10 @@ import { AsyncPipe, DecimalPipe } from '@angular/common';
 import { DialogComponent } from '../../../core/dialog.component';
 
 @Component({
-  selector: 'app-gearset-cost-popup',
-  templateUrl: './gearset-cost-popup.component.html',
-  styleUrls: ['./gearset-cost-popup.component.less'],
-  standalone: true,
-  imports: [FlexModule, ItemIconComponent, FullpageMessageComponent, PageLoaderComponent, AsyncPipe, DecimalPipe, ItemNamePipe, I18nPipe, TranslateModule]
+    selector: 'app-gearset-cost-popup',
+    templateUrl: './gearset-cost-popup.component.html',
+    styleUrls: ['./gearset-cost-popup.component.less'],
+    imports: [FlexModule, ItemIconComponent, FullpageMessageComponent, PageLoaderComponent, AsyncPipe, DecimalPipe, ItemNamePipe, I18nPipe, TranslateModule]
 })
 export class GearsetCostPopupComponent extends DialogComponent {
 

@@ -40,7 +40,6 @@ import { AsyncPipe } from '@angular/common';
     templateUrl: './rotation-folder-panel.component.html',
     styleUrls: ['./rotation-folder-panel.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [NzCollapseModule, CdkDropList, FlexModule, CdkDrag, RotationPanelComponent, NzGridModule, NzButtonModule, NzToolTipModule, RouterLink, NzIconModule, NzWaveModule, ClipboardDirective, FavoriteButtonComponent, NzPopconfirmModule, NzDropDownModule, NzMenuModule, AsyncPipe, TranslateModule]
 })
 export class RotationFolderPanelComponent {

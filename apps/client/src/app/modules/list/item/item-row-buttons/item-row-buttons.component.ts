@@ -42,12 +42,11 @@ import { AsyncPipe } from '@angular/common';
 import { FlexModule } from '@angular/flex-layout/flex';
 
 @Component({
-  selector: 'app-item-row-buttons',
-  templateUrl: './item-row-buttons.component.html',
-  styleUrls: ['./item-row-buttons.component.less'],
-  changeDetection: ChangeDetectionStrategy.OnPush,
-  standalone: true,
-  imports: [FlexModule, MarketboardIconComponent, NzButtonModule, NzWaveModule, ItemNameClipboardDirective, NzIconModule, NzToolTipModule, NzBadgeModule, NzDropDownModule, NzMenuModule, NzPopconfirmModule, TutorialStepDirective, RotationResultTagComponent, AsyncPipe, TranslateModule, CharacterNamePipe]
+    selector: 'app-item-row-buttons',
+    templateUrl: './item-row-buttons.component.html',
+    styleUrls: ['./item-row-buttons.component.less'],
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    imports: [FlexModule, MarketboardIconComponent, NzButtonModule, NzWaveModule, ItemNameClipboardDirective, NzIconModule, NzToolTipModule, NzBadgeModule, NzDropDownModule, NzMenuModule, NzPopconfirmModule, TutorialStepDirective, RotationResultTagComponent, AsyncPipe, TranslateModule, CharacterNamePipe]
 })
 export class ItemRowButtonsComponent extends TeamcraftComponent {
 

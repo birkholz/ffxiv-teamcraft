@@ -11,7 +11,6 @@ import { NZ_MODAL_DATA } from 'ng-zorro-antd/modal';
     selector: 'app-rotation-tips-popup',
     templateUrl: './rotation-tips-popup.component.html',
     styleUrls: ['./rotation-tips-popup.component.less'],
-    standalone: true,
     imports: [FlexModule, NzButtonModule, NzIconModule, NzDividerModule, TranslateModule]
 })
 export class RotationTipsPopupComponent {

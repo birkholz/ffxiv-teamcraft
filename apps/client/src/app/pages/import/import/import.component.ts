@@ -30,7 +30,6 @@ interface ImportData {
     selector: 'app-import',
     templateUrl: './import.component.html',
     styleUrls: ['./import.component.less'],
-    standalone: true,
     imports: [FlexModule, ItemIconComponent, I18nNameComponent, NzAlertModule, NzRadioModule, FormsModule, NzButtonModule, NzWaveModule, PageLoaderComponent, AsyncPipe, I18nPipe, TranslateModule, I18nRowPipe]
 })
 export class ImportComponent {

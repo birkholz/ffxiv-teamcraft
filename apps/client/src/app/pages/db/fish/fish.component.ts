@@ -24,8 +24,7 @@ import { FishLuresComponent } from './fish-lures/fish-lures.component';
     templateUrl: './fish.component.html',
     styleUrls: ['../common-db.less', './fish.common.less', './fish.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
-  imports: [PageLoaderComponent, FishDetailsContainerComponent, NgTemplateOutlet, NzDividerModule, FlexModule, FishHoursComponent, FishBaitsComponent, FishHooksetsComponent, FishSpotsListComponent, FishBiteTimesComponent, FishWeathersComponent, FishWeatherTransitionsComponent, FishMoochesComponent, DbCommentsComponent, AsyncPipe, TranslateModule, FishLuresComponent]
+    imports: [PageLoaderComponent, FishDetailsContainerComponent, NgTemplateOutlet, NzDividerModule, FlexModule, FishHoursComponent, FishBaitsComponent, FishHooksetsComponent, FishSpotsListComponent, FishBiteTimesComponent, FishWeathersComponent, FishWeatherTransitionsComponent, FishMoochesComponent, DbCommentsComponent, AsyncPipe, TranslateModule, FishLuresComponent]
 })
 export class FishComponent implements OnDestroy {
   @Input() usedForTpl: TemplateRef<any>;

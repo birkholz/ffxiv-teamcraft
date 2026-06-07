@@ -14,7 +14,6 @@ import { AsyncPipe } from '@angular/common';
     templateUrl: './item-caps-table.component.html',
     styleUrls: ['./item-caps-table.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [AsyncPipe, I18nPipe, TranslateModule, I18nRowPipe]
 })
 export class ItemCapsTableComponent {

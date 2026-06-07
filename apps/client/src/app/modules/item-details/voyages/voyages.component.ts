@@ -9,7 +9,6 @@ import { NzListModule } from 'ng-zorro-antd/list';
     selector: 'app-voyages',
     templateUrl: './voyages.component.html',
     styleUrls: ['./voyages.component.less'],
-    standalone: true,
     imports: [NzListModule, I18nPipe, TranslateModule]
 })
 export class VoyagesComponent extends ItemDetailsPopup {

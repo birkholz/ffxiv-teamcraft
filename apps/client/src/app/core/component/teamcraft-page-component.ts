@@ -8,7 +8,8 @@ import { LazyDataI18nKey } from '@ffxiv-teamcraft/types';
 import { I18nToolsService } from '../tools/i18n-tools.service';
 
 @Component({
-  template: ''
+    template: '',
+    standalone: false
 })
 export abstract class TeamcraftPageComponent extends SeoPageComponent implements OnDestroy {
   protected onDestroy$: Subject<void> = new Subject<void>();

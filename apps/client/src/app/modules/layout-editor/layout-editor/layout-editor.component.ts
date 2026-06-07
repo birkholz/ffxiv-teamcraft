@@ -29,11 +29,10 @@ import { FlexModule } from '@angular/flex-layout/flex';
 import { AsyncPipe } from '@angular/common';
 
 @Component({
-  selector: 'app-layout-editor',
-  templateUrl: './layout-editor.component.html',
-  styleUrls: ['./layout-editor.component.less'],
-  standalone: true,
-  imports: [FlexModule, NzSelectModule, FormsModule, NzButtonModule, NzWaveModule, NzIconModule, NzPopconfirmModule, NzToolTipModule, ClipboardDirective, NzAlertModule, NzInputModule, NzCardModule, NzCheckboxModule, NzRadioModule, LayoutEditorRowComponent, AsyncPipe, TranslateModule]
+    selector: 'app-layout-editor',
+    templateUrl: './layout-editor.component.html',
+    styleUrls: ['./layout-editor.component.less'],
+    imports: [FlexModule, NzSelectModule, FormsModule, NzButtonModule, NzWaveModule, NzIconModule, NzPopconfirmModule, NzToolTipModule, ClipboardDirective, NzAlertModule, NzInputModule, NzCardModule, NzCheckboxModule, NzRadioModule, LayoutEditorRowComponent, AsyncPipe, TranslateModule]
 })
 export class LayoutEditorComponent {
 

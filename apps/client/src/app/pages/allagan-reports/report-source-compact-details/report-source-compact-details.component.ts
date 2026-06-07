@@ -20,7 +20,6 @@ import { NgTemplateOutlet, AsyncPipe, DecimalPipe, CurrencyPipe } from '@angular
     templateUrl: './report-source-compact-details.component.html',
     styleUrls: ['./report-source-compact-details.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [NgTemplateOutlet, FlexModule, DbButtonComponent, NzButtonModule, NzIconModule, ItemIconComponent, I18nNameComponent, AsyncPipe, DecimalPipe, CurrencyPipe, I18nPipe, TranslateModule, I18nRowPipe, XivapiIconPipe, MapNamePipe, VoyageNamePipe, LazyRowPipe]
 })
 export class ReportSourceCompactDetailsComponent {

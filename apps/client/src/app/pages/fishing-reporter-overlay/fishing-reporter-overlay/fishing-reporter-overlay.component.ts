@@ -27,7 +27,6 @@ import { OverlayContainerComponent } from '../../../modules/overlay-container/ov
     selector: 'app-fishing-reporter-overlay',
     templateUrl: './fishing-reporter-overlay.component.html',
     styleUrls: ['./fishing-reporter-overlay.component.less'],
-    standalone: true,
     imports: [OverlayContainerComponent, FlexModule, NzAlertModule, NzButtonModule, NzWaveModule, NzToolTipModule, NzIconModule, NzDividerModule, AsyncPipe, DecimalPipe, DatePipe, TranslateModule, I18nPipe, I18nRowPipe, ItemNamePipe, ActionNamePipe, XivapiIconPipe, WeatherIconPipe, LazyIconPipe, LazyRowPipe]
 })
 export class FishingReporterOverlayComponent {

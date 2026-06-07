@@ -16,7 +16,6 @@ import { AsyncPipe } from '@angular/common';
     selector: 'app-simulator-page',
     templateUrl: './simulator-page.component.html',
     styleUrls: ['./simulator-page.component.less'],
-    standalone: true,
     imports: [SimulatorComponent, PageLoaderComponent, AsyncPipe]
 })
 export class SimulatorPageComponent extends AbstractSimulationPage {

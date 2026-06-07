@@ -11,7 +11,6 @@ import { NzListModule } from 'ng-zorro-antd/list';
     templateUrl: './treasures.component.html',
     styleUrls: ['./treasures.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [NzListModule, ItemRarityDirective, ItemIconComponent, I18nPipe, ItemNamePipe]
 })
 export class TreasuresComponent extends ItemDetailsPopup {

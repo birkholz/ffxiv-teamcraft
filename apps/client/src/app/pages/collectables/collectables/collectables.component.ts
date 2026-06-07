@@ -45,12 +45,11 @@ import { NzFormModule } from 'ng-zorro-antd/form';
 import { PageLoaderComponent } from '../../../modules/page-loader/page-loader/page-loader.component';
 
 @Component({
-  selector: 'app-collectables',
-  templateUrl: './collectables.component.html',
-  styleUrls: ['./collectables.component.less'],
-  changeDetection: ChangeDetectionStrategy.OnPush,
-  standalone: true,
-  imports: [PageLoaderComponent, FormsModule, NzFormModule, ReactiveFormsModule, NzGridModule, NzButtonModule, NzInputModule, NzToolTipModule, NzWaveModule, NzIconModule, NzTabsModule, NzCollapseModule, FlexModule, NzCheckboxModule, ItemIconComponent, I18nNameComponent, MapPositionComponent, AlarmButtonComponent, NzInputNumberModule, FullpageMessageComponent, I18nPipe, TranslateModule, I18nRowPipe, NodeTypeIconPipe, KeysPipe, JobUnicodePipe, AsyncPipe, DecimalPipe]
+    selector: 'app-collectables',
+    templateUrl: './collectables.component.html',
+    styleUrls: ['./collectables.component.less'],
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    imports: [PageLoaderComponent, FormsModule, NzFormModule, ReactiveFormsModule, NzGridModule, NzButtonModule, NzInputModule, NzToolTipModule, NzWaveModule, NzIconModule, NzTabsModule, NzCollapseModule, FlexModule, NzCheckboxModule, ItemIconComponent, I18nNameComponent, MapPositionComponent, AlarmButtonComponent, NzInputNumberModule, FullpageMessageComponent, I18nPipe, TranslateModule, I18nRowPipe, NodeTypeIconPipe, KeysPipe, JobUnicodePipe, AsyncPipe, DecimalPipe]
 })
 export class CollectablesComponent {
 

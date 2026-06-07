@@ -6,7 +6,6 @@ import { NzDividerModule } from 'ng-zorro-antd/divider';
     selector: 'app-support-us-popup',
     templateUrl: './support-us-popup.component.html',
     styleUrls: ['./support-us-popup.component.less'],
-    standalone: true,
     imports: [NzDividerModule, TranslateModule]
 })
 export class SupportUsPopupComponent {

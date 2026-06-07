@@ -4,7 +4,8 @@ import { BehaviorSubject } from 'rxjs';
 import { MetricsDisplayEntry } from './metrics-display-entry';
 
 @Component({
-  template: ''
+    template: '',
+    standalone: false
 })
 export abstract class AbstractMetricDisplayComponent {
   data$: BehaviorSubject<ProbeReport[]> = new BehaviorSubject<ProbeReport[]>([]);

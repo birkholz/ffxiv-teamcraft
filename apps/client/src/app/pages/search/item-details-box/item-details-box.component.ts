@@ -15,7 +15,6 @@ import { NzButtonModule } from 'ng-zorro-antd/button';
     templateUrl: './item-details-box.component.html',
     styleUrls: ['./item-details-box.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [NzButtonModule, NzWaveModule, NzIconModule, XivapiItemTooltipComponent, NzSpinModule, AsyncPipe]
 })
 export class ItemDetailsBoxComponent {

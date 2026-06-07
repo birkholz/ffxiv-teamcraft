@@ -6,11 +6,10 @@ import { CdkDragDrop, moveItemInArray, CdkDropList, CdkDrag } from '@angular/cdk
 import { DialogComponent } from '../../../core/dialog.component';
 
 @Component({
-  selector: 'app-layout-order-popup',
-  templateUrl: './layout-order-popup.component.html',
-  styleUrls: ['./layout-order-popup.component.less'],
-  standalone: true,
-  imports: [CdkDropList, CdkDrag]
+    selector: 'app-layout-order-popup',
+    templateUrl: './layout-order-popup.component.html',
+    styleUrls: ['./layout-order-popup.component.less'],
+    imports: [CdkDropList, CdkDrag]
 })
 export class LayoutOrderPopupComponent extends DialogComponent {
 

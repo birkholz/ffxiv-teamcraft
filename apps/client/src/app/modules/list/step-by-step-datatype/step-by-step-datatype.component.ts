@@ -38,7 +38,6 @@ import { SettingsService } from '../../settings/settings.service';
     templateUrl: './step-by-step-datatype.component.html',
     styleUrls: ['./step-by-step-datatype.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [NzCardModule, NgIf, NzButtonModule, NzWaveModule, NzToolTipModule, NzPopconfirmModule, NzIconModule, NgSwitch, NgSwitchCase, ItemIconComponent, FlexModule, NgFor, MapPositionComponent, NzDividerModule, LazyScrollComponent, StepByStepRowComponent, AsyncPipe, LowerCasePipe, TranslateModule, NodeTypeIconPipe, XivapiIconPipe, LazyIconPipe, TradeIconPipe, JobUnicodePipe, LazyRowPipe]
 })
 export class StepByStepDatatypeComponent {

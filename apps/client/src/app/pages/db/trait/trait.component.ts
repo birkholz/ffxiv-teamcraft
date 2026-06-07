@@ -33,7 +33,6 @@ import { NgIf, NgFor, AsyncPipe } from '@angular/common';
     selector: 'app-trait',
     templateUrl: './trait.component.html',
     styleUrls: ['./trait.component.less'],
-    standalone: true,
     imports: [NgIf, FlexModule, I18nNameComponent, DbButtonComponent, NgFor, NzToolTipModule, DbCommentsComponent, NzDividerModule, NzCardModule, NzListModule, XivapiActionTooltipDirective, PageLoaderComponent, AsyncPipe, I18nPipe, TranslateModule, ActionIconPipe, ActionNamePipe, IfMobilePipe, XivapiIconPipe, NzPipesModule]
 })
 export class TraitComponent extends TeamcraftPageComponent {

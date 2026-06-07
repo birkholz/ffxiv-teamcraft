@@ -22,7 +22,6 @@ import { NzCardModule } from 'ng-zorro-antd/card';
     templateUrl: './fish-weather-transitions.component.html',
     styleUrls: ['./fish-weather-transitions.component.less', '../../common-db.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [NzCardModule, FlexModule, NzButtonModule, NzIconModule, AsyncPipe, DecimalPipe, I18nPipe, TranslateModule, I18nRowPipe, XivapiIconPipe, WeatherIconPipe]
 })
 export class FishWeatherTransitionsComponent {

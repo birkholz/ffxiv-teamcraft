@@ -13,7 +13,6 @@ import { AsyncPipe } from '@angular/common';
     templateUrl: './vessel-rank-column.component.html',
     styleUrls: ['./vessel-rank-column.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [NzPopoverModule, NzProgressModule, AsyncPipe, TranslateModule]
 })
 export class VesselRankColumnComponent {

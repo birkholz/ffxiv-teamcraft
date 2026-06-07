@@ -45,7 +45,6 @@ import { AsyncPipe, DatePipe } from '@angular/common';
     templateUrl: './teams.component.html',
     styleUrls: ['./teams.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [PageLoaderComponent, FlexModule, NzButtonModule, NzWaveModule, NzToolTipModule, NzIconModule, NzCollapseModule, NzPopconfirmModule, NzSelectModule, FormsModule, NzGridModule, NzCheckboxModule, NzAlertModule, NzListModule, ClipboardDirective, NzTagModule, UserAvatarComponent, NzDividerModule, FullpageMessageComponent, AsyncPipe, DatePipe, TranslateModule, CharacterNamePipe, TeamcraftLinkPipe]
 })
 export class TeamsComponent implements OnInit {

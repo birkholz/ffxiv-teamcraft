@@ -16,7 +16,6 @@ import { NzMenuModule } from 'ng-zorro-antd/menu';
     templateUrl: './item-row-menu.component.html',
     styleUrls: ['./item-row-menu.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [NzDropDownModule, NzMenuModule, NzButtonModule, ItemNameClipboardDirective, NzBadgeModule, AsyncPipe, TranslateModule, CharacterNamePipe]
 })
 export class ItemRowMenuComponent {

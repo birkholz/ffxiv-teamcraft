@@ -19,7 +19,6 @@ import { NgTemplateOutlet, AsyncPipe, DecimalPipe } from '@angular/common';
     styleUrls: ['./fishing-spot-datagrid.component.less', '../../common-db.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
     providers: [FishingSpotUtilsService],
-    standalone: true,
     imports: [NzTableModule, NgTemplateOutlet, ItemIconComponent, NzToolTipModule, AsyncPipe, DecimalPipe]
 })
 export class FishingSpotDatagridComponent<T extends string | number = number> {

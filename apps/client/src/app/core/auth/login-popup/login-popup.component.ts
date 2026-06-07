@@ -19,7 +19,6 @@ import { DialogComponent } from '../../dialog.component';
     selector: 'app-login-popup',
     templateUrl: './login-popup.component.html',
     styleUrls: ['./login-popup.component.less'],
-    standalone: true,
     imports: [FormsModule, NzFormModule, ReactiveFormsModule, NzGridModule, NzInputModule, NzButtonModule, NzWaveModule, NzAlertModule, NzDividerModule, TranslateModule]
 })
 export class LoginPopupComponent extends DialogComponent {

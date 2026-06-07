@@ -20,7 +20,6 @@ import { PageLoaderComponent } from '../../../modules/page-loader/page-loader/pa
     selector: 'app-fish-breakdown',
     templateUrl: './fish-breakdown.component.html',
     styleUrls: ['./fish-breakdown.component.less'],
-    standalone: true,
     imports: [PageLoaderComponent, NzSwitchModule, FormsModule, NgxEchartsModule, NzEmptyModule, AsyncPipe, TranslateModule]
 })
 export class FishBreakdownComponent extends TeamcraftComponent {

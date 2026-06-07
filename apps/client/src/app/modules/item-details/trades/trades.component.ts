@@ -27,7 +27,6 @@ import { FlexModule } from '@angular/flex-layout/flex';
     templateUrl: './trades.component.html',
     styleUrls: ['./trades.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [FlexModule, NgFor, NzCardModule, NzGridModule, ItemIconComponent, NgIf, NzButtonModule, NzIconModule, NzListModule, DbButtonComponent, MapPositionComponent, NzWaveModule, AsyncPipe, I18nPipe, TranslateModule, I18nRowPipe, ItemNamePipe, ClosestAetherytePipe]
 })
 export class TradesComponent extends ItemDetailsPopup implements OnChanges {

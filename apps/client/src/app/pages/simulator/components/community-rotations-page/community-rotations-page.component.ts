@@ -31,7 +31,6 @@ import { FlexModule } from '@angular/flex-layout/flex';
     selector: 'app-community-rotations-page',
     templateUrl: './community-rotations-page.component.html',
     styleUrls: ['./community-rotations-page.component.less'],
-    standalone: true,
     imports: [FlexModule, NzInputModule, FormsModule, TutorialStepDirective, NzSelectModule, NzButtonModule, NzInputNumberModule, NzWaveModule, NzToolTipModule, NzIconModule, PageLoaderComponent, RotationPanelComponent, NzPaginationModule, FullpageMessageComponent, AsyncPipe, TranslateModule, I18nPipe, I18nRowPipe]
 })
 export class CommunityRotationsPageComponent {

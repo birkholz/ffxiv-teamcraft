@@ -55,11 +55,10 @@ import { MapNamePipe } from '../../../pipes/pipes/map-name.pipe';
 import { NzAlertComponent } from 'ng-zorro-antd/alert';
 
 @Component({
-  selector: 'app-settings-popup',
-  templateUrl: './settings-popup.component.html',
-  styleUrls: ['./settings-popup.component.less'],
-  standalone: true,
-  imports: [NzTabsModule, FlexModule, NzGridModule, NzFormModule, NzSelectModule, FormsModule, NzCheckboxModule, NzDividerModule, ColorPickerModule, NzButtonModule, NzWaveModule, NzSwitchModule, NzInputNumberModule, NzIconModule, NzUploadModule, NzPopconfirmModule, NzToolTipModule, NzInputModule, NzSliderModule, NgTemplateOutlet, NzCardModule, AsyncPipe, UpperCasePipe, TranslateModule, AetheryteNamePipe, I18nPipe, I18nRowPipe, MapNamePipe, NzAlertComponent]
+    selector: 'app-settings-popup',
+    templateUrl: './settings-popup.component.html',
+    styleUrls: ['./settings-popup.component.less'],
+    imports: [NzTabsModule, FlexModule, NzGridModule, NzFormModule, NzSelectModule, FormsModule, NzCheckboxModule, NzDividerModule, ColorPickerModule, NzButtonModule, NzWaveModule, NzSwitchModule, NzInputNumberModule, NzIconModule, NzUploadModule, NzPopconfirmModule, NzToolTipModule, NzInputModule, NzSliderModule, NgTemplateOutlet, NzCardModule, AsyncPipe, UpperCasePipe, TranslateModule, AetheryteNamePipe, I18nPipe, I18nRowPipe, MapNamePipe, NzAlertComponent]
 })
 export class SettingsPopupComponent {
 

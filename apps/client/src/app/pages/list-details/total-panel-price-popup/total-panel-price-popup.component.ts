@@ -20,7 +20,6 @@ import { DialogComponent } from '../../../core/dialog.component';
     selector: 'app-total-panel-price-popup',
     templateUrl: './total-panel-price-popup.component.html',
     styleUrls: ['./total-panel-price-popup.component.less'],
-    standalone: true,
     imports: [NzListModule, ItemIconComponent, NzButtonModule, NzWaveModule, NzToolTipModule, NzIconModule, DecimalPipe, I18nPipe, TranslateModule, ItemNamePipe]
 })
 export class TotalPanelPricePopupComponent extends DialogComponent implements OnInit {

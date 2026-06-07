@@ -18,11 +18,10 @@ import { FlexModule } from '@angular/flex-layout/flex';
 
 
 @Component({
-  selector: 'app-sync-from-pcap-popup',
-  templateUrl: './sync-from-pcap-popup.component.html',
-  styleUrls: ['./sync-from-pcap-popup.component.less'],
-  standalone: true,
-  imports: [FlexModule, NzAlertModule, NzTimelineModule, TranslateModule]
+    selector: 'app-sync-from-pcap-popup',
+    templateUrl: './sync-from-pcap-popup.component.html',
+    styleUrls: ['./sync-from-pcap-popup.component.less'],
+    imports: [FlexModule, NzAlertModule, NzTimelineModule, TranslateModule]
 })
 export class SyncFromPcapPopupComponent extends TeamcraftComponent {
 

@@ -38,12 +38,11 @@ import { NzFormModule } from 'ng-zorro-antd/form';
 import { FlexModule } from '@angular/flex-layout/flex';
 
 @Component({
-  selector: 'app-leveling-equipment',
-  templateUrl: './leveling-equipment.component.html',
-  styleUrls: ['./leveling-equipment.component.less'],
-  changeDetection: ChangeDetectionStrategy.OnPush,
-  standalone: true,
-  imports: [FlexModule, FormsModule, NzFormModule, ReactiveFormsModule, NzGridModule, NzSelectModule, NzInputNumberModule, NzCheckboxModule, NzButtonModule, NzWaveModule, NzIconModule, ItemIconComponent, NzToolTipModule, ClipboardDirective, FullpageMessageComponent, AsyncPipe, TranslateModule, I18nPipe, I18nRowPipe, ItemNamePipe, JobUnicodePipe]
+    selector: 'app-leveling-equipment',
+    templateUrl: './leveling-equipment.component.html',
+    styleUrls: ['./leveling-equipment.component.less'],
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    imports: [FlexModule, FormsModule, NzFormModule, ReactiveFormsModule, NzGridModule, NzSelectModule, NzInputNumberModule, NzCheckboxModule, NzButtonModule, NzWaveModule, NzIconModule, ItemIconComponent, NzToolTipModule, ClipboardDirective, FullpageMessageComponent, AsyncPipe, TranslateModule, I18nPipe, I18nRowPipe, ItemNamePipe, JobUnicodePipe]
 })
 export class LevelingEquipmentComponent extends TeamcraftComponent {
 

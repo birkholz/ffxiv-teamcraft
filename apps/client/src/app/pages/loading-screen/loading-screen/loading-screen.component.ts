@@ -5,7 +5,6 @@ import { FlexModule } from '@angular/flex-layout/flex';
     selector: 'app-loading-screen',
     templateUrl: './loading-screen.component.html',
     styleUrls: ['./loading-screen.component.less'],
-    standalone: true,
     imports: [FlexModule]
 })
 export class LoadingScreenComponent {

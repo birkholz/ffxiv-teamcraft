@@ -28,8 +28,7 @@ import { AsyncPipe } from '@angular/common';
     templateUrl: './gearset-row.component.html',
     styleUrls: ['./gearset-row.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
-  imports: [FlexModule, NzButtonModule, NzWaveModule, NzToolTipModule, NzIconModule, NzTagModule, ClipboardDirective, RouterLink, FavoriteButtonComponent, NzPopconfirmModule, JobUnicodePipe, TranslateModule, AsyncPipe]
+    imports: [FlexModule, NzButtonModule, NzWaveModule, NzToolTipModule, NzIconModule, NzTagModule, ClipboardDirective, RouterLink, FavoriteButtonComponent, NzPopconfirmModule, JobUnicodePipe, TranslateModule, AsyncPipe]
 })
 export class GearsetRowComponent {
 

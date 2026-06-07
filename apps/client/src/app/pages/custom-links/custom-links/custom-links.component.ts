@@ -26,7 +26,6 @@ import { AsyncPipe } from '@angular/common';
     selector: 'app-custom-links',
     templateUrl: './custom-links.component.html',
     styleUrls: ['./custom-links.component.less'],
-    standalone: true,
     imports: [FullpageMessageComponent, NzListModule, FlexModule, NzTagModule, NzButtonModule, NzWaveModule, NzToolTipModule, ClipboardDirective, NzIconModule, NzPopconfirmModule, PageLoaderComponent, AsyncPipe, TranslateModule]
 })
 export class CustomLinksComponent {

@@ -15,7 +15,6 @@ import { FlexModule } from '@angular/flex-layout/flex';
     templateUrl: './resigned-feedback-popup.component.html',
     styleUrls: ['./resigned-feedback-popup.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [FlexModule, NzRadioModule, FormsModule, NzButtonModule, NzWaveModule, TranslateModule]
 })
 export class ResignedFeedbackPopupComponent {

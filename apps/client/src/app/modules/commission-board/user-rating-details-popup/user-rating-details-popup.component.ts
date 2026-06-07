@@ -15,12 +15,11 @@ import { NzDividerModule } from 'ng-zorro-antd/divider';
 import { DialogComponent } from '../../../core/dialog.component';
 
 @Component({
-  selector: 'app-user-rating-details-popup',
-  templateUrl: './user-rating-details-popup.component.html',
-  styleUrls: ['./user-rating-details-popup.component.less'],
-  changeDetection: ChangeDetectionStrategy.OnPush,
-  standalone: true,
-  imports: [NzDividerModule, FlexModule, NzRateModule, FormsModule, NzButtonModule, RouterLink, NzEmptyModule, NzIconModule, DatePipe, TranslateModule]
+    selector: 'app-user-rating-details-popup',
+    templateUrl: './user-rating-details-popup.component.html',
+    styleUrls: ['./user-rating-details-popup.component.less'],
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    imports: [NzDividerModule, FlexModule, NzRateModule, FormsModule, NzButtonModule, RouterLink, NzEmptyModule, NzIconModule, DatePipe, TranslateModule]
 })
 export class UserRatingDetailsPopupComponent extends DialogComponent {
   profile: CommissionProfile;

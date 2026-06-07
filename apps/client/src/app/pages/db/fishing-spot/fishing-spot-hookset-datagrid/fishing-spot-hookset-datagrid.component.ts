@@ -16,7 +16,6 @@ import { NzCardModule } from 'ng-zorro-antd/card';
     templateUrl: './fishing-spot-hookset-datagrid.component.html',
     styleUrls: ['./fishing-spot-hookset-datagrid.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [NzCardModule, FishingSpotDatagridComponent, AsyncPipe, TranslateModule, ActionIconPipe, XivapiIconPipe, HooksetActionIdPipe]
 })
 export class FishingSpotHooksetDatagridComponent {

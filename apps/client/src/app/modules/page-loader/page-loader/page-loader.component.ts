@@ -5,7 +5,6 @@ import { NzSpinModule } from 'ng-zorro-antd/spin';
     selector: 'app-page-loader',
     templateUrl: './page-loader.component.html',
     styleUrls: ['./page-loader.component.less'],
-    standalone: true,
     imports: [NzSpinModule]
 })
 export class PageLoaderComponent {

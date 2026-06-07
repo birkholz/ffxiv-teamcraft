@@ -44,7 +44,6 @@ import { NzDividerModule } from 'ng-zorro-antd/divider';
     selector: 'app-db-comments',
     templateUrl: './db-comments.component.html',
     styleUrls: ['./db-comments.component.less'],
-    standalone: true,
     imports: [NzDividerModule, FullpageMessageComponent, NzCommentModule, FlexModule, NzToolTipModule, NzButtonModule, NzIconModule, NzAvatarModule, RouterLink, NzPopconfirmModule, NgTemplateOutlet, NzGridModule, NzFormModule, NzInputModule, FormsModule, NzWaveModule, AsyncPipe, DatePipe, TranslateModule, CharacterNamePipe, XivapiI18nPipe, CharacterAvatarPipe, UserLevelPipe, IsPatronPipe, IsVerifiedPipe, CommentLinksPipe]
 })
 export class DbCommentsComponent extends TeamcraftComponent implements OnInit {

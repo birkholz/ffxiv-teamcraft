@@ -18,7 +18,6 @@ import { PageLoaderComponent } from '../../../modules/page-loader/page-loader/pa
     selector: 'app-bait-breakdown',
     templateUrl: './bait-breakdown.component.html',
     styleUrls: ['./bait-breakdown.component.less'],
-    standalone: true,
     imports: [PageLoaderComponent, NgxEchartsModule, NzEmptyModule, TranslateModule]
 })
 export class BaitBreakdownComponent extends TeamcraftComponent {

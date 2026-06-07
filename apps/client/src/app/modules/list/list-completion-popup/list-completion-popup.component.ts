@@ -16,11 +16,10 @@ import { FlexModule } from '@angular/flex-layout/flex';
 import { DialogComponent } from '../../../core/dialog.component';
 
 @Component({
-  selector: 'app-list-completion-popup',
-  templateUrl: './list-completion-popup.component.html',
-  styleUrls: ['./list-completion-popup.component.less'],
-  standalone: true,
-  imports: [FlexModule, NzButtonModule, NzWaveModule, NzPopconfirmModule, NzIconModule, LowerCasePipe, TranslateModule]
+    selector: 'app-list-completion-popup',
+    templateUrl: './list-completion-popup.component.html',
+    styleUrls: ['./list-completion-popup.component.less'],
+    imports: [FlexModule, NzButtonModule, NzWaveModule, NzPopconfirmModule, NzIconModule, LowerCasePipe, TranslateModule]
 })
 export class ListCompletionPopupComponent extends DialogComponent {
 

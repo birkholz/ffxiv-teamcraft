@@ -18,12 +18,11 @@ import { NzStepsModule } from 'ng-zorro-antd/steps';
 import { FlexModule } from '@angular/flex-layout/flex';
 
 @Component({
-  selector: 'app-import-workshop-from-pcap-popup',
-  templateUrl: './import-workshop-from-pcap-popup.component.html',
-  styleUrls: ['./import-workshop-from-pcap-popup.component.less'],
-  changeDetection: ChangeDetectionStrategy.OnPush,
-  standalone: true,
-  imports: [FlexModule, NzStepsModule, NzBadgeModule, NgTemplateOutlet, NzButtonModule, NzWaveModule, AsyncPipe, TranslateModule]
+    selector: 'app-import-workshop-from-pcap-popup',
+    templateUrl: './import-workshop-from-pcap-popup.component.html',
+    styleUrls: ['./import-workshop-from-pcap-popup.component.less'],
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    imports: [FlexModule, NzStepsModule, NzBadgeModule, NgTemplateOutlet, NzButtonModule, NzWaveModule, AsyncPipe, TranslateModule]
 })
 export class ImportWorkshopFromPcapPopupComponent extends TeamcraftComponent implements OnInit {
   private _freeCompany = new BehaviorSubject(null);

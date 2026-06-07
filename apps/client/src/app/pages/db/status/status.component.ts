@@ -26,7 +26,6 @@ import { AsyncPipe } from '@angular/common';
     selector: 'app-status',
     templateUrl: './status.component.html',
     styleUrls: ['./status.component.less'],
-    standalone: true,
     imports: [FlexModule, I18nNameComponent, DbButtonComponent, NzToolTipModule, I18nDisplayComponent, DbCommentsComponent, PageLoaderComponent, AsyncPipe, I18nPipe, TranslateModule, IfMobilePipe, XivapiIconPipe]
 })
 export class StatusComponent extends TeamcraftPageComponent {

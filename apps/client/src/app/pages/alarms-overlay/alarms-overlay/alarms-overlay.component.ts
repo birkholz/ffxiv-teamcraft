@@ -7,7 +7,6 @@ import { OverlayContainerComponent } from '../../../modules/overlay-container/ov
     selector: 'app-alarms-overlay',
     templateUrl: './alarms-overlay.component.html',
     styleUrls: ['./alarms-overlay.component.less'],
-    standalone: true,
     imports: [OverlayContainerComponent, AlarmsSidebarComponent]
 })
 export class AlarmsOverlayComponent {

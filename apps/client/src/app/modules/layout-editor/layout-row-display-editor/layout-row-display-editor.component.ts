@@ -9,11 +9,10 @@ import { NzSelectModule } from 'ng-zorro-antd/select';
 import { FlexModule } from '@angular/flex-layout/flex';
 
 @Component({
-  selector: 'app-layout-row-display-editor',
-  templateUrl: './layout-row-display-editor.component.html',
-  styleUrls: ['./layout-row-display-editor.component.less'],
-  standalone: true,
-  imports: [FlexModule, NzSelectModule, FormsModule, NzButtonModule, TranslateModule]
+    selector: 'app-layout-row-display-editor',
+    templateUrl: './layout-row-display-editor.component.html',
+    styleUrls: ['./layout-row-display-editor.component.less'],
+    imports: [FlexModule, NzSelectModule, FormsModule, NzButtonModule, TranslateModule]
 })
 export class LayoutRowDisplayEditorComponent {
 

@@ -58,7 +58,6 @@ import { AsyncPipe, DecimalPipe } from '@angular/common';
     selector: 'app-gearset-display',
     templateUrl: './gearset-display.component.html',
     styleUrls: ['./gearset-display.component.less'],
-    standalone: true,
     imports: [FlexModule, NzButtonModule, NzWaveModule, NzToolTipModule, NzPopconfirmModule, NzIconModule, FavoriteButtonComponent, RouterLink, NzDividerModule, GearsetDisplaySlotComponent, NzSelectModule, FormsModule, NzInputNumberModule, I18nNameComponent, NzTableModule, StatsPopupComponent, MateriasNeededPopupComponent, GearsetCostPopupComponent, AsyncPipe, DecimalPipe, TranslateModule, I18nPipe, I18nRowPipe, ItemNamePipe, JobUnicodePipe, FoodBonusesPipePipe]
 })
 export class GearsetDisplayComponent extends TeamcraftComponent {

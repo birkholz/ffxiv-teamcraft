@@ -20,7 +20,6 @@ import { NzCardModule } from 'ng-zorro-antd/card';
     templateUrl: './fish-hooksets.component.html',
     styleUrls: ['./fish-hooksets.component.less', '../../common-db.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [NzCardModule, FlexModule, NzDividerModule, NzGridModule, AsyncPipe, DecimalPipe, I18nPipe, TranslateModule, ActionIconPipe, ActionNamePipe, XivapiIconPipe, TugNamePipe]
 })
 export class FishHooksetsComponent {

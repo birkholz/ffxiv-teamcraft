@@ -9,11 +9,10 @@ import { FlexModule } from '@angular/flex-layout/flex';
 import { DialogComponent } from '../../../core/dialog.component';
 
 @Component({
-  selector: 'app-name-question-popup',
-  templateUrl: './number-question-popup.component.html',
-  styleUrls: ['./number-question-popup.component.less'],
-  standalone: true,
-  imports: [FlexModule, NzInputNumberModule, FormsModule, NzButtonModule, NzWaveModule, TranslateModule]
+    selector: 'app-name-question-popup',
+    templateUrl: './number-question-popup.component.html',
+    styleUrls: ['./number-question-popup.component.less'],
+    imports: [FlexModule, NzInputNumberModule, FormsModule, NzButtonModule, NzWaveModule, TranslateModule]
 })
 export class NumberQuestionPopupComponent extends DialogComponent {
 

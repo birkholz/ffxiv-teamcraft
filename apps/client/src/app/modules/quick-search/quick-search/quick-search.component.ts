@@ -24,7 +24,6 @@ import { NzButtonModule } from 'ng-zorro-antd/button';
     selector: 'app-quick-search',
     templateUrl: './quick-search.component.html',
     styleUrls: ['./quick-search.component.less'],
-    standalone: true,
     imports: [NzButtonModule, NzInputModule, NzSelectModule, FormsModule, FlexModule, AsyncPipe, IfMobilePipe, NodeTypeIconPipe, XivapiIconPipe, I18nPipe, TranslateModule, I18nRowPipe]
 })
 export class QuickSearchComponent extends TeamcraftComponent {

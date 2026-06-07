@@ -18,7 +18,6 @@ import { AsyncPipe } from '@angular/common';
     selector: 'app-item-inventory-button',
     templateUrl: './item-inventory-button.component.html',
     styleUrls: ['./item-inventory-button.component.less'],
-    standalone: true,
     imports: [NzTagModule, NzDropDownModule, NzMenuModule, NzButtonModule, NzToolTipModule, FlexModule, InventoryPositionComponent, AsyncPipe, TranslateModule]
 })
 export class ItemInventoryButtonComponent {

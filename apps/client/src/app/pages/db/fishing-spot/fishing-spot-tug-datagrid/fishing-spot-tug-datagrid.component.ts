@@ -12,7 +12,6 @@ import { NzCardModule } from 'ng-zorro-antd/card';
     selector: 'app-fishing-spot-tug-datagrid',
     templateUrl: './fishing-spot-tug-datagrid.component.html',
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [NzCardModule, FishingSpotDatagridComponent, AsyncPipe, TranslateModule]
 })
 export class FishingSpotTugDatagridComponent {

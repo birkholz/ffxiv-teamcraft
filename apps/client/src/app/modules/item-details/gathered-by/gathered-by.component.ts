@@ -24,7 +24,6 @@ import { FlexModule } from '@angular/flex-layout/flex';
     templateUrl: './gathered-by.component.html',
     styleUrls: ['./gathered-by.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [FlexModule, DbButtonComponent, NodeDetailsComponent, FishingBaitComponent, NzTagModule, NzToolTipModule, ItemIconComponent, SpearfishingSpeedComponent, MapComponent, NzDividerModule, I18nPipe, TranslateModule, I18nRowPipe, NodeTypeIconPipe, NzPipesModule, YoutubeEmbedPipe]
 })
 export class GatheredByComponent extends ItemDetailsPopup {

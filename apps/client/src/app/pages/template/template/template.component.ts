@@ -15,7 +15,6 @@ import { PageLoaderComponent } from '../../../modules/page-loader/page-loader/pa
     selector: 'app-template',
     templateUrl: './template.component.html',
     styleUrls: ['./template.component.less'],
-    standalone: true,
     imports: [PageLoaderComponent, FullpageMessageComponent, TranslateModule]
 })
 export class TemplateComponent {

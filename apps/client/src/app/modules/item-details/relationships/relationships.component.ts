@@ -26,11 +26,10 @@ import { AsyncPipe } from '@angular/common';
 import { DialogComponent } from '../../../core/dialog.component';
 
 @Component({
-  selector: 'app-relationships',
-  templateUrl: './relationships.component.html',
-  styleUrls: ['./relationships.component.less'],
-  standalone: true,
-  imports: [FlexModule, ItemIconComponent, I18nNameComponent, NzTagModule, NzToolTipModule, InventoryPositionComponent, NzButtonModule, NzWaveModule, NzIconModule, NzListModule, AsyncPipe, I18nPipe, TranslateModule, ItemNamePipe, CeilPipe, XivapiIconPipe]
+    selector: 'app-relationships',
+    templateUrl: './relationships.component.html',
+    styleUrls: ['./relationships.component.less'],
+    imports: [FlexModule, ItemIconComponent, I18nNameComponent, NzTagModule, NzToolTipModule, InventoryPositionComponent, NzButtonModule, NzWaveModule, NzIconModule, NzListModule, AsyncPipe, I18nPipe, TranslateModule, ItemNamePipe, CeilPipe, XivapiIconPipe]
 })
 export class RelationshipsComponent extends DialogComponent implements OnInit {
 

@@ -26,7 +26,6 @@ import { AsyncPipe } from '@angular/common';
     templateUrl: './rotation-result-tag.component.html',
     styleUrls: ['./rotation-result-tag.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [NzToolTipModule, NzTagModule, AsyncPipe, TranslateModule, FloorPipe]
 })
 export class RotationResultTagComponent implements OnInit {

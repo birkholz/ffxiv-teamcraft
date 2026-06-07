@@ -18,7 +18,6 @@ import { NgxEchartsModule } from 'ngx-echarts';
     templateUrl: './pie-chart.component.html',
     styleUrls: ['./pie-chart.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [NgxEchartsModule, NzEmptyModule, AsyncPipe, TranslateModule]
 })
 export class PieChartComponent extends AbstractMetricDisplayComponent {

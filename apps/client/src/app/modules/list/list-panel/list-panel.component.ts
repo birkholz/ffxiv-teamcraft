@@ -66,7 +66,6 @@ import { AsyncPipe, UpperCasePipe } from '@angular/common';
     templateUrl: './list-panel.component.html',
     styleUrls: ['./list-panel.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [NzCollapseModule, LazyScrollComponent, FlexModule, ItemIconComponent, I18nNameComponent, NzInputNumberModule, MouseWheelDirective, FormsModule, NzButtonModule, NzWaveModule, NzIconModule, NzGridModule, NzToolTipModule, UserAvatarComponent, NzTagModule, RouterLink, ListProgressbarComponent, TutorialStepDirective, ClipboardDirective, NzBadgeModule, NzPopconfirmModule, NzDropDownModule, NzMenuModule, AsyncPipe, UpperCasePipe, I18nPipe, TranslateModule, ItemNamePipe, XivapiIconPipe, PermissionLevelPipe]
 })
 export class ListPanelComponent extends TeamcraftComponent {

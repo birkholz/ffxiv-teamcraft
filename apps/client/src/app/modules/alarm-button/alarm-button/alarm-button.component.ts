@@ -31,7 +31,6 @@ import { AsyncPipe } from '@angular/common';
     templateUrl: './alarm-button.component.html',
     styleUrls: ['./alarm-button.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [NzButtonModule, TimerTooltipDirective, NzWaveModule, NzToolTipModule, I18nNameComponent, NzIconModule, NzDropDownModule, NzMenuModule, AsyncPipe, AlarmDisplayPipe, I18nPipe, TranslateModule, TimerPipe, I18nRowPipe, NodeTypeIconPipe, ClosestAetherytePipe, XivapiIconPipe, LazyRowPipe]
 })
 export class AlarmButtonComponent {

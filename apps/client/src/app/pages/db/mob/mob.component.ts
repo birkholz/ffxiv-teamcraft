@@ -34,11 +34,10 @@ import { FlexModule } from '@angular/flex-layout/flex';
 import { AsyncPipe, NgFor, NgIf } from '@angular/common';
 
 @Component({
-  selector: 'app-mob',
-  templateUrl: './mob.component.html',
-  styleUrls: ['./mob.component.less'],
-  standalone: true,
-  imports: [NgIf, FlexModule, I18nNameComponent, DbButtonComponent, NgFor, NzToolTipModule, I18nDisplayComponent, DbCommentsComponent, NzDividerModule, NzCardModule, MapComponent, NzListModule, ItemIconComponent, PageLoaderComponent, AsyncPipe, I18nPipe, TranslateModule, I18nRowPipe, ItemNamePipe, IfMobilePipe, XivapiIconPipe, LazyIconPipe]
+    selector: 'app-mob',
+    templateUrl: './mob.component.html',
+    styleUrls: ['./mob.component.less'],
+    imports: [NgIf, FlexModule, I18nNameComponent, DbButtonComponent, NgFor, NzToolTipModule, I18nDisplayComponent, DbCommentsComponent, NzDividerModule, NzCardModule, MapComponent, NzListModule, ItemIconComponent, PageLoaderComponent, AsyncPipe, I18nPipe, TranslateModule, I18nRowPipe, ItemNamePipe, IfMobilePipe, XivapiIconPipe, LazyIconPipe]
 })
 export class MobComponent extends TeamcraftPageComponent {
 

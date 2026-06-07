@@ -12,7 +12,6 @@ import { NzCardModule } from 'ng-zorro-antd/card';
     templateUrl: './fish-bite-times.component.html',
     styleUrls: ['./fish-bite-times.component.less', '../../common-db.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [NzCardModule, NzStatisticModule, AsyncPipe, DecimalPipe, TranslateModule]
 })
 export class FishBiteTimesComponent {

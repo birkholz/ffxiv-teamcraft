@@ -19,11 +19,10 @@ import { AsyncPipe } from '@angular/common';
 import { OverlayContainerComponent } from '../../../modules/overlay-container/overlay-container/overlay-container.component';
 
 @Component({
-  selector: 'app-list-panel-overlay',
-  templateUrl: './list-panel-overlay.component.html',
-  styleUrls: ['./list-panel-overlay.component.less'],
-  standalone: true,
-  imports: [OverlayContainerComponent, FlexModule, NzButtonModule, NzWaveModule, NzCheckboxModule, FormsModule, ListDetailsPanelComponent, FullpageMessageComponent, AsyncPipe, TranslateModule]
+    selector: 'app-list-panel-overlay',
+    templateUrl: './list-panel-overlay.component.html',
+    styleUrls: ['./list-panel-overlay.component.less'],
+    imports: [OverlayContainerComponent, FlexModule, NzButtonModule, NzWaveModule, NzCheckboxModule, FormsModule, ListDetailsPanelComponent, FullpageMessageComponent, AsyncPipe, TranslateModule]
 })
 export class ListPanelOverlayComponent {
 

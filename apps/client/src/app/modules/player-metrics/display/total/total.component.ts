@@ -10,7 +10,6 @@ import { NzStatisticModule } from 'ng-zorro-antd/statistic';
     templateUrl: './total.component.html',
     styleUrls: ['./total.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [NzStatisticModule, AsyncPipe, DecimalPipe]
 })
 export class TotalComponent extends AbstractMetricDisplayComponent {

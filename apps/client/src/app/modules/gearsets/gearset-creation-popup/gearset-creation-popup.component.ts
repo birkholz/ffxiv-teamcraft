@@ -22,11 +22,10 @@ import { FlexModule } from '@angular/flex-layout/flex';
 import { DialogComponent } from '../../../core/dialog.component';
 
 @Component({
-  selector: 'app-gearset-creation-popup',
-  templateUrl: './gearset-creation-popup.component.html',
-  styleUrls: ['./gearset-creation-popup.component.less'],
-  standalone: true,
-  imports: [FormsModule, FlexModule, ReactiveFormsModule, NzInputModule, NzGridModule, NzFormModule, NzSelectModule, NzButtonModule, NzWaveModule, AsyncPipe, JobUnicodePipe, I18nPipe, TranslateModule, I18nRowPipe]
+    selector: 'app-gearset-creation-popup',
+    templateUrl: './gearset-creation-popup.component.html',
+    styleUrls: ['./gearset-creation-popup.component.less'],
+    imports: [FormsModule, FlexModule, ReactiveFormsModule, NzInputModule, NzGridModule, NzFormModule, NzSelectModule, NzButtonModule, NzWaveModule, AsyncPipe, JobUnicodePipe, I18nPipe, TranslateModule, I18nRowPipe]
 })
 export class GearsetCreationPopupComponent extends DialogComponent implements OnInit {
 

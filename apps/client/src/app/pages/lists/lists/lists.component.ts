@@ -51,11 +51,10 @@ import { NgIf, NgFor, AsyncPipe } from '@angular/common';
 import { TeamcraftComponent } from '../../../core/component/teamcraft-component';
 
 @Component({
-  selector: 'app-lists',
-  templateUrl: './lists.component.html',
-  styleUrls: ['./lists.component.less'],
-  standalone: true,
-  imports: [NgIf, PageLoaderComponent, FlexModule, NzButtonModule, NzWaveModule, NzToolTipModule, NzIconModule, TutorialStepDirective, RouterLink, NzSwitchModule, FormsModule, NzAlertModule, NzInputModule, NzDividerModule, NgFor, NgForTrackByKeyDirective, ListPanelComponent, CdkDropList, CdkDrag, NzEmptyModule, NzListModule, NzTagModule, ClipboardDirective, NzPopconfirmModule, WorkshopPanelComponent, NzCollapseModule, AsyncPipe, TranslateModule, TeamcraftLinkPipe]
+    selector: 'app-lists',
+    templateUrl: './lists.component.html',
+    styleUrls: ['./lists.component.less'],
+    imports: [NgIf, PageLoaderComponent, FlexModule, NzButtonModule, NzWaveModule, NzToolTipModule, NzIconModule, TutorialStepDirective, RouterLink, NzSwitchModule, FormsModule, NzAlertModule, NzInputModule, NzDividerModule, NgFor, NgForTrackByKeyDirective, ListPanelComponent, CdkDropList, CdkDrag, NzEmptyModule, NzListModule, NzTagModule, ClipboardDirective, NzPopconfirmModule, WorkshopPanelComponent, NzCollapseModule, AsyncPipe, TranslateModule, TeamcraftLinkPipe]
 })
 export class ListsComponent extends TeamcraftComponent {
 

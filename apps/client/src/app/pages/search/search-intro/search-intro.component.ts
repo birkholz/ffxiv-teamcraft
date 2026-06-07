@@ -38,7 +38,6 @@ interface FeatureEntry {
     selector: 'app-search-intro',
     templateUrl: './search-intro.component.html',
     styleUrls: ['./search-intro.component.less'],
-    standalone: true,
     imports: [NzDividerModule, NzGridModule, NzButtonModule, NzIconModule, NzWaveModule, NzCardModule, NzListModule, PirschEventDirective, RouterLink, NzTypographyModule, AsyncPipe, DecimalPipe, TranslateModule, NzFlexDirective]
 })
 export class SearchIntroComponent {

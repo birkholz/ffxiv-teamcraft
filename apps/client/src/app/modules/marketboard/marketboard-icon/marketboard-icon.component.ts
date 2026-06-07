@@ -19,7 +19,6 @@ import { AsyncPipe } from '@angular/common';
     templateUrl: './marketboard-icon.component.html',
     styleUrls: ['./marketboard-icon.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [NzButtonModule, NzWaveModule, NzToolTipModule, NzIconModule, AsyncPipe, TranslateModule]
 })
 export class MarketboardIconComponent {

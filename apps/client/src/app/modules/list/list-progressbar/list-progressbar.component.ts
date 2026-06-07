@@ -17,7 +17,6 @@ interface ListProgression {
     templateUrl: './list-progressbar.component.html',
     styleUrls: ['./list-progressbar.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [NzProgressModule, NzToolTipModule, DecimalPipe, TranslateModule]
 })
 export class ListProgressbarComponent {

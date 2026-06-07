@@ -17,7 +17,6 @@ import { NzListModule } from 'ng-zorro-antd/list';
     templateUrl: './ventures.component.html',
     styleUrls: ['./ventures.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [NzListModule, FlexModule, NzButtonModule, NzIconModule, NzToolTipModule, I18nPipe, TranslateModule, I18nRowPipe, CeilPipe]
 })
 export class VenturesComponent extends ItemDetailsPopup<LazyRetainerTask[]> implements OnInit {

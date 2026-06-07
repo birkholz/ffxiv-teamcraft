@@ -31,7 +31,6 @@ import { FlexModule } from '@angular/flex-layout/flex';
     templateUrl: './commission-board.component.html',
     styleUrls: ['./commission-board.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [FlexModule, NzToolTipModule, NzButtonModule, NzIconModule, PageLoaderComponent, NzInputModule, NzSelectModule, FormsModule, NzCheckboxModule, NzInputNumberModule, NzGridModule, CommissionPanelComponent, FullpageMessageComponent, AsyncPipe, TranslateModule]
 })
 export class CommissionBoardComponent {

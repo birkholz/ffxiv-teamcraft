@@ -36,7 +36,6 @@ import { NzCollapseModule } from 'ng-zorro-antd/collapse';
     templateUrl: './commission-panel.component.html',
     styleUrls: ['./commission-panel.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [NzCollapseModule, FlexModule, NzGridModule, UserAvatarComponent, NzBadgeModule, NzTagModule, NzToolTipModule, ItemIconComponent, NzButtonModule, NzWaveModule, ClipboardDirective, NzIconModule, RouterLink, NzDropDownModule, NzMenuModule, NzPopconfirmModule, LazyScrollComponent, AsyncPipe, DecimalPipe, DatePipe, TranslateModule, ItemNamePipe, TeamcraftLinkPipe, I18nPipe]
 })
 export class CommissionPanelComponent implements OnInit {

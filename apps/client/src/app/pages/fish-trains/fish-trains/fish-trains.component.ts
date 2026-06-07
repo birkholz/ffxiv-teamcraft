@@ -31,7 +31,6 @@ import { NzPageHeaderModule } from 'ng-zorro-antd/page-header';
     selector: 'app-fish-trains',
     templateUrl: './fish-trains.component.html',
     styleUrls: ['./fish-trains.component.less'],
-    standalone: true,
     imports: [NzPageHeaderModule, NzButtonModule, FormsModule, ReactiveFormsModule, NzInputModule, NzSelectModule, NzSegmentedModule, LazyScrollComponent, FullpageMessageComponent, NzDividerModule, NzGridModule, RouterLink, UserAvatarComponent, NzAvatarModule, NzToolTipModule, NzTagModule, AsyncPipe, LowerCasePipe, DatePipe, TranslateModule]
 })
 export class FishTrainsComponent extends TeamcraftComponent {

@@ -13,11 +13,10 @@ import { DialogComponent } from '../../../core/dialog.component';
 import { SettingsService } from '../../settings/settings.service';
 
 @Component({
-  selector: 'app-name-question-popup',
-  templateUrl: './name-question-popup.component.html',
-  styleUrls: ['./name-question-popup.component.less'],
-  standalone: true,
-  imports: [FormsModule, FlexModule, ReactiveFormsModule, NzInputModule, NzCheckboxModule, NzToolTipModule, NzButtonModule, NzWaveModule, TranslateModule]
+    selector: 'app-name-question-popup',
+    templateUrl: './name-question-popup.component.html',
+    styleUrls: ['./name-question-popup.component.less'],
+    imports: [FormsModule, FlexModule, ReactiveFormsModule, NzInputModule, NzCheckboxModule, NzToolTipModule, NzButtonModule, NzWaveModule, TranslateModule]
 })
 export class NameQuestionPopupComponent extends DialogComponent implements OnInit {
 

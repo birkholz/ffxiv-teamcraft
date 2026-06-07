@@ -19,7 +19,6 @@ import { FlexModule } from '@angular/flex-layout/flex';
     templateUrl: './layout-editor-page.component.html',
     styleUrls: ['./layout-editor-page.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [FlexModule, LayoutEditorComponent, NzSelectModule, FormsModule, NzCollapseModule, NzTagModule, ItemIconComponent, I18nNameComponent, FullpageMessageComponent, AsyncPipe, TranslateModule]
 })
 export class LayoutEditorPageComponent {

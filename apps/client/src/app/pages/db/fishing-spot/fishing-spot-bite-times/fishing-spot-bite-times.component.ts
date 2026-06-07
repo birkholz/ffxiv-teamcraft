@@ -49,7 +49,6 @@ interface FishingSpotChartData {
     templateUrl: './fishing-spot-bite-times.component.html',
     styleUrls: ['./fishing-spot-bite-times.component.less', '../../common-db.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [NzCardModule, NzSelectModule, FormsModule, FlexModule, ChartComponent, NzEmptyModule, AsyncPipe, I18nPipe, TranslateModule, ItemNamePipe, LazyIconPipe, TugNamePipe]
 })
 export class FishingSpotBiteTimesComponent implements OnInit, OnDestroy {

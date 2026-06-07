@@ -28,7 +28,6 @@ import { FlexModule } from '@angular/flex-layout/flex';
     templateUrl: './voyage-tracker.component.html',
     styleUrls: ['./voyage-tracker.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [FlexModule, NzButtonModule, NzWaveModule, NzSwitchModule, FormsModule, PageLoaderComponent, NzCollapseModule, NzGridModule, NzToolTipModule, NzPopconfirmModule, NzIconModule, VesselListComponent, FullpageMessageComponent, AsyncPipe, KeyValuePipe, TranslateModule]
 })
 export class VoyageTrackerComponent extends TeamcraftComponent {

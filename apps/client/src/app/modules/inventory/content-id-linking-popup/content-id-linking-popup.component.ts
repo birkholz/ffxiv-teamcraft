@@ -20,7 +20,6 @@ import { DialogComponent } from '../../../core/dialog.component';
     templateUrl: './content-id-linking-popup.component.html',
     styleUrls: ['./content-id-linking-popup.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [FlexModule, NzToolTipModule, NzPopconfirmModule, NzAvatarModule, NzTagModule, NzButtonModule, NzWaveModule, NzIconModule, NzDividerModule, AsyncPipe, TranslateModule]
 })
 export class ContentIdLinkingPopupComponent extends DialogComponent{

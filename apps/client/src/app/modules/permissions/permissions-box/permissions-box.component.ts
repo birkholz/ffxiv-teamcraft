@@ -29,12 +29,11 @@ import { AsyncPipe, UpperCasePipe } from '@angular/common';
 import { DialogComponent } from '../../../core/dialog.component';
 
 @Component({
-  selector: 'app-permissions-box',
-  templateUrl: './permissions-box.component.html',
-  styleUrls: ['./permissions-box.component.less'],
-  changeDetection: ChangeDetectionStrategy.OnPush,
-  standalone: true,
-  imports: [NzListModule, NzAvatarModule, NzSelectModule, FormsModule, NzButtonModule, NzWaveModule, NzIconModule, FlexModule, PageLoaderComponent, AsyncPipe, UpperCasePipe, TranslateModule, IfMobilePipe]
+    selector: 'app-permissions-box',
+    templateUrl: './permissions-box.component.html',
+    styleUrls: ['./permissions-box.component.less'],
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    imports: [NzListModule, NzAvatarModule, NzSelectModule, FormsModule, NzButtonModule, NzWaveModule, NzIconModule, FlexModule, PageLoaderComponent, AsyncPipe, UpperCasePipe, TranslateModule, IfMobilePipe]
 })
 export class PermissionsBoxComponent extends DialogComponent implements OnInit {
 

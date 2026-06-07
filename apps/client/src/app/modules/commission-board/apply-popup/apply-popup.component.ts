@@ -16,7 +16,6 @@ import { DialogComponent } from '../../../core/dialog.component';
     templateUrl: './apply-popup.component.html',
     styleUrls: ['./apply-popup.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [FormsModule, NzFormModule, ReactiveFormsModule, NzGridModule, NzInputModule, FlexModule, NzButtonModule, NzWaveModule, TranslateModule]
 })
 export class ApplyPopupComponent extends DialogComponent implements OnInit {

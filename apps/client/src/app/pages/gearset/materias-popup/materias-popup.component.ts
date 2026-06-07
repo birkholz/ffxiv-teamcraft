@@ -36,12 +36,11 @@ interface MateriaMenuEntry {
 }
 
 @Component({
-  selector: 'app-materias-popup',
-  templateUrl: './materias-popup.component.html',
-  styleUrls: ['./materias-popup.component.less'],
-  changeDetection: ChangeDetectionStrategy.Default,
-  standalone: true,
-  imports: [FlexModule, ItemCapsTableComponent, NzDividerModule, ItemIconComponent, NzButtonModule, NzIconModule, I18nNameComponent, NzWaveModule, NzDropDownModule, NzSelectModule, FormsModule, NzMenuModule, AsyncPipe, TranslateModule, I18nPipe, I18nRowPipe, ItemNamePipe, IfMobilePipe]
+    selector: 'app-materias-popup',
+    templateUrl: './materias-popup.component.html',
+    styleUrls: ['./materias-popup.component.less'],
+    changeDetection: ChangeDetectionStrategy.Default,
+    imports: [FlexModule, ItemCapsTableComponent, NzDividerModule, ItemIconComponent, NzButtonModule, NzIconModule, I18nNameComponent, NzWaveModule, NzDropDownModule, NzSelectModule, FormsModule, NzMenuModule, AsyncPipe, TranslateModule, I18nPipe, I18nRowPipe, ItemNamePipe, IfMobilePipe]
 })
 export class MateriasPopupComponent extends DialogComponent {
 

@@ -53,7 +53,6 @@ import { AsyncPipe, JsonPipe } from '@angular/common';
     selector: 'app-fishing-log-tracker',
     templateUrl: './fishing-log-tracker.component.html',
     styleUrls: ['./fishing-log-tracker.component.less'],
-    standalone: true,
     imports: [NzTabsModule, FlexModule, NzButtonModule, NzWaveModule, ClipboardDirective, NzSwitchModule, FormsModule, NzMenuModule, DbButtonComponent, MapComponent, NzPopconfirmModule, NzIconModule, NzGridModule, ItemIconComponent, ItemRarityDirective, NzToolTipModule, NzDropDownModule, FishingBaitComponent, NzTagModule, SpearfishingSpeedComponent, NzDividerModule, FullpageMessageComponent, AsyncPipe, JsonPipe, I18nPipe, TranslateModule, TimerPipe, I18nRowPipe, ItemNamePipe, ActionIconPipe, ActionNamePipe, IfMobilePipe, NodeTypeIconPipe, XivapiIconPipe, WeatherIconPipe, TugNamePipe, HooksetActionIdPipe, LazyRowPipe, AlarmDisplayPipe]
 })
 export class FishingLogTrackerComponent extends TrackerComponent {

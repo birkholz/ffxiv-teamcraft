@@ -18,7 +18,6 @@ import { AsyncPipe } from '@angular/common';
     selector: 'app-user-avatar',
     templateUrl: './user-avatar.component.html',
     styleUrls: ['./user-avatar.component.less'],
-    standalone: true,
     imports: [NzBadgeModule, RouterLink, NzToolTipModule, NzAvatarModule, NzButtonModule, NzIconModule, AsyncPipe, TranslateModule]
 })
 export class UserAvatarComponent implements OnInit {

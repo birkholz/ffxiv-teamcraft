@@ -36,13 +36,12 @@ import { ListRow } from '../../modules/list/model/list-row';
 import { StepByStepRowComponent } from '../../modules/list/step-by-step-row/step-by-step-row.component';
 
 @Component({
-  selector: 'app-step-by-step-list-overlay',
-  standalone: true,
-  imports: [CommonModule, OverlayContainerModule, MapModule, PipesModule, CoreModule, FullpageMessageModule,
-    NzListModule, ItemIconModule, ListModule,
-    NzDividerModule, NzBreadCrumbModule, NzEmptyModule, NzGridModule, PageLoaderComponent, StepByStepRowComponent],
-  templateUrl: './step-by-step-list-overlay.component.html',
-  styleUrls: ['./step-by-step-list-overlay.component.less']
+    selector: 'app-step-by-step-list-overlay',
+    imports: [CommonModule, OverlayContainerModule, MapModule, PipesModule, CoreModule, FullpageMessageModule,
+        NzListModule, ItemIconModule, ListModule,
+        NzDividerModule, NzBreadCrumbModule, NzEmptyModule, NzGridModule, PageLoaderComponent, StepByStepRowComponent],
+    templateUrl: './step-by-step-list-overlay.component.html',
+    styleUrls: ['./step-by-step-list-overlay.component.less']
 })
 export class StepByStepListOverlayComponent extends StepByStepComponent implements OnInit {
 

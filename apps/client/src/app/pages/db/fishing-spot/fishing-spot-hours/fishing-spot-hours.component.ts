@@ -21,7 +21,6 @@ interface FishingSpotChartData {
     templateUrl: './fishing-spot-hours.component.html',
     styleUrls: ['./fishing-spot-hours.component.less', '../../common-db.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [NzCardModule, NgxEchartsModule, AsyncPipe, TranslateModule]
 })
 export class FishingSpotHoursComponent implements OnInit, OnDestroy {

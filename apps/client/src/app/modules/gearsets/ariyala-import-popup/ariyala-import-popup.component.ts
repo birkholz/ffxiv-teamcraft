@@ -15,7 +15,6 @@ import { NzGridModule } from 'ng-zorro-antd/grid';
     selector: 'app-ariyala-import-popup',
     templateUrl: './ariyala-import-popup.component.html',
     styleUrls: ['./ariyala-import-popup.component.less'],
-    standalone: true,
     imports: [NzGridModule, NzFormModule, NzInputModule, FormsModule, NzButtonModule, NzWaveModule, TranslateModule]
 })
 export class AriyalaImportPopupComponent {

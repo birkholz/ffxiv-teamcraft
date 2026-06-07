@@ -2,7 +2,8 @@ import { Component, OnDestroy } from '@angular/core';
 import { Subject } from 'rxjs';
 
 @Component({
-  template: ''
+    template: '',
+    standalone: false
 })
 export abstract class TeamcraftComponent implements OnDestroy {
   protected onDestroy$: Subject<void> = new Subject<void>();

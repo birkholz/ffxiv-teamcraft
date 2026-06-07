@@ -33,7 +33,6 @@ import { PageLoaderComponent } from '../../../modules/page-loader/page-loader/pa
     templateUrl: './alarm-group.component.html',
     styleUrls: ['./alarm-group.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [PageLoaderComponent, FullpageMessageComponent, NzCardModule, FlexModule, NzAvatarModule, NzButtonModule, NzWaveModule, NzToolTipModule, NzIconModule, NzGridModule, ItemIconComponent, I18nNameComponent, AlarmButtonComponent, AsyncPipe, TranslateModule, I18nPipe, I18nRowPipe, CharacterNamePipe, LazyIconPipe, CharacterAvatarPipe, MapNamePipe]
 })
 export class AlarmGroupComponent {

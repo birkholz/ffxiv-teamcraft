@@ -18,7 +18,6 @@ import { NzCardModule } from 'ng-zorro-antd/card';
     templateUrl: './fish-weathers.component.html',
     styleUrls: ['./fish-weathers.component.less', '../../common-db.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [NzCardModule, NgxEchartsModule, AsyncPipe, TranslateModule]
 })
 export class FishWeathersComponent {

@@ -12,7 +12,6 @@ import { FlexModule } from '@angular/flex-layout/flex';
     templateUrl: './vessel-list.component.html',
     styleUrls: ['./vessel-list.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [FlexModule, NgTemplateOutlet, VesselRowComponent, TranslateModule]
 })
 export class VesselListComponent {

@@ -42,7 +42,6 @@ import { FlexModule } from '@angular/flex-layout/flex';
     selector: 'app-desynth',
     templateUrl: './desynth.component.html',
     styleUrls: ['./desynth.component.less'],
-    standalone: true,
     imports: [FlexModule, FormsModule, NzFormModule, NzGridModule, NzSelectModule, TutorialStepDirective, NzInputModule, NzButtonModule, NzWaveModule, NzIconModule, ItemIconComponent, MarketboardIconComponent, DbButtonComponent, NzTagModule, NzToolTipModule, NzPaginationModule, FullpageMessageComponent, PageLoaderComponent, AsyncPipe, TranslateModule, ItemNamePipe, XivapiIconPipe, JobUnicodePipe, LazyRowPipe, I18nPipe]
 })
 export class DesynthComponent {

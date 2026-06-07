@@ -5,16 +5,33 @@
   "projectType": "application",
   "targets": {
     "build": {
-      "executor": "@nrwl/webpack:webpack",
+      "executor": "@nx/esbuild:esbuild",
       "outputs": ["{options.outputPath}"],
       "options": {
-        "target": "node",
-        "compiler": "tsc",
         "outputPath": "dist/apps/electron",
         "main": "apps/electron/src/main.ts",
         "tsConfig": "apps/electron/tsconfig.app.json",
-        "assets": ["apps/electron/src/loader.html"],
-        "webpackConfig": "apps/electron/webpack.config.js"
+        "platform": "node",
+        "format": ["cjs"],
+        "target": "node20",
+        "bundle": true,
+        "thirdParty": false,
+        "sourcemap": false,
+        "minify": false,
+        "esbuildOptions": {
+          "outExtension": { ".js": ".js" },
+          "packages": "external"
+        },
+        "assets": [
+          {
+            "input": "apps/electron/src",
+            "glob": "loader.html",
+            "output": "."
+          }
+        ],
+        "additionalEntryPoints": [
+          "apps/electron/src/workers/lodestone.ts"
+        ]
       }
     },
     "serve": {

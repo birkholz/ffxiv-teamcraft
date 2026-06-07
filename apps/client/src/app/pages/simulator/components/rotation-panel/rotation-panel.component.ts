@@ -50,7 +50,6 @@ import { AsyncPipe, DecimalPipe } from '@angular/common';
     templateUrl: './rotation-panel.component.html',
     styleUrls: ['./rotation-panel.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [NzCollapseModule, FlexModule, UserAvatarComponent, NzTagModule, NzButtonModule, NzIconModule, NzToolTipModule, RotationResultTagComponent, NzWaveModule, ClipboardDirective, RouterLink, NzPopconfirmModule, NzDropDownModule, NzMenuModule, ActionComponent, AsyncPipe, DecimalPipe, TranslateModule]
 })
 export class RotationPanelComponent implements OnInit {

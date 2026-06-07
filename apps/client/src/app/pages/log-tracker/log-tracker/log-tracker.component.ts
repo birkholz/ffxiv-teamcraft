@@ -51,7 +51,6 @@ import { LogTrackerImportPopupComponent } from '../log-tracker-import-popup/log-
     selector: 'app-log-tracker',
     templateUrl: './log-tracker.component.html',
     styleUrls: ['./log-tracker.component.less'],
-    standalone: true,
     imports: [NgIf, NzAlertModule, NzTabsModule, FlexModule, NzSwitchModule, FormsModule, NgFor, I18nNameComponent, NzToolTipModule, NzSpinModule, NzButtonModule, NzWaveModule, NzPopconfirmModule, NzIconModule, NzCheckboxModule, ItemIconComponent, ItemRarityDirective, NzGridModule, MapPositionComponent, NzDropDownModule, NzMenuModule, NzDividerModule, FishingLogTrackerComponent, AsyncPipe, I18nPipe, TranslateModule, TimerPipe, I18nRowPipe, IfMobilePipe, NodeTypeIconPipe, IngameStarsPipe, LazyIconPipe, JobUnicodePipe, AlarmDisplayPipe]
 })
 export class LogTrackerComponent extends TrackerComponent {

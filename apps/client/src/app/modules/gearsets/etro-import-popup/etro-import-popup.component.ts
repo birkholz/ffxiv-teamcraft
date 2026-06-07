@@ -16,7 +16,6 @@ import { NzGridModule } from 'ng-zorro-antd/grid';
     templateUrl: './etro-import-popup.component.html',
     styleUrls: ['./etro-import-popup.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [NzGridModule, NzFormModule, NzInputModule, FormsModule, NzButtonModule, NzWaveModule, TranslateModule]
 })
 export class EtroImportPopupComponent {

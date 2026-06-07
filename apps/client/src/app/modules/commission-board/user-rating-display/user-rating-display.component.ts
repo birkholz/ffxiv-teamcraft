@@ -20,7 +20,6 @@ import { AsyncPipe } from '@angular/common';
     templateUrl: './user-rating-display.component.html',
     styleUrls: ['./user-rating-display.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [FlexModule, NzRateModule, FormsModule, NzToolTipModule, NzButtonModule, NzIconModule, NzWaveModule, AsyncPipe, TranslateModule]
 })
 export class UserRatingDisplayComponent implements OnInit {

@@ -24,7 +24,6 @@ import { NzCardModule } from 'ng-zorro-antd/card';
     templateUrl: './metric-display.component.html',
     styleUrls: ['./metric-display.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [NzCardModule, TranslateModule]
 })
 export class MetricDisplayComponent extends AbstractMetricDisplayComponent implements AfterViewInit, OnDestroy {

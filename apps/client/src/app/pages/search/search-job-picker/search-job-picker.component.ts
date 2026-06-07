@@ -20,7 +20,6 @@ import { FlexModule } from '@angular/flex-layout/flex';
             multi: true
         }
     ],
-    standalone: true,
     imports: [FlexModule, NgTemplateOutlet, AsyncPipe, TranslateModule, JobUnicodePipe]
 })
 export class SearchJobPickerComponent implements ControlValueAccessor {

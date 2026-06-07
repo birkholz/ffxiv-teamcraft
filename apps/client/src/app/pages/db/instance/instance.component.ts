@@ -35,7 +35,6 @@ import { AsyncPipe, DecimalPipe } from '@angular/common';
     selector: 'app-instance',
     templateUrl: './instance.component.html',
     styleUrls: ['./instance.component.less'],
-    standalone: true,
     imports: [FlexModule, DbButtonComponent, NzToolTipModule, I18nDisplayComponent, DbCommentsComponent, NzDividerModule, NzCardModule, MapComponent, ItemIconComponent, ItemRarityDirective, PageLoaderComponent, AsyncPipe, DecimalPipe, I18nPipe, TranslateModule, I18nRowPipe, ItemNamePipe, IfMobilePipe, XivapiIconPipe, XivapiL12nPipe, LazyIconPipe]
 })
 export class InstanceComponent extends TeamcraftPageComponent {

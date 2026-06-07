@@ -17,7 +17,6 @@ import { AsyncPipe } from '@angular/common';
     selector: 'app-team-invite',
     templateUrl: './team-invite.component.html',
     styleUrls: ['./team-invite.component.less'],
-    standalone: true,
     imports: [PageLoaderComponent, FullpageMessageComponent, AsyncPipe, TranslateModule]
 })
 export class TeamInviteComponent implements OnInit {

@@ -20,7 +20,6 @@ import { AsyncPipe, DatePipe } from '@angular/common';
     templateUrl: './crafting-replay.component.html',
     styleUrls: ['./crafting-replay.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [FullpageMessageComponent, FlexModule, UserAvatarComponent, ReplaySimulationComponent, PageLoaderComponent, AsyncPipe, DatePipe, TranslateModule, CharacterNamePipe]
 })
 export class CraftingReplayComponent extends TeamcraftComponent {

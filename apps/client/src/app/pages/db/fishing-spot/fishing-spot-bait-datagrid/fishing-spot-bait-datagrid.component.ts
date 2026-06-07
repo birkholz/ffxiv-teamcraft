@@ -31,14 +31,13 @@ type Lure = {
 };
 
 @Component({
-  selector: 'app-fishing-spot-bait-datagrid',
-  templateUrl: './fishing-spot-bait-datagrid.component.html',
-  styleUrls: [
-    './fishing-spot-bait-datagrid.component.less'
-  ],
-  changeDetection: ChangeDetectionStrategy.OnPush,
-  standalone: true,
-  imports: [NzCardModule, FlexModule, NzSwitchModule, FormsModule, ItemIconComponent, NzButtonModule, NzWaveModule, NzToolTipModule, NzPopconfirmModule, NzIconModule, FishingSpotDatagridComponent, AsyncPipe, TranslateModule, NzSelectComponent, NzOptionComponent, I18nRowPipe, I18nPipe]
+    selector: 'app-fishing-spot-bait-datagrid',
+    templateUrl: './fishing-spot-bait-datagrid.component.html',
+    styleUrls: [
+        './fishing-spot-bait-datagrid.component.less'
+    ],
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    imports: [NzCardModule, FlexModule, NzSwitchModule, FormsModule, ItemIconComponent, NzButtonModule, NzWaveModule, NzToolTipModule, NzPopconfirmModule, NzIconModule, FishingSpotDatagridComponent, AsyncPipe, TranslateModule, NzSelectComponent, NzOptionComponent, I18nRowPipe, I18nPipe]
 })
 export class FishingSpotBaitDatagridComponent {
   @Input()

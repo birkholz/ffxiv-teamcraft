@@ -24,7 +24,6 @@ import { FlexModule } from '@angular/flex-layout/flex';
     templateUrl: './treasure-finder.component.html',
     styleUrls: ['./treasure-finder.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [FlexModule, NzButtonModule, NzWaveModule, MapComponent, NzGridModule, NzFormModule, NzSelectModule, FormsModule, AsyncPipe, I18nPipe, TranslateModule, I18nRowPipe, ItemNamePipe]
 })
 export class TreasureFinderComponent {

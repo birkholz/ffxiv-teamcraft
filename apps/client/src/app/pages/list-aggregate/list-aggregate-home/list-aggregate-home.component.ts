@@ -21,7 +21,6 @@ import { NzPageHeaderModule } from 'ng-zorro-antd/page-header';
     templateUrl: './list-aggregate-home.component.html',
     styleUrls: ['./list-aggregate-home.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [NzPageHeaderModule, NzTableModule, NzInputModule, NzButtonModule, NzSelectModule, FormsModule, NzWaveModule, RouterLink, AsyncPipe, TranslateModule]
 })
 export class ListAggregateHomeComponent {

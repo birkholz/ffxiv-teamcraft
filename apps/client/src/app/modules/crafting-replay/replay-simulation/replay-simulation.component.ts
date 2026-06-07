@@ -18,15 +18,14 @@ import { AsyncPipe } from '@angular/common';
 import { DialogComponent } from '../../../core/dialog.component';
 
 @Component({
-  selector: 'app-replay-simulation',
-  templateUrl: './replay-simulation.component.html',
-  styleUrls: [
-    '../../../pages/simulator/components/simulator/simulator.component.less',
-    './replay-simulation.component.less'
-  ],
-  changeDetection: ChangeDetectionStrategy.OnPush,
-  standalone: true,
-  imports: [FlexModule, SimulationResultComponent, NzCardModule, ActionComponent, NzButtonModule, NzWaveModule, AsyncPipe, TranslateModule]
+    selector: 'app-replay-simulation',
+    templateUrl: './replay-simulation.component.html',
+    styleUrls: [
+        '../../../pages/simulator/components/simulator/simulator.component.less',
+        './replay-simulation.component.less'
+    ],
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    imports: [FlexModule, SimulationResultComponent, NzCardModule, ActionComponent, NzButtonModule, NzWaveModule, AsyncPipe, TranslateModule]
 })
 export class ReplaySimulationComponent extends DialogComponent {
 

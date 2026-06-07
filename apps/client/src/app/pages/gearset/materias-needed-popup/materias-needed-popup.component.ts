@@ -29,7 +29,6 @@ import { DialogComponent } from '../../../core/dialog.component';
     selector: 'app-materias-needed-popup',
     templateUrl: './materias-needed-popup.component.html',
     styleUrls: ['./materias-needed-popup.component.less'],
-    standalone: true,
     imports: [FlexModule, NzButtonModule, NzInputModule, NzIconModule, NzToolTipModule, NzInputNumberModule, FormsModule, NzCheckboxModule, NzTableModule, ItemIconComponent, ItemNameClipboardDirective, I18nNameComponent, PageLoaderComponent, AsyncPipe, DecimalPipe, TranslateModule, I18nPipe, I18nRowPipe]
 })
 export class MateriasNeededPopupComponent extends DialogComponent {

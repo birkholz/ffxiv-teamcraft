@@ -18,12 +18,11 @@ import { FlexModule } from '@angular/flex-layout/flex';
 import { DialogComponent } from '../../../core/dialog.component';
 
 @Component({
-  selector: 'app-inventory-cleanup-popup',
-  templateUrl: './inventory-cleanup-popup.component.html',
-  styleUrls: ['./inventory-cleanup-popup.component.less'],
-  changeDetection: ChangeDetectionStrategy.OnPush,
-  standalone: true,
-  imports: [FlexModule, NzCardModule, ItemIconComponent, I18nNameComponent, NzButtonModule, NzIconModule, NzToolTipModule, InventoryPositionComponent, AsyncPipe, TranslateModule]
+    selector: 'app-inventory-cleanup-popup',
+    templateUrl: './inventory-cleanup-popup.component.html',
+    styleUrls: ['./inventory-cleanup-popup.component.less'],
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    imports: [FlexModule, NzCardModule, ItemIconComponent, I18nNameComponent, NzButtonModule, NzIconModule, NzToolTipModule, InventoryPositionComponent, AsyncPipe, TranslateModule]
 })
 export class InventoryCleanupPopupComponent extends DialogComponent implements OnInit {
 

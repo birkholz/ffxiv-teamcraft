@@ -22,7 +22,6 @@ import { NzMenuModule } from 'ng-zorro-antd/menu';
     templateUrl: './navigation-sidebar.component.html',
     styleUrls: ['./navigation-sidebar.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [NzMenuModule, NzIconModule, NzButtonModule, NzBadgeModule, NgTemplateOutlet, RouterLinkActive, RouterLink, NzDropDownModule, NzToolTipModule, AsyncPipe, TranslateModule]
 })
 export class NavigationSidebarComponent {

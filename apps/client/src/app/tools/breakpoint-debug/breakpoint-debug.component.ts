@@ -2,11 +2,10 @@ import { Component } from '@angular/core';
 
 
 @Component({
-  selector: 'app-breakpoint-debug',
-  standalone: true,
-  imports: [],
-  templateUrl: './breakpoint-debug.component.html',
-  styleUrls: ['./breakpoint-debug.component.less']
+    selector: 'app-breakpoint-debug',
+    imports: [],
+    templateUrl: './breakpoint-debug.component.html',
+    styleUrls: ['./breakpoint-debug.component.less']
 })
 export class BreakpointDebugComponent {
 

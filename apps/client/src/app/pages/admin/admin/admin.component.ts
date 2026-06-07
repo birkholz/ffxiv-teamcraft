@@ -8,7 +8,6 @@ import { NzTabsModule } from 'ng-zorro-antd/tabs';
     selector: 'app-admin',
     templateUrl: './admin.component.html',
     styleUrls: ['./admin.component.less'],
-    standalone: true,
     imports: [NzTabsModule, RouterLink, UsersComponent, TranslateModule]
 })
 export class AdminComponent {

@@ -10,7 +10,6 @@ import { FlexModule } from '@angular/flex-layout/flex';
     templateUrl: './tutorial-popup.component.html',
     styleUrls: ['./tutorial-popup.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [FlexModule, NzButtonModule, NzWaveModule, TranslateModule]
 })
 export class TutorialPopupComponent {

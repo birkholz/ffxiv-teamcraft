@@ -42,7 +42,6 @@ import { NzButtonModule } from 'ng-zorro-antd/button';
     templateUrl: './list-pricing.component.html',
     styleUrls: ['./list-pricing.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [RouterLink, NzButtonModule, NzIconModule, NzToolTipModule, NgIf, FlexModule, NzCardModule, ItemIconComponent, NzWaveModule, ClipboardDirective, NzCheckboxModule, FormsModule, NzCollapseModule, NgFor, ListPricingRowComponent, NzInputModule, NzAlertModule, AsyncPipe, DecimalPipe, TranslateModule]
 })
 export class ListPricingComponent extends TeamcraftComponent {

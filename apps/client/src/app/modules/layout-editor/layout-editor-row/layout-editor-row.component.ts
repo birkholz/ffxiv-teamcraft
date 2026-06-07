@@ -26,7 +26,6 @@ import { uniq } from 'lodash';
     templateUrl: './layout-editor-row.component.html',
     styleUrls: ['./layout-editor-row.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [NzCardModule, FlexModule, NzCheckboxModule, FormsModule, NzSelectModule, NzButtonModule, NzWaveModule, NzIconModule, NzRadioModule, NzInputModule, NzAutocompleteModule, AsyncPipe, TranslateModule, IfMobilePipe]
 })
 export class LayoutEditorRowComponent implements OnInit {

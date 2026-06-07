@@ -17,7 +17,6 @@ import { NzFormModule } from 'ng-zorro-antd/form';
     selector: 'app-register-popup',
     templateUrl: './register-popup.component.html',
     styleUrls: ['./register-popup.component.less'],
-    standalone: true,
     imports: [FormsModule, NzFormModule, ReactiveFormsModule, NzGridModule, NzInputModule, NzButtonModule, NzWaveModule, NzAlertModule, NzDividerModule, TranslateModule]
 })
 export class RegisterPopupComponent {

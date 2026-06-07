@@ -13,7 +13,6 @@ import { AsyncPipe } from '@angular/common';
     selector: 'app-reset-timers',
     templateUrl: './reset-timers.component.html',
     styleUrls: ['./reset-timers.component.less'],
-    standalone: true,
     imports: [NzListModule, NzSwitchModule, TutorialStepDirective, FormsModule, AsyncPipe, TranslateModule, TimerPipe]
 })
 export class ResetTimersComponent {

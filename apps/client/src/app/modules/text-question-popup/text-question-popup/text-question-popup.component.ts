@@ -8,11 +8,10 @@ import { NzInputModule } from 'ng-zorro-antd/input';
 import { DialogComponent } from '../../../core/dialog.component';
 
 @Component({
-  selector: 'app-text-question-popup',
-  templateUrl: './text-question-popup.component.html',
-  styleUrls: ['./text-question-popup.component.less'],
-  standalone: true,
-  imports: [FormsModule, NzInputModule, ReactiveFormsModule, NzButtonModule, NzWaveModule, TranslateModule]
+    selector: 'app-text-question-popup',
+    templateUrl: './text-question-popup.component.html',
+    styleUrls: ['./text-question-popup.component.less'],
+    imports: [FormsModule, NzInputModule, ReactiveFormsModule, NzButtonModule, NzWaveModule, TranslateModule]
 })
 export class TextQuestionPopupComponent extends DialogComponent implements OnInit {
 

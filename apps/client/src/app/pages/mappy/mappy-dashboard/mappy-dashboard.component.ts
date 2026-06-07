@@ -29,11 +29,10 @@ import { NzEmptyComponent } from 'ng-zorro-antd/empty';
 import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 
 @Component({
-  selector: 'app-mappy-dashboard',
-  templateUrl: './mappy-dashboard.component.html',
-  styleUrls: ['./mappy-dashboard.component.less'],
-  standalone: true,
-  imports: [NzDividerModule, FlexModule, NzButtonModule, NzWaveModule, NzIconModule, NzSwitchModule, FormsModule, NgIf, NgFor, NzCardModule, NzTagModule, RouterLink, AsyncPipe, DatePipe, MapNamePipe, I18nPipe, TranslateModule, NzPageHeaderTitleDirective, NzPageHeaderComponent, NzPageHeaderExtraDirective, NzCheckboxComponent, MapComponent, NzRadioGroupComponent, NzRadioComponent, NzEmptyComponent]
+    selector: 'app-mappy-dashboard',
+    templateUrl: './mappy-dashboard.component.html',
+    styleUrls: ['./mappy-dashboard.component.less'],
+    imports: [NzDividerModule, FlexModule, NzButtonModule, NzWaveModule, NzIconModule, NzSwitchModule, FormsModule, NgIf, NgFor, NzCardModule, NzTagModule, RouterLink, AsyncPipe, DatePipe, MapNamePipe, I18nPipe, TranslateModule, NzPageHeaderTitleDirective, NzPageHeaderComponent, NzPageHeaderExtraDirective, NzCheckboxComponent, MapComponent, NzRadioGroupComponent, NzRadioComponent, NzEmptyComponent]
 })
 export class MappyDashboardComponent {
 

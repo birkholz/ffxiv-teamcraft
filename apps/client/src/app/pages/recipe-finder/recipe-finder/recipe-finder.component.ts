@@ -61,11 +61,10 @@ import { IpcService } from '../../../core/electron/ipc.service';
 import { uniqBy } from 'lodash';
 
 @Component({
-  selector: 'app-recipe-finder',
-  templateUrl: './recipe-finder.component.html',
-  styleUrls: ['./recipe-finder.component.less'],
-  standalone: true,
-  imports: [FlexModule, NgIf, NzAlertModule, NzInputModule, NzAutocompleteModule, FormsModule, NgFor, NzButtonModule, NzWaveModule, NzIconModule, NzInputNumberModule, MouseWheelDirective, NzCheckboxModule, NzCollapseModule, NzToolTipModule, ClipboardDirective, NzPopconfirmModule, ItemIconComponent, I18nNameComponent, NzDividerModule, NzPaginationModule, NzListModule, MarketboardIconComponent, NzTagModule, NzEmptyModule, DbButtonComponent, RouterLink, AsyncPipe, TranslateModule, ItemNamePipe, IfMobilePipe, IngameStarsPipe, LazyIconPipe, I18nPipe, I18nRowPipe]
+    selector: 'app-recipe-finder',
+    templateUrl: './recipe-finder.component.html',
+    styleUrls: ['./recipe-finder.component.less'],
+    imports: [FlexModule, NgIf, NzAlertModule, NzInputModule, NzAutocompleteModule, FormsModule, NgFor, NzButtonModule, NzWaveModule, NzIconModule, NzInputNumberModule, MouseWheelDirective, NzCheckboxModule, NzCollapseModule, NzToolTipModule, ClipboardDirective, NzPopconfirmModule, ItemIconComponent, I18nNameComponent, NzDividerModule, NzPaginationModule, NzListModule, MarketboardIconComponent, NzTagModule, NzEmptyModule, DbButtonComponent, RouterLink, AsyncPipe, TranslateModule, ItemNamePipe, IfMobilePipe, IngameStarsPipe, LazyIconPipe, I18nPipe, I18nRowPipe]
 })
 export class RecipeFinderComponent implements OnDestroy {
 

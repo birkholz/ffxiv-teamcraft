@@ -8,7 +8,6 @@ import { NzIconModule } from 'ng-zorro-antd/icon';
     templateUrl: './spearfishing-speed.component.html',
     styleUrls: ['./spearfishing-speed.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [NzIconModule, NzPopoverModule]
 })
 export class SpearfishingSpeedComponent {

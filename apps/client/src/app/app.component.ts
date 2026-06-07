@@ -68,10 +68,11 @@ import { InventoryCaptureStatus } from './modules/inventory/inventory-capture-st
 import { PushNotificationsService } from './core/push-notifications.service';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.less'],
-  changeDetection: ChangeDetectionStrategy.OnPush,
+    selector: 'app-root',
+    templateUrl: './app.component.html',
+    styleUrls: ['./app.component.less'],
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    standalone: false
 })
 export class AppComponent implements OnInit {
   public overlay = window.location.href.indexOf('?overlay') > -1;

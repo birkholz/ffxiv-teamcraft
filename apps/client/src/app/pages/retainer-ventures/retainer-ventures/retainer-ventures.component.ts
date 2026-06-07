@@ -40,12 +40,11 @@ import { PlatformService } from '../../../core/tools/platform.service';
 import { chunk } from 'lodash';
 
 @Component({
-  selector: 'app-retainer-ventures',
-  templateUrl: './retainer-ventures.component.html',
-  styleUrls: ['./retainer-ventures.component.less'],
-  changeDetection: ChangeDetectionStrategy.OnPush,
-  standalone: true,
-  imports: [FlexModule, NzAlertModule, NzSelectModule, FormsModule, NzFormModule, ReactiveFormsModule, NzGridModule, NzInputNumberModule, NzButtonModule, NzWaveModule, NzIconModule, PageLoaderComponent, ItemIconComponent, DbButtonComponent, MarketboardIconComponent, AsyncPipe, DecimalPipe, I18nPipe, TranslateModule, I18nRowPipe, ItemNamePipe, LazyIconPipe, JobUnicodePipe]
+    selector: 'app-retainer-ventures',
+    templateUrl: './retainer-ventures.component.html',
+    styleUrls: ['./retainer-ventures.component.less'],
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    imports: [FlexModule, NzAlertModule, NzSelectModule, FormsModule, NzFormModule, ReactiveFormsModule, NzGridModule, NzInputNumberModule, NzButtonModule, NzWaveModule, NzIconModule, PageLoaderComponent, ItemIconComponent, DbButtonComponent, MarketboardIconComponent, AsyncPipe, DecimalPipe, I18nPipe, TranslateModule, I18nRowPipe, ItemNamePipe, LazyIconPipe, JobUnicodePipe]
 })
 export class RetainerVenturesComponent extends TeamcraftComponent implements OnInit {
 

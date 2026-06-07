@@ -11,12 +11,11 @@ import { AsyncPipe, NgIf } from '@angular/common';
 import { XivapiItemTooltipDirective } from '../../tooltip/xivapi-tooltip/xivapi-item-tooltip.directive';
 
 @Component({
-  selector: 'app-item-icon',
-  templateUrl: './item-icon.component.html',
-  styleUrls: ['./item-icon.component.less'],
-  changeDetection: ChangeDetectionStrategy.OnPush,
-  standalone: true,
-  imports: [XivapiItemTooltipDirective, NzSkeletonModule, AsyncPipe]
+    selector: 'app-item-icon',
+    templateUrl: './item-icon.component.html',
+    styleUrls: ['./item-icon.component.less'],
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    imports: [XivapiItemTooltipDirective, NzSkeletonModule, AsyncPipe]
 })
 export class ItemIconComponent {
 

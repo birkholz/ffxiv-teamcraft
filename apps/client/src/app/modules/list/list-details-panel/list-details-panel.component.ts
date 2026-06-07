@@ -55,12 +55,11 @@ import { NzCollapseModule } from 'ng-zorro-antd/collapse';
 import { AsyncPipe, DecimalPipe, NgTemplateOutlet } from '@angular/common';
 
 @Component({
-  selector: 'app-list-details-panel',
-  templateUrl: './list-details-panel.component.html',
-  styleUrls: ['./list-details-panel.component.less'],
-  changeDetection: ChangeDetectionStrategy.OnPush,
-  standalone: true,
-  imports: [NzCollapseModule, LazyScrollComponent, ItemRowComponent, AggregateItemRowComponent, NzGridModule, NgForTrackByIdDirective, CompactItemRowComponent, NzDividerModule, NgTemplateOutlet, FlexModule, NzButtonModule, NzIconModule, NzToolTipModule, NzWaveModule, MapPositionComponent, NzProgressModule, NzPopconfirmModule, ClipboardDirective, NzSpinModule, AsyncPipe, DecimalPipe, I18nPipe, TranslateModule]
+    selector: 'app-list-details-panel',
+    templateUrl: './list-details-panel.component.html',
+    styleUrls: ['./list-details-panel.component.less'],
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    imports: [NzCollapseModule, LazyScrollComponent, ItemRowComponent, AggregateItemRowComponent, NzGridModule, NgForTrackByIdDirective, CompactItemRowComponent, NzDividerModule, NgTemplateOutlet, FlexModule, NzButtonModule, NzIconModule, NzToolTipModule, NzWaveModule, MapPositionComponent, NzProgressModule, NzPopconfirmModule, ClipboardDirective, NzSpinModule, AsyncPipe, DecimalPipe, I18nPipe, TranslateModule]
 })
 export class ListDetailsPanelComponent implements OnChanges, OnInit {
 

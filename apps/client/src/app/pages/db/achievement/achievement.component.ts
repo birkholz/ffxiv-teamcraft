@@ -32,7 +32,6 @@ import { AsyncPipe } from '@angular/common';
     selector: 'app-achievement',
     templateUrl: './achievement.component.html',
     styleUrls: ['./achievement.component.less'],
-    standalone: true,
     imports: [FlexModule, I18nNameComponent, DbButtonComponent, NzToolTipModule, I18nDisplayComponent, DbCommentsComponent, NzCardModule, NzListModule, ItemIconComponent, ItemRarityDirective, PageLoaderComponent, AsyncPipe, I18nPipe, TranslateModule, I18nRowPipe, IfMobilePipe, XivapiIconPipe]
 })
 export class AchievementComponent extends TeamcraftPageComponent {

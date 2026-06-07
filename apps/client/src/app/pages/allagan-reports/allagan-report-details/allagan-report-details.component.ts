@@ -61,12 +61,11 @@ function durationRequired(control: AbstractControl) {
 }
 
 @Component({
-  selector: 'app-allagan-report-details',
-  templateUrl: './allagan-report-details.component.html',
-  styleUrls: ['./allagan-report-details.component.less'],
-  changeDetection: ChangeDetectionStrategy.OnPush,
-  standalone: true,
-  imports: [QuickSearchComponent, FlexModule, ItemIconComponent, I18nNameComponent, NzDividerModule, PageLoaderComponent, NzEmptyModule, LazyScrollComponent, AllaganReportRowComponent, FormsModule, NzFormModule, ReactiveFormsModule, NzGridModule, NzSelectModule, NzInputModule, NzAutocompleteModule, NzButtonModule, NzInputNumberModule, NzAlertModule, NzSpinModule, PredatorsInputComponent, NzWaveModule, AsyncPipe, I18nPipe, TranslateModule, I18nRowPipe, ItemNamePipe, ActionNamePipe, AbsolutePipe, MapNamePipe, TugNamePipe, HooksetActionIdPipe]
+    selector: 'app-allagan-report-details',
+    templateUrl: './allagan-report-details.component.html',
+    styleUrls: ['./allagan-report-details.component.less'],
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    imports: [QuickSearchComponent, FlexModule, ItemIconComponent, I18nNameComponent, NzDividerModule, PageLoaderComponent, NzEmptyModule, LazyScrollComponent, AllaganReportRowComponent, FormsModule, NzFormModule, ReactiveFormsModule, NzGridModule, NzSelectModule, NzInputModule, NzAutocompleteModule, NzButtonModule, NzInputNumberModule, NzAlertModule, NzSpinModule, PredatorsInputComponent, NzWaveModule, AsyncPipe, I18nPipe, TranslateModule, I18nRowPipe, ItemNamePipe, ActionNamePipe, AbsolutePipe, MapNamePipe, TugNamePipe, HooksetActionIdPipe]
 })
 export class AllaganReportDetailsComponent extends ReportsManagementComponent {
 

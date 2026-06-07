@@ -20,12 +20,11 @@ import { DialogComponent } from '../../../core/dialog.component';
 import { uniqBy } from 'lodash';
 
 @Component({
-  selector: 'app-map',
-  templateUrl: './map.component.html',
-  styleUrls: ['./map.component.less'],
-  changeDetection: ChangeDetectionStrategy.OnPush,
-  standalone: true,
-  imports: [DbButtonComponent, NzToolTipModule, NgStyle, ExtendedModule, RouterLink, NzButtonModule, NzIconModule, AsyncPipe, DecimalPipe, AetheryteNamePipe, I18nPipe, TranslateModule, I18nRowPipe]
+    selector: 'app-map',
+    templateUrl: './map.component.html',
+    styleUrls: ['./map.component.less'],
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    imports: [DbButtonComponent, NzToolTipModule, NgStyle, ExtendedModule, RouterLink, NzButtonModule, NzIconModule, AsyncPipe, DecimalPipe, AetheryteNamePipe, I18nPipe, TranslateModule, I18nRowPipe]
 })
 export class MapComponent extends DialogComponent implements OnInit {
 

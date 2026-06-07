@@ -15,7 +15,6 @@ import { FlexModule } from '@angular/flex-layout/flex';
     templateUrl: './gardening.component.html',
     styleUrls: ['./gardening.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [FlexModule, ItemIconComponent, NzDividerModule, I18nPipe, TranslateModule, ItemNamePipe]
 })
 export class GardeningComponent extends ItemDetailsPopup<GardeningData> implements OnInit {

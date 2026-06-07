@@ -35,11 +35,10 @@ import { FlexModule } from '@angular/flex-layout/flex';
 import { AsyncPipe, DecimalPipe } from '@angular/common';
 
 @Component({
-  selector: 'app-map-page',
-  templateUrl: './map-page.component.html',
-  styleUrls: ['./map-page.component.less'],
-  standalone: true,
-  imports: [FlexModule, NzToolTipModule, I18nDisplayComponent, DbCommentsComponent, NzDividerModule, NzCardModule, NzSelectModule, FormsModule, MapComponent, FullpageMessageComponent, NzListModule, I18nNameComponent, DbButtonComponent, PageLoaderComponent, AsyncPipe, DecimalPipe, I18nPipe, TranslateModule, IfMobilePipe, XivapiIconPipe, MapNamePipe]
+    selector: 'app-map-page',
+    templateUrl: './map-page.component.html',
+    styleUrls: ['./map-page.component.less'],
+    imports: [FlexModule, NzToolTipModule, I18nDisplayComponent, DbCommentsComponent, NzDividerModule, NzCardModule, NzSelectModule, FormsModule, MapComponent, FullpageMessageComponent, NzListModule, I18nNameComponent, DbButtonComponent, PageLoaderComponent, AsyncPipe, DecimalPipe, I18nPipe, TranslateModule, IfMobilePipe, XivapiIconPipe, MapNamePipe]
 })
 export class MapPageComponent extends TeamcraftPageComponent {
 

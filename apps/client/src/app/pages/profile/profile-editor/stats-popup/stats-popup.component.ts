@@ -16,11 +16,10 @@ import { AsyncPipe } from '@angular/common';
 import { DialogComponent } from '../../../../core/dialog.component';
 
 @Component({
-  selector: 'app-stats-popup',
-  templateUrl: './stats-popup.component.html',
-  styleUrls: ['./stats-popup.component.less'],
-  standalone: true,
-  imports: [FlexModule, NzGridModule, NzInputNumberModule, FormsModule, NzCheckboxModule, NzButtonModule, NzWaveModule, AsyncPipe, TranslateModule]
+    selector: 'app-stats-popup',
+    templateUrl: './stats-popup.component.html',
+    styleUrls: ['./stats-popup.component.less'],
+    imports: [FlexModule, NzGridModule, NzInputNumberModule, FormsModule, NzCheckboxModule, NzButtonModule, NzWaveModule, AsyncPipe, TranslateModule]
 })
 export class StatsPopupComponent extends DialogComponent implements OnInit {
 

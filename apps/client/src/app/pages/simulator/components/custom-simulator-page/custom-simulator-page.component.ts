@@ -26,7 +26,6 @@ import { FlexModule } from '@angular/flex-layout/flex';
     selector: 'app-custom-simulator-page',
     templateUrl: './custom-simulator-page.component.html',
     styleUrls: ['./custom-simulator-page.component.less'],
-    standalone: true,
     imports: [FlexModule, NzCollapseModule, FormsModule, NzFormModule, ReactiveFormsModule, NzGridModule, NzInputNumberModule, MouseWheelDirective, NzCheckboxModule, SimulatorComponent, AsyncPipe, TranslateModule]
 })
 export class CustomSimulatorPageComponent extends AbstractSimulationPage {

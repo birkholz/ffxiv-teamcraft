@@ -44,7 +44,6 @@ import { AsyncPipe, DecimalPipe } from '@angular/common';
     selector: 'app-alarms-sidebar',
     templateUrl: './alarms-sidebar.component.html',
     styleUrls: ['./alarms-sidebar.component.less'],
-    standalone: true,
     imports: [FlexModule, NzSwitchModule, FormsModule, NzButtonModule, NzIconModule, NzToolTipModule, ItemIconComponent, NzWaveModule, GatheringItemUsesComponent, ItemNameClipboardDirective, TimerTooltipDirective, FishingBaitComponent, RouterLink, NzPopconfirmModule, NzDividerModule, FullpageMessageComponent, PageLoaderComponent, AsyncPipe, DecimalPipe, I18nPipe, TranslateModule, TimerPipe, I18nRowPipe, ItemNamePipe, ActionIconPipe, NodeTypeIconPipe, ClosestAetherytePipe, XivapiIconPipe, LazyIconPipe, HooksetActionIdPipe, LazyRowPipe]
 })
 export class AlarmsSidebarComponent implements OnInit {

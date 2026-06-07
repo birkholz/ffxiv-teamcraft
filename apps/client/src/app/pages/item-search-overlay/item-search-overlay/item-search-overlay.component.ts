@@ -40,7 +40,6 @@ interface Display {
     templateUrl: './item-search-overlay.component.html',
     styleUrls: ['./item-search-overlay.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [OverlayContainerComponent, FlexModule, FormsModule, NzInputModule, NzAutocompleteModule, ItemIconComponent, I18nNameComponent, InventoryPositionComponent, NzTagModule, NzToolTipModule, NzButtonModule, NzWaveModule, ItemSourcesDisplayComponent, NzDividerModule, MarketboardPopupComponent, FullpageMessageComponent, AsyncPipe, TranslateModule, I18nPipe, IfMobilePipe]
 })
 export class ItemSearchOverlayComponent {

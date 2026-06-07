@@ -15,7 +15,6 @@ import { AsyncPipe } from '@angular/common';
     templateUrl: './commission-archives.component.html',
     styleUrls: ['./commission-archives.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [NzDividerModule, FlexModule, FullpageMessageComponent, CommissionPanelComponent, PageLoaderComponent, AsyncPipe, TranslateModule]
 })
 export class CommissionArchivesComponent implements OnInit {

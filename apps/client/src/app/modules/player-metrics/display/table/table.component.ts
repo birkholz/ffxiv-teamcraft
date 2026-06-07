@@ -22,7 +22,6 @@ import { AsyncPipe, DecimalPipe, DatePipe } from '@angular/common';
     templateUrl: './table.component.html',
     styleUrls: ['./table.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [NzTableModule, NzButtonModule, NzWaveModule, NzPopconfirmModule, NzIconModule, AsyncPipe, DecimalPipe, DatePipe, TranslateModule, ItemNamePipe, WidthBreakpointsPipe, I18nPipe]
 })
 export class TableComponent extends AbstractMetricDisplayComponent implements OnInit {

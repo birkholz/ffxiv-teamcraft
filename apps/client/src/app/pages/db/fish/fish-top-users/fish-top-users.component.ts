@@ -18,7 +18,6 @@ import { NzCardModule } from 'ng-zorro-antd/card';
     templateUrl: './fish-top-users.component.html',
     styleUrls: ['./fish-top-users.component.less', '../../common-db.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [NzCardModule, FlexModule, NzListModule, UserAvatarComponent, ItemIconComponent, AsyncPipe, DatePipe, I18nPipe, TranslateModule, ItemNamePipe, CharacterNamePipe]
 })
 export class FishTopUsersComponent {

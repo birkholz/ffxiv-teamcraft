@@ -53,12 +53,11 @@ interface ResultRow {
 }
 
 @Component({
-  selector: 'app-gathering-location',
-  templateUrl: './gathering-location.component.html',
-  styleUrls: ['./gathering-location.component.less'],
-  changeDetection: ChangeDetectionStrategy.OnPush,
-  standalone: true,
-  imports: [FormsModule, ReactiveFormsModule, FlexModule, NzButtonModule, NzIconModule, NzInputModule, NzSelectModule, ItemIconComponent, NzSwitchModule, NzToolTipModule, NzWaveModule, NzPaginationModule, NgTemplateOutlet, NzCardModule, MapComponent, NodeDetailsComponent, GatheringItemUsesComponent, FishingBaitComponent, SpearfishingSpeedComponent, NzTagModule, AlarmButtonComponent, FullpageMessageComponent, PageLoaderComponent, AsyncPipe, I18nPipe, TranslateModule, ItemNamePipe, ActionIconPipe, ActionNamePipe, NodeTypeIconPipe, XivapiIconPipe, TugNamePipe, HooksetActionIdPipe, LazyRowPipe, AlarmDisplayPipe]
+    selector: 'app-gathering-location',
+    templateUrl: './gathering-location.component.html',
+    styleUrls: ['./gathering-location.component.less'],
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    imports: [FormsModule, ReactiveFormsModule, FlexModule, NzButtonModule, NzIconModule, NzInputModule, NzSelectModule, ItemIconComponent, NzSwitchModule, NzToolTipModule, NzWaveModule, NzPaginationModule, NgTemplateOutlet, NzCardModule, MapComponent, NodeDetailsComponent, GatheringItemUsesComponent, FishingBaitComponent, SpearfishingSpeedComponent, NzTagModule, AlarmButtonComponent, FullpageMessageComponent, PageLoaderComponent, AsyncPipe, I18nPipe, TranslateModule, ItemNamePipe, ActionIconPipe, ActionNamePipe, NodeTypeIconPipe, XivapiIconPipe, TugNamePipe, HooksetActionIdPipe, LazyRowPipe, AlarmDisplayPipe]
 })
 export class GatheringLocationComponent {
 

@@ -30,7 +30,6 @@ import { DialogComponent } from '../../../core/dialog.component';
     selector: 'app-gearset-comparator-popup',
     templateUrl: './gearset-comparator-popup.component.html',
     styleUrls: ['./gearset-comparator-popup.component.less'],
-    standalone: true,
     imports: [NzDividerModule, FlexModule, ItemIconComponent, NzAlertModule, NzSelectModule, FormsModule, NzGridModule, NzFormModule, NzInputModule, NzButtonModule, NzWaveModule, NzIconModule, AsyncPipe, DecimalPipe, ItemNamePipe, JobUnicodePipe, I18nPipe, TranslateModule, I18nRowPipe]
 })
 export class GearsetComparatorPopupComponent extends DialogComponent{

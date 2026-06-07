@@ -27,29 +27,28 @@ import { NzPopconfirmDirective } from 'ng-zorro-antd/popconfirm';
 import { NzColDirective, NzRowDirective } from 'ng-zorro-antd/grid';
 
 @Component({
-  selector: 'app-log-tracker-import-popup',
-  standalone: true,
-  imports: [
-    AsyncPipe,
-    TranslateModule,
-    NzSpinComponent,
-    NzAlertComponent,
-    NzIconDirective,
-    NzDividerComponent,
-    JobUnicodePipe,
-    NzCardComponent,
-    LazyScrollComponent,
-    ItemIconComponent,
-    I18nNameComponent,
-    NgTemplateOutlet,
-    NzButtonComponent,
-    NzPopconfirmDirective,
-    NzRowDirective,
-    NzColDirective
-  ],
-  templateUrl: './log-tracker-import-popup.component.html',
-  styleUrl: './log-tracker-import-popup.component.less',
-  changeDetection: ChangeDetectionStrategy.OnPush
+    selector: 'app-log-tracker-import-popup',
+    imports: [
+        AsyncPipe,
+        TranslateModule,
+        NzSpinComponent,
+        NzAlertComponent,
+        NzIconDirective,
+        NzDividerComponent,
+        JobUnicodePipe,
+        NzCardComponent,
+        LazyScrollComponent,
+        ItemIconComponent,
+        I18nNameComponent,
+        NgTemplateOutlet,
+        NzButtonComponent,
+        NzPopconfirmDirective,
+        NzRowDirective,
+        NzColDirective
+    ],
+    templateUrl: './log-tracker-import-popup.component.html',
+    styleUrl: './log-tracker-import-popup.component.less',
+    changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class LogTrackerImportPopupComponent {
 

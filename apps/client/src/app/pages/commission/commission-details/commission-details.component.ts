@@ -42,7 +42,6 @@ import { AsyncPipe, DecimalPipe, DatePipe } from '@angular/common';
     templateUrl: './commission-details.component.html',
     styleUrls: ['./commission-details.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [FullpageMessageComponent, NzCardModule, FlexModule, NzButtonModule, NzWaveModule, NzToolTipModule, NzIconModule, NzDropDownModule, NzMenuModule, NzPopconfirmModule, NzTagModule, UserRatingDisplayComponent, UserAvatarComponent, NzDividerModule, NzGridModule, ItemIconComponent, NzProgressModule, RouterLink, NzRateModule, FormsModule, NzEmptyModule, PageLoaderComponent, AsyncPipe, DecimalPipe, DatePipe, I18nPipe, TranslateModule, ItemNamePipe, CharacterNamePipe]
 })
 export class CommissionDetailsComponent extends TeamcraftComponent implements OnInit {

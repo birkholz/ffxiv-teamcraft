@@ -16,7 +16,6 @@ import { NzListModule } from 'ng-zorro-antd/list';
     templateUrl: './island-animal.component.html',
     styleUrls: ['./island-animal.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [NzListModule, AsyncPipe, I18nPipe, XivapiIconPipe, LazyRowPipe]
 })
 export class IslandAnimalComponent extends ItemDetailsPopup<IslandAnimal[]> {

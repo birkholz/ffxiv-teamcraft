@@ -7,11 +7,10 @@ import { NzDividerModule } from 'ng-zorro-antd/divider';
 import { DialogComponent } from '../../../../core/dialog.component';
 
 @Component({
-  selector: 'app-simulation-min-stats-popup',
-  templateUrl: './simulation-min-stats-popup.component.html',
-  styleUrls: ['./simulation-min-stats-popup.component.less'],
-  standalone: true,
-  imports: [NzAlertModule, NzDividerModule, TranslateModule]
+    selector: 'app-simulation-min-stats-popup',
+    templateUrl: './simulation-min-stats-popup.component.html',
+    styleUrls: ['./simulation-min-stats-popup.component.less'],
+    imports: [NzAlertModule, NzDividerModule, TranslateModule]
 })
 export class SimulationMinStatsPopupComponent extends DialogComponent implements OnInit {
 

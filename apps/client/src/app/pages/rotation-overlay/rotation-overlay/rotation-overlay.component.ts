@@ -16,7 +16,6 @@ import { AsyncPipe } from '@angular/common';
     selector: 'app-rotation-overlay',
     templateUrl: './rotation-overlay.component.html',
     styleUrls: ['./rotation-overlay.component.less'],
-    standalone: true,
     imports: [OverlayContainerComponent, FlexModule, ActionComponent, PageLoaderComponent, AsyncPipe]
 })
 export class RotationOverlayComponent {

@@ -14,7 +14,6 @@ import { NgxEchartsModule } from 'ngx-echarts';
     templateUrl: './histogram.component.html',
     styleUrls: ['./histogram.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [NgxEchartsModule, NzEmptyModule, AsyncPipe, TranslateModule]
 })
 export class HistogramComponent extends AbstractMetricDisplayComponent {

@@ -7,7 +7,8 @@ import { ListsFacade } from '../../modules/list/+state/lists.facade';
 import { WorkshopsFacade } from '../../modules/workshop/+state/workshops.facade';
 
 @Component({
-  template: ''
+    template: '',
+    standalone: false
 })
 // tslint:disable-next-line:component-class-suffix
 export abstract class AbstractListsSelectionPopupComponent implements OnInit {

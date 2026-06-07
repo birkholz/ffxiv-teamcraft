@@ -52,8 +52,7 @@ import { FloorPipe } from '../../../pipes/pipes/floor.pipe';
     templateUrl: './allagan-report-row.component.html',
     styleUrls: ['./allagan-report-row.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
-  imports: [NzGridModule, FlexModule, ReportSourceDisplayComponent, NgIf, NzTagModule, NzToolTipModule, NzButtonModule, NzWaveModule, NzIconModule, NzPopconfirmModule, NgSwitch, ReportSourceCompactDetailsComponent, NgSwitchCase, DbButtonComponent, NgTemplateOutlet, NgFor, ItemIconComponent, I18nNameComponent, SpearfishingSpeedComponent, NzAvatarModule, RouterLink, AsyncPipe, DatePipe, I18nPipe, TranslateModule, I18nRowPipe, ItemNamePipe, ActionIconPipe, ActionNamePipe, XivapiIconPipe, CharacterNamePipe, WeatherIconPipe, CharacterAvatarPipe, UserLevelPipe, IsPatronPipe, IsVerifiedPipe, MapNamePipe, TugNamePipe, HourDisplayPipe, FloorPipe]
+    imports: [NzGridModule, FlexModule, ReportSourceDisplayComponent, NgIf, NzTagModule, NzToolTipModule, NzButtonModule, NzWaveModule, NzIconModule, NzPopconfirmModule, NgSwitch, ReportSourceCompactDetailsComponent, NgSwitchCase, DbButtonComponent, NgTemplateOutlet, NgFor, ItemIconComponent, I18nNameComponent, SpearfishingSpeedComponent, NzAvatarModule, RouterLink, AsyncPipe, DatePipe, I18nPipe, TranslateModule, I18nRowPipe, ItemNamePipe, ActionIconPipe, ActionNamePipe, XivapiIconPipe, CharacterNamePipe, WeatherIconPipe, CharacterAvatarPipe, UserLevelPipe, IsPatronPipe, IsVerifiedPipe, MapNamePipe, TugNamePipe, HourDisplayPipe, FloorPipe]
 })
 export class AllaganReportRowComponent {
 

@@ -15,12 +15,11 @@ import { NzBadgeModule } from 'ng-zorro-antd/badge';
 import { NgClass } from '@angular/common';
 
 @Component({
-  selector: 'app-action',
-  templateUrl: './action.component.html',
-  styleUrls: ['./action.component.less'],
-  changeDetection: ChangeDetectionStrategy.OnPush,
-  standalone: true,
-  imports: [NzBadgeModule, XivapiActionTooltipDirective, NgClass, ExtendedModule, NzDropDownModule, NzMenuModule, NzButtonModule, TranslateModule, ActionIconPipe, AbsolutePipe, XivapiIconPipe]
+    selector: 'app-action',
+    templateUrl: './action.component.html',
+    styleUrls: ['./action.component.less'],
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    imports: [NzBadgeModule, XivapiActionTooltipDirective, NgClass, ExtendedModule, NzDropDownModule, NzMenuModule, NzButtonModule, TranslateModule, ActionIconPipe, AbsolutePipe, XivapiIconPipe]
 })
 export class ActionComponent {
 

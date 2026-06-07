@@ -6,7 +6,6 @@ import { NgTemplateOutlet } from '@angular/common';
     selector: 'app-fullpage-message',
     templateUrl: './fullpage-message.component.html',
     styleUrls: ['./fullpage-message.component.less'],
-    standalone: true,
     imports: [NgTemplateOutlet, IfMobilePipe]
 })
 export class FullpageMessageComponent {

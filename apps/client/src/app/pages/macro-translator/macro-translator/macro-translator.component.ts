@@ -21,7 +21,6 @@ import { FlexModule } from '@angular/flex-layout/flex';
     selector: 'app-macro-translator',
     templateUrl: './macro-translator.component.html',
     styleUrls: ['./macro-translator.component.less'],
-    standalone: true,
     imports: [FlexModule, NzRadioModule, FormsModule, NzInputModule, NzButtonModule, NzWaveModule, NzTabsModule, NzAlertModule, TranslateModule]
 })
 export class MacroTranslatorComponent {

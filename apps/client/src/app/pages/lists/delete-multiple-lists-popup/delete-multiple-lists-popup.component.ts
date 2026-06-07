@@ -22,7 +22,6 @@ import { NgTemplateOutlet, AsyncPipe, UpperCasePipe } from '@angular/common';
     templateUrl: './delete-multiple-lists-popup.component.html',
     styleUrls: ['./delete-multiple-lists-popup.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [NgTemplateOutlet, FlexModule, NzButtonModule, NzWaveModule, NzPopconfirmModule, NzListModule, NgForTrackByKeyDirective, NzCheckboxModule, FormsModule, NzTagModule, NzToolTipModule, AsyncPipe, UpperCasePipe, TranslateModule]
 })
 export class DeleteMultipleListsPopupComponent extends AbstractListsSelectionPopupComponent {

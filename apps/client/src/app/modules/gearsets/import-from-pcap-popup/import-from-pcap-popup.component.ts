@@ -29,7 +29,6 @@ import { FlexModule } from '@angular/flex-layout/flex';
     selector: 'app-import-from-pcap-popup',
     templateUrl: './import-from-pcap-popup.component.html',
     styleUrls: ['./import-from-pcap-popup.component.less'],
-    standalone: true,
     imports: [FlexModule, NzGridModule, NzFormModule, NzInputModule, FormsModule, NzSelectModule, NzAlertModule, JobUnicodePipe, I18nPipe, TranslateModule, I18nRowPipe]
 })
 export class ImportFromPcapPopupComponent extends TeamcraftComponent {

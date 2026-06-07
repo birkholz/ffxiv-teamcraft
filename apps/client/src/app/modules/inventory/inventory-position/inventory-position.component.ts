@@ -13,7 +13,6 @@ import { AsyncPipe } from '@angular/common';
     templateUrl: './inventory-position.component.html',
     styleUrls: ['./inventory-position.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [FlexModule, AsyncPipe, TranslateModule]
 })
 export class InventoryPositionComponent {

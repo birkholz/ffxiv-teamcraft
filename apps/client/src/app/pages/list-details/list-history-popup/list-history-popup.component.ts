@@ -23,7 +23,6 @@ import { AsyncPipe, DatePipe } from '@angular/common';
     selector: 'app-list-history-popup',
     templateUrl: './list-history-popup.component.html',
     styleUrls: ['./list-history-popup.component.less'],
-    standalone: true,
     imports: [NzListModule, LazyScrollComponent, UserAvatarComponent, NzButtonModule, NzWaveModule, NzToolTipModule, NzIconModule, NzEmptyModule, PageLoaderComponent, AsyncPipe, DatePipe, I18nPipe, TranslateModule, ItemNamePipe, CharacterNamePipe]
 })
 export class ListHistoryPopupComponent {

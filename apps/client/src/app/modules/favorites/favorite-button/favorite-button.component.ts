@@ -15,7 +15,6 @@ import { NzButtonModule } from 'ng-zorro-antd/button';
     selector: 'app-favorite-button',
     templateUrl: './favorite-button.component.html',
     styleUrls: ['./favorite-button.component.less'],
-    standalone: true,
     imports: [NzButtonModule, NzWaveModule, NzToolTipModule, NzIconModule, AsyncPipe, TranslateModule]
 })
 export class FavoriteButtonComponent implements OnInit {

@@ -34,7 +34,6 @@ import { NgTemplateOutlet, AsyncPipe } from '@angular/common';
     templateUrl: './compact-item-row.component.html',
     styleUrls: ['./compact-item-row.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [ItemIconComponent, NzToolTipModule, ItemNameClipboardDirective, I18nNameComponent, ItemSourcesDisplayComponent, ItemInventoryButtonComponent, CompactAmountInputComponent, NgTemplateOutlet, AlarmButtonComponent, AsyncPipe, I18nPipe, TranslateModule, ItemNamePipe, CeilPipe, XivapiIconPipe]
 })
 export class CompactItemRowComponent extends TeamcraftComponent implements OnInit {

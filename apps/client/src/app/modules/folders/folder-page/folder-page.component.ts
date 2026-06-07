@@ -13,12 +13,11 @@ import { NgTemplateOutlet, AsyncPipe } from '@angular/common';
 import { FlexModule } from '@angular/flex-layout/flex';
 
 @Component({
-  selector: 'app-folder-page',
-  templateUrl: './folder-page.component.html',
-  styleUrls: ['./folder-page.component.less'],
-  changeDetection: ChangeDetectionStrategy.OnPush,
-  standalone: true,
-  imports: [FlexModule, FavoriteButtonComponent, UserAvatarComponent, NzDividerModule, FullpageMessageComponent, NgTemplateOutlet, FolderComponent, AsyncPipe, TranslateModule, CharacterNamePipe]
+    selector: 'app-folder-page',
+    templateUrl: './folder-page.component.html',
+    styleUrls: ['./folder-page.component.less'],
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    imports: [FlexModule, FavoriteButtonComponent, UserAvatarComponent, NzDividerModule, FullpageMessageComponent, NgTemplateOutlet, FolderComponent, AsyncPipe, TranslateModule, CharacterNamePipe]
 })
 export class FolderPageComponent<T extends DataModel> {
 

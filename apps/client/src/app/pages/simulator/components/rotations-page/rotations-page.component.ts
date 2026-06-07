@@ -26,12 +26,11 @@ import { NzButtonModule } from 'ng-zorro-antd/button';
 import { FlexModule } from '@angular/flex-layout/flex';
 
 @Component({
-  selector: 'app-rotations-page',
-  templateUrl: './rotations-page.component.html',
-  styleUrls: ['./rotations-page.component.less'],
-  changeDetection: ChangeDetectionStrategy.OnPush,
-  standalone: true,
-  imports: [FlexModule, NzButtonModule, NzWaveModule, NzToolTipModule, NzIconModule, PageLoaderComponent, CdkDropList, CdkDrag, RotationPanelComponent, RotationFolderPanelComponent, FullpageMessageComponent, AsyncPipe, TranslateModule]
+    selector: 'app-rotations-page',
+    templateUrl: './rotations-page.component.html',
+    styleUrls: ['./rotations-page.component.less'],
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    imports: [FlexModule, NzButtonModule, NzWaveModule, NzToolTipModule, NzIconModule, PageLoaderComponent, CdkDropList, CdkDrag, RotationPanelComponent, RotationFolderPanelComponent, FullpageMessageComponent, AsyncPipe, TranslateModule]
 })
 export class RotationsPageComponent {
 

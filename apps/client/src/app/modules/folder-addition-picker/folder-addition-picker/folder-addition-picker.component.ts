@@ -13,11 +13,10 @@ import { NzEmptyComponent } from 'ng-zorro-antd/empty';
 
 
 @Component({
-  selector: 'app-folder-addition-picker',
-  templateUrl: './folder-addition-picker.component.html',
-  styleUrls: ['./folder-addition-picker.component.less'],
-  standalone: true,
-  imports: [LazyScrollComponent, NzCheckboxModule, FormsModule, NzButtonModule, NzWaveModule, AsyncPipe, TranslateModule, NzEmptyComponent]
+    selector: 'app-folder-addition-picker',
+    templateUrl: './folder-addition-picker.component.html',
+    styleUrls: ['./folder-addition-picker.component.less'],
+    imports: [LazyScrollComponent, NzCheckboxModule, FormsModule, NzButtonModule, NzWaveModule, AsyncPipe, TranslateModule, NzEmptyComponent]
 })
 export class FolderAdditionPickerComponent extends DialogComponent implements OnInit {
 

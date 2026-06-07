@@ -41,7 +41,6 @@ import { AsyncPipe } from '@angular/common';
     selector: 'app-metrics',
     templateUrl: './metrics.component.html',
     styleUrls: ['./metrics.component.less'],
-    standalone: true,
     imports: [FlexModule, NzCardModule, NzDatePickerModule, TutorialStepDirective, FormsModule, NzInputModule, NzButtonModule, NzWaveModule, NzIconModule, NzSelectModule, NzToolTipModule, NzPopconfirmModule, ClipboardDirective, NzAlertModule, CdkDropListGroup, CdkDropList, MetricsDisplayEditorComponent, CdkDrag, MetricDisplayComponent, TranslateModule, AsyncPipe]
 })
 export class MetricsComponent extends TeamcraftPageComponent {

@@ -5,7 +5,8 @@ import { DialogComponent } from '../../core/dialog.component';
 
 // noinspection AngularMissingOrInvalidDeclarationInModule
 @Component({
-  template: ''
+    template: '',
+    standalone: false
 })
 // eslint-disable-next-line @angular-eslint/component-class-suffix
 export class ItemDetailsPopup<T = any> extends DialogComponent implements OnInit {

@@ -24,7 +24,6 @@ import { DialogComponent } from '../../../core/dialog.component';
     selector: 'app-comments-popup',
     templateUrl: './comments-popup.component.html',
     styleUrls: ['./comments-popup.component.less'],
-    standalone: true,
     imports: [NzListModule, UserAvatarComponent, NzButtonModule, NzWaveModule, NzPopconfirmModule, NzIconModule, NzInputModule, FormsModule, AsyncPipe, DatePipe, TranslateModule]
 })
 export class CommentsPopupComponent extends DialogComponent implements OnInit {

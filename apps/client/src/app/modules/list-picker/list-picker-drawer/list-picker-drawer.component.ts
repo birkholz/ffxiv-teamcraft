@@ -22,7 +22,6 @@ import { NgIf, NgFor, AsyncPipe } from '@angular/common';
     selector: 'app-list-picker-drawer',
     templateUrl: './list-picker-drawer.component.html',
     styleUrls: ['./list-picker-drawer.component.less'],
-    standalone: true,
     imports: [NgIf, NzButtonModule, NzWaveModule, NzIconModule, NzDividerModule, NzInputModule, FormsModule, NzListModule, NgFor, AsyncPipe, TranslateModule]
 })
 export class ListPickerDrawerComponent {

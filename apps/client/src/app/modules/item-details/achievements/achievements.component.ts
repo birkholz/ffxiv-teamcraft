@@ -13,7 +13,6 @@ import { NzListModule } from 'ng-zorro-antd/list';
     templateUrl: './achievements.component.html',
     styleUrls: ['./achievements.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [NzListModule, DbButtonComponent, AsyncPipe, I18nPipe, I18nRowPipe, XivapiIconPipe, LazyRowPipe]
 })
 export class AchievementsComponent extends ItemDetailsPopup {

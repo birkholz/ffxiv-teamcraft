@@ -30,7 +30,6 @@ import { AsyncPipe } from '@angular/common';
     templateUrl: './reduced-from.component.html',
     styleUrls: ['./reduced-from.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [FlexModule, NzCardModule, ItemRarityDirective, ItemIconComponent, NzListModule, NodeDetailsComponent, MapPositionComponent, FishingBaitComponent, NzToolTipModule, NzButtonModule, NzWaveModule, PageLoaderComponent, AsyncPipe, I18nPipe, TranslateModule, I18nRowPipe, ItemNamePipe, NodeTypeIconPipe, ClosestAetherytePipe, LazyIconPipe]
 })
 export class ReducedFromComponent extends ItemDetailsPopup<number[]> implements OnInit {

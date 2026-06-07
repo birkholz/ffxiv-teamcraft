@@ -35,7 +35,6 @@ import { NgIf, NgFor, AsyncPipe } from '@angular/common';
     selector: 'app-fate',
     templateUrl: './fate.component.html',
     styleUrls: ['./fate.component.less'],
-    standalone: true,
     imports: [NgIf, FlexModule, I18nNameComponent, DbButtonComponent, NgFor, NzToolTipModule, I18nDisplayComponent, DbCommentsComponent, NzDividerModule, NzCardModule, MapComponent, NzListModule, ItemRarityDirective, ItemIconComponent, PageLoaderComponent, AsyncPipe, I18nPipe, TranslateModule, I18nRowPipe, ItemNamePipe, IfMobilePipe, XivapiIconPipe, UiTextPipe]
 })
 export class FateComponent extends TeamcraftPageComponent {

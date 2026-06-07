@@ -14,7 +14,6 @@ import { FlexModule } from '@angular/flex-layout/flex';
     templateUrl: './xivapi-action-tooltip.component.html',
     styleUrls: ['./xivapi-action-tooltip.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [FlexModule, NzGridModule, TranslateModule, I18nPipe, NzPipesModule]
 })
 export class XivapiActionTooltipComponent implements OnInit {

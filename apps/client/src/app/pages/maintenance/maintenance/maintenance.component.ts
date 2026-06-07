@@ -5,7 +5,6 @@ import { FullpageMessageComponent } from '../../../modules/fullpage-message/full
     selector: 'app-maintenance',
     templateUrl: './maintenance.component.html',
     styleUrls: ['./maintenance.component.less'],
-    standalone: true,
     imports: [FullpageMessageComponent]
 })
 export class MaintenanceComponent {

@@ -12,11 +12,10 @@ import { FlexModule } from '@angular/flex-layout/flex';
 import { DialogComponent } from '../../../core/dialog.component';
 
 @Component({
-  selector: 'app-clipboard-import-popup',
-  templateUrl: './clipboard-import-popup.component.html',
-  styleUrls: ['./clipboard-import-popup.component.less'],
-  standalone: true,
-  imports: [FlexModule, ItemIconComponent, NzButtonModule, NzWaveModule, TranslateModule, ItemNamePipe, LazyIconPipe, I18nPipe]
+    selector: 'app-clipboard-import-popup',
+    templateUrl: './clipboard-import-popup.component.html',
+    styleUrls: ['./clipboard-import-popup.component.less'],
+    imports: [FlexModule, ItemIconComponent, NzButtonModule, NzWaveModule, TranslateModule, ItemNamePipe, LazyIconPipe, I18nPipe]
 })
 export class ClipboardImportPopupComponent extends DialogComponent {
 

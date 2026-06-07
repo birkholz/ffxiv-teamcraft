@@ -17,12 +17,11 @@ import { LazyRowPipe } from '../../../../pipes/pipes/lazy-row.pipe';
 import { I18nRowPipe } from '../../../../core/i18n/i18n-row.pipe';
 
 @Component({
-  selector: 'app-fish-lures',
-  templateUrl: './fish-lures.component.html',
-  styleUrls: ['./fish-lures.component.less', '../../common-db.less'],
-  changeDetection: ChangeDetectionStrategy.OnPush,
-  standalone: true,
-  imports: [NzCardModule, FlexModule, NzDividerModule, NzGridModule, AsyncPipe, DecimalPipe, I18nPipe, TranslateModule, ActionIconPipe, ActionNamePipe, XivapiIconPipe, TugNamePipe, LazyRowPipe, I18nRowPipe]
+    selector: 'app-fish-lures',
+    templateUrl: './fish-lures.component.html',
+    styleUrls: ['./fish-lures.component.less', '../../common-db.less'],
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    imports: [NzCardModule, FlexModule, NzDividerModule, NzGridModule, AsyncPipe, DecimalPipe, I18nPipe, TranslateModule, ActionIconPipe, ActionNamePipe, XivapiIconPipe, TugNamePipe, LazyRowPipe, I18nRowPipe]
 })
 export class FishLuresComponent {
   public readonly loading$ = this.fishCtx.luresByFish$.pipe(map((lures) => lures.loading));

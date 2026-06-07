@@ -22,7 +22,6 @@ import { NzCollapseModule } from 'ng-zorro-antd/collapse';
     templateUrl: './list-crystals-panel.component.html',
     styleUrls: ['./list-crystals-panel.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [NzCollapseModule, FlexModule, ItemIconComponent, NzButtonModule, NzWaveModule, NzToolTipModule, ClipboardDirective, NzIconModule, I18nPipe, TranslateModule, ItemNamePipe]
 })
 export class ListCrystalsPanelComponent {

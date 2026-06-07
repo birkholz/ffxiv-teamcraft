@@ -25,8 +25,7 @@ import { LazyRowPipe } from '../../../pipes/pipes/lazy-row.pipe';
     templateUrl: './gearset-editor-row.component.html',
     styleUrls: ['./gearset-editor-row.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
-  imports: [NzGridModule, FlexModule, NzCheckboxModule, ItemIconComponent, NzSwitchModule, FormsModule, MateriaSlotIconComponent, NzToolTipModule, AsyncPipe, TranslateModule, I18nPipe, StatPipe, ItemNamePipe, IfMobilePipe, XivapiL12nPipe, LazyRowPipe]
+    imports: [NzGridModule, FlexModule, NzCheckboxModule, ItemIconComponent, NzSwitchModule, FormsModule, MateriaSlotIconComponent, NzToolTipModule, AsyncPipe, TranslateModule, I18nPipe, StatPipe, ItemNamePipe, IfMobilePipe, XivapiL12nPipe, LazyRowPipe]
 })
 export class GearsetEditorRowComponent {
 

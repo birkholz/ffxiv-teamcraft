@@ -23,7 +23,6 @@ import { NzPageHeaderModule } from 'ng-zorro-antd/page-header';
     templateUrl: './island-animals.component.html',
     styleUrls: ['./island-animals.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [NzPageHeaderModule, NzTableModule, I18nNameComponent, MapPositionComponent, ItemIconComponent, AlarmButtonComponent, AsyncPipe, TranslateModule, XivapiIconPipe, WeatherIconPipe]
 })
 export class IslandAnimalsComponent {

@@ -28,7 +28,6 @@ import { FlexModule } from '@angular/flex-layout/flex';
     templateUrl: './gearset-display-slot.component.html',
     styleUrls: ['./gearset-display-slot.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [FlexModule, ItemIconComponent, NzToolTipModule, NzCheckboxModule, FormsModule, ItemNameClipboardDirective, ItemCapsTableComponent, NzButtonModule, NzIconModule, NzPopoverModule, MateriaSlotIconComponent, I18nNameComponent, AsyncPipe, TranslateModule, I18nPipe, I18nRowPipe, ItemNamePipe, IfMobilePipe, IlvlPipe, MateriaBonusPipe]
 })
 export class GearsetDisplaySlotComponent {

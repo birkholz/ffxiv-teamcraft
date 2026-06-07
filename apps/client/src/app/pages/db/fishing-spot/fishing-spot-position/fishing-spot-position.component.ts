@@ -11,7 +11,6 @@ import { NzCardModule } from 'ng-zorro-antd/card';
     templateUrl: './fishing-spot-position.component.html',
     styleUrls: ['./fishing-spot-position.component.less', '../../common-db.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [NzCardModule, MapComponent, NzEmptyModule, TranslateModule]
 })
 export class FishingSpotPositionComponent {

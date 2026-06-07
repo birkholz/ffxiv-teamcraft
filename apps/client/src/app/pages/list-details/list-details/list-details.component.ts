@@ -76,12 +76,11 @@ import { AsyncPipe } from '@angular/common';
 import { topologicalSort } from '../../../core/tools/topological-sort';
 
 @Component({
-  selector: 'app-list-details',
-  templateUrl: './list-details.component.html',
-  styleUrls: ['./list-details.component.less'],
-  changeDetection: ChangeDetectionStrategy.OnPush,
-  standalone: true,
-  imports: [FlexModule, NzButtonModule, NzWaveModule, NzDropDownModule, NzToolTipModule, NzIconModule, NzMenuModule, TutorialStepDirective, FavoriteButtonComponent, NzTagModule, NzCheckboxModule, FormsModule, RouterLink, NzRadioModule, ClipboardDirective, NzPopconfirmModule, NzAlertModule, NzSwitchModule, StepByStepDetailsComponent, ListCrystalsPanelComponent, ListDetailsPanelComponent, InventoryViewComponent, PageLoaderComponent, FullpageMessageComponent, AsyncPipe, TranslateModule, IfMobilePipe, PermissionLevelPipe]
+    selector: 'app-list-details',
+    templateUrl: './list-details.component.html',
+    styleUrls: ['./list-details.component.less'],
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    imports: [FlexModule, NzButtonModule, NzWaveModule, NzDropDownModule, NzToolTipModule, NzIconModule, NzMenuModule, TutorialStepDirective, FavoriteButtonComponent, NzTagModule, NzCheckboxModule, FormsModule, RouterLink, NzRadioModule, ClipboardDirective, NzPopconfirmModule, NzAlertModule, NzSwitchModule, StepByStepDetailsComponent, ListCrystalsPanelComponent, ListDetailsPanelComponent, InventoryViewComponent, PageLoaderComponent, FullpageMessageComponent, AsyncPipe, TranslateModule, IfMobilePipe, PermissionLevelPipe]
 })
 export class ListDetailsComponent extends TeamcraftPageComponent implements OnInit, OnDestroy {
 

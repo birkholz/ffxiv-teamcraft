@@ -20,7 +20,6 @@ import { FlexModule } from '@angular/flex-layout/flex';
     selector: 'app-alarms-options-popup',
     templateUrl: './alarms-options-popup.component.html',
     styleUrls: ['./alarms-options-popup.component.less'],
-    standalone: true,
     imports: [FlexModule, NzSliderModule, FormsModule, NzSwitchModule, NzButtonModule, NzWaveModule, NzIconModule, NzGridModule, NzFormModule, NzSelectModule, TranslateModule]
 })
 export class AlarmsOptionsPopupComponent {

@@ -54,12 +54,11 @@ import { SearchFilter, SearchType } from '@ffxiv-teamcraft/types';
 import { DataService } from '../../../core/api/data.service';
 
 @Component({
-  selector: 'app-gearset-editor',
-  templateUrl: './gearset-editor.component.html',
-  styleUrls: ['./gearset-editor.component.less'],
-  changeDetection: ChangeDetectionStrategy.OnPush,
-  standalone: true,
-  imports: [FlexModule, NzButtonModule, NzWaveModule, NzToolTipModule, NzIconModule, NzPopconfirmModule, RouterLink, NzAlertModule, NzCollapseModule, FormsModule, NzFormModule, ReactiveFormsModule, NzGridModule, NzInputModule, NzInputNumberModule, NzCardModule, NzTagModule, GearsetEditorRowComponent, NzDividerModule, PageLoaderComponent, NzSelectModule, AsyncPipe, DecimalPipe, TranslateModule, I18nPipe, I18nRowPipe, ItemNamePipe, FloorPipe, JobUnicodePipe, FoodBonusesPipePipe, StatDisplayPipe]
+    selector: 'app-gearset-editor',
+    templateUrl: './gearset-editor.component.html',
+    styleUrls: ['./gearset-editor.component.less'],
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    imports: [FlexModule, NzButtonModule, NzWaveModule, NzToolTipModule, NzIconModule, NzPopconfirmModule, RouterLink, NzAlertModule, NzCollapseModule, FormsModule, NzFormModule, ReactiveFormsModule, NzGridModule, NzInputModule, NzInputNumberModule, NzCardModule, NzTagModule, GearsetEditorRowComponent, NzDividerModule, PageLoaderComponent, NzSelectModule, AsyncPipe, DecimalPipe, TranslateModule, I18nPipe, I18nRowPipe, ItemNamePipe, FloorPipe, JobUnicodePipe, FoodBonusesPipePipe, StatDisplayPipe]
 })
 export class GearsetEditorComponent extends TeamcraftComponent implements OnInit {
 

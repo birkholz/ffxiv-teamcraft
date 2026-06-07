@@ -14,8 +14,8 @@
 
 ### Prepare Your Environment
 
-* Install [Node.js](http://nodejs.org/) (>= 22.14) and Yarn (`npm i -g yarn`)
-* Install local dev dependencies: `yarn` while current directory is this repo
+* Install [Bun](https://bun.sh/) (>= 1.3) — used as the package manager and JS runtime
+* Install local dev dependencies: `bun install` while current directory is this repo
 
 #### Windows 10 environment
 
@@ -26,13 +26,13 @@ To build Electron on Windows, node-gyp is required and depends on some external 
 
 ### Live Development Server
 
-Simply run `yarn start` to start a live server with file watcher.
+Simply run `bun run start` to start a live server with file watcher.
 
 ### Live Development API
 
 Since 10.2, Teamcraft includes its own API for various optimizations, hosted at https://api.ffxivteamcraft.com.
 
-If you want to work on this API, simply run `yarn api:start`, which will run a watcher compiler and serve the api at http://localhost:3333.
+If you want to work on this API, simply run `bun run api:start`, which will run a watcher compiler and serve the api at http://localhost:3333.
 
 Then edit `environment.ts` and set `useLocalAPI: true` to make sure it'll use the local API instead of the production one.
 
@@ -144,8 +144,8 @@ The source files for the desktop app are located in `apps/electron`, entry point
 
 For this you'll need two terminals opened, bash, cmd, ps, as you want.
 
- - In the first terminal, run `yarn build:watch` and wait for it to produce at least one set of output files
- - In the second terminal, run `yarn electron:start` to start electron using the built files.
+ - In the first terminal, run `bun run build:watch` and wait for it to produce at least one set of output files
+ - In the second terminal, run `bun run electron:start` to start electron using the built files.
  - If you're modifying the electron files or the angular files and you want to see the result in the app, simply close the app or kill the `electron:start` process and restart it.
 
 ## Important Note: Fishing Data and Allagan Reports

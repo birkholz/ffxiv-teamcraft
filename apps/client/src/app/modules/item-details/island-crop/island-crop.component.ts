@@ -16,7 +16,6 @@ import { FlexModule } from '@angular/flex-layout/flex';
     templateUrl: './island-crop.component.html',
     styleUrls: ['./island-crop.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [FlexModule, ItemIconComponent, I18nNameComponent, MapComponent, AsyncPipe]
 })
 export class IslandCropComponent extends ItemDetailsPopup<IslandCrop> {

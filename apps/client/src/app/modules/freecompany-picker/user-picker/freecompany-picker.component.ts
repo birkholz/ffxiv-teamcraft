@@ -20,7 +20,6 @@ import { NzGridModule } from 'ng-zorro-antd/grid';
     selector: 'app-freecompany-picker',
     templateUrl: './freecompany-picker.component.html',
     styleUrls: ['./freecompany-picker.component.less'],
-    standalone: true,
     imports: [NzGridModule, NzFormModule, NzInputModule, FormsModule, NzAutocompleteModule, ReactiveFormsModule, NgFor, NgIf, NzListModule, NzButtonModule, NzWaveModule, AsyncPipe, TranslateModule]
 })
 export class FreecompanyPickerComponent {

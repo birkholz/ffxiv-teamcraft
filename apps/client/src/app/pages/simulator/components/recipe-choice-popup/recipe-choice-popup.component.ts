@@ -22,11 +22,10 @@ import { AsyncPipe } from '@angular/common';
 import { DialogComponent } from '../../../../core/dialog.component';
 
 @Component({
-  selector: 'app-recipe-choice-popup',
-  templateUrl: './recipe-choice-popup.component.html',
-  styleUrls: ['./recipe-choice-popup.component.less'],
-  standalone: true,
-  imports: [NzAlertModule, NzButtonModule, NzInputModule, NzIconModule, NzListModule, I18nNameComponent, ItemIconComponent, RouterLink, NzWaveModule, NzDividerModule, AsyncPipe, TranslateModule, JobUnicodePipe]
+    selector: 'app-recipe-choice-popup',
+    templateUrl: './recipe-choice-popup.component.html',
+    styleUrls: ['./recipe-choice-popup.component.less'],
+    imports: [NzAlertModule, NzButtonModule, NzInputModule, NzIconModule, NzListModule, I18nNameComponent, ItemIconComponent, RouterLink, NzWaveModule, NzDividerModule, AsyncPipe, TranslateModule, JobUnicodePipe]
 })
 export class RecipeChoicePopupComponent extends DialogComponent {
 

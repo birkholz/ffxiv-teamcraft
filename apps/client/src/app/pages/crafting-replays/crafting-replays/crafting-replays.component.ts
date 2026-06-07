@@ -33,7 +33,6 @@ import { PageLoaderComponent } from '../../../modules/page-loader/page-loader/pa
     templateUrl: './crafting-replays.component.html',
     styleUrls: ['./crafting-replays.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [PageLoaderComponent, FlexModule, NzAlertModule, NzDividerModule, NzButtonModule, NzWaveModule, NzToolTipModule, NzIconModule, FullpageMessageComponent, CdkDropList, CdkDrag, NgTemplateOutlet, FolderComponent, NzPopconfirmModule, LazyScrollComponent, CraftingReplayRowComponent, AsyncPipe, TranslateModule]
 })
 export class CraftingReplaysComponent {

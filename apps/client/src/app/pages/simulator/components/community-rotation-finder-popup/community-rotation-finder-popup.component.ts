@@ -38,12 +38,11 @@ import { ItemIconComponent } from '../../../../modules/item-icon/item-icon/item-
 import { I18nNameComponent } from '../../../../core/i18n/i18n-name/i18n-name.component';
 
 @Component({
-  selector: 'app-community-rotation-finder-popup',
-  templateUrl: './community-rotation-finder-popup.component.html',
-  styleUrls: ['./community-rotation-finder-popup.component.less'],
-  changeDetection: ChangeDetectionStrategy.OnPush,
-  standalone: true,
-  imports: [NzCardModule, FlexModule, NzCheckboxModule, FormsModule, NzEmptyModule, NzDividerModule, UserAvatarComponent, NzButtonModule, NzIconModule, NzToolTipModule, NzTagModule, ActionComponent, NzWaveModule, PageLoaderComponent, AsyncPipe, TranslateModule, ItemIconComponent, I18nNameComponent]
+    selector: 'app-community-rotation-finder-popup',
+    templateUrl: './community-rotation-finder-popup.component.html',
+    styleUrls: ['./community-rotation-finder-popup.component.less'],
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    imports: [NzCardModule, FlexModule, NzCheckboxModule, FormsModule, NzEmptyModule, NzDividerModule, UserAvatarComponent, NzButtonModule, NzIconModule, NzToolTipModule, NzTagModule, ActionComponent, NzWaveModule, PageLoaderComponent, AsyncPipe, TranslateModule, ItemIconComponent, I18nNameComponent]
 })
 export class CommunityRotationFinderPopupComponent extends DialogComponent implements OnInit {
 

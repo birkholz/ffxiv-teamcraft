@@ -11,7 +11,6 @@ import { NzDividerModule } from 'ng-zorro-antd/divider';
     templateUrl: './update-install-popup.component.html',
     styleUrls: ['./update-install-popup.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [NzDividerModule, FlexModule, NzButtonModule, NzWaveModule, TranslateModule]
 })
 export class UpdateInstallPopupComponent {

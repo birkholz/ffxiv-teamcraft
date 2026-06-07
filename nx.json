@@ -6,7 +6,7 @@
       "versionMismatch": false
     },
     "analytics": false,
-    "packageManager": "yarn"
+    "packageManager": "bun"
   },
   "defaultProject": "client",
   "generators": {

@@ -14,7 +14,6 @@ import { NzSkeletonModule } from 'ng-zorro-antd/skeleton';
     templateUrl: './i18n-name.component.html',
     styleUrls: ['./i18n-name.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [NzSkeletonModule, I18nPipe]
 })
 export class I18nNameComponent {

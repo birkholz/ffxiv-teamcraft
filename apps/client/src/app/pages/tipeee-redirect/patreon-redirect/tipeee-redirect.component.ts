@@ -13,7 +13,6 @@ import { NzAlertModule } from 'ng-zorro-antd/alert';
     selector: 'app-tipeee-redirect',
     templateUrl: './tipeee-redirect.component.html',
     styleUrls: ['./tipeee-redirect.component.less'],
-    standalone: true,
     imports: [NzAlertModule]
 })
 export class TipeeeRedirectComponent {

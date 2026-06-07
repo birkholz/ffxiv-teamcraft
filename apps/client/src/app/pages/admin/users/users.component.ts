@@ -26,12 +26,11 @@ import { FlexModule } from '@angular/flex-layout/flex';
 import { NzDividerComponent } from 'ng-zorro-antd/divider';
 
 @Component({
-  selector: 'app-users',
-  templateUrl: './users.component.html',
-  styleUrls: ['./users.component.less'],
-  standalone: true,
-  imports: [FlexModule, NzGridModule, NzFormModule, NzSelectModule, FormsModule, NzInputModule, ReactiveFormsModule, NzAutocompleteModule,
-    FullpageMessageComponent, UserAvatarComponent, RouterLink, AsyncPipe, TranslateModule, CharacterNamePipe, NzDividerComponent]
+    selector: 'app-users',
+    templateUrl: './users.component.html',
+    styleUrls: ['./users.component.less'],
+    imports: [FlexModule, NzGridModule, NzFormModule, NzSelectModule, FormsModule, NzInputModule, ReactiveFormsModule, NzAutocompleteModule,
+        FullpageMessageComponent, UserAvatarComponent, RouterLink, AsyncPipe, TranslateModule, CharacterNamePipe, NzDividerComponent]
 })
 export class UsersComponent {
 

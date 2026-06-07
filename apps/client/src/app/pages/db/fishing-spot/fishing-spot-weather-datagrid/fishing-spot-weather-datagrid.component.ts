@@ -16,7 +16,6 @@ import { NzCardModule } from 'ng-zorro-antd/card';
     selector: 'app-fishing-spot-weather-datagrid',
     templateUrl: './fishing-spot-weather-datagrid.component.html',
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [NzCardModule, NzToolTipModule, FishingSpotDatagridComponent, AsyncPipe, I18nPipe, TranslateModule, I18nRowPipe, WeatherIconPipe]
 })
 export class FishingSpotWeatherDatagridComponent {

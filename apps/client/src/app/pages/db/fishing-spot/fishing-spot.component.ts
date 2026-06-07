@@ -39,7 +39,6 @@ import { AsyncPipe } from '@angular/common';
     templateUrl: './fishing-spot.component.html',
     styleUrls: ['./fishing-spot.component.less', '../fish/fish.common.less', '../common-db.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [FlexModule, I18nDisplayComponent, NzButtonModule, NzWaveModule, DbCommentsComponent, NzDividerModule, FishingSpotPositionComponent, FishingSpotWeathersComponent, FishingSpotWeatherTransitionsComponent, FishingSpotAvailableFishesComponent, FishingSpotHoursComponent, FishingSpotBaitDatagridComponent, FishingSpotWeatherDatagridComponent, FishingSpotTugDatagridComponent, FishingSpotHooksetDatagridComponent, FishingSpotBiteTimesComponent, PageLoaderComponent, AsyncPipe, I18nPipe, TranslateModule, IfMobilePipe, MapNamePipe]
 })
 export class FishingSpotComponent extends TeamcraftPageComponent implements OnInit, OnDestroy {

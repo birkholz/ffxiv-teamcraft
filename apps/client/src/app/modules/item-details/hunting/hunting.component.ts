@@ -15,12 +15,11 @@ import { LazyDataFacade } from '../../../lazy-data/+state/lazy-data.facade';
 import { filter } from 'rxjs/operators';
 
 @Component({
-  selector: 'app-hunting',
-  templateUrl: './hunting.component.html',
-  styleUrls: ['./hunting.component.less'],
-  changeDetection: ChangeDetectionStrategy.OnPush,
-  standalone: true,
-  imports: [FlexModule, DbButtonComponent, MapPositionComponent, MapComponent, AsyncPipe, I18nPipe, I18nRowPipe, ClosestAetherytePipe]
+    selector: 'app-hunting',
+    templateUrl: './hunting.component.html',
+    styleUrls: ['./hunting.component.less'],
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    imports: [FlexModule, DbButtonComponent, MapPositionComponent, MapComponent, AsyncPipe, I18nPipe, I18nRowPipe, ClosestAetherytePipe]
 })
 export class HuntingComponent extends ItemDetailsPopup<Drop[]> {
 

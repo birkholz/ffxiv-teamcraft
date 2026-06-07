@@ -42,8 +42,7 @@ import { AlarmsFacade } from '../../../core/alarms/+state/alarms.facade';
     templateUrl: './search-result.component.html',
     styleUrls: ['./search-result.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
-  imports: [FlexModule, NzCheckboxModule, FormsModule, ItemIconComponent, ItemRarityDirective, DbButtonComponent, TutorialStepDirective, NzButtonModule, NzToolTipModule, RouterLink, NzIconModule, MarketboardIconComponent, CompanyWorkshopTreeButtonComponent, ItemSourcesDisplayComponent, NzGridModule, NzInputModule, NzInputNumberModule, MouseWheelDirective, NzWaveModule, AsyncPipe, I18nPipe, TranslateModule, I18nRowPipe, ActionNamePipe, NodeTypeIconPipe, XivapiIconPipe, XivapiL12nPipe, MapNamePipe, IfRegionsPipe, AlarmButtonComponent]
+    imports: [FlexModule, NzCheckboxModule, FormsModule, ItemIconComponent, ItemRarityDirective, DbButtonComponent, TutorialStepDirective, NzButtonModule, NzToolTipModule, RouterLink, NzIconModule, MarketboardIconComponent, CompanyWorkshopTreeButtonComponent, ItemSourcesDisplayComponent, NzGridModule, NzInputModule, NzInputNumberModule, MouseWheelDirective, NzWaveModule, AsyncPipe, I18nPipe, TranslateModule, I18nRowPipe, ActionNamePipe, NodeTypeIconPipe, XivapiIconPipe, XivapiL12nPipe, MapNamePipe, IfRegionsPipe, AlarmButtonComponent]
 })
 export class SearchResultComponent {
 

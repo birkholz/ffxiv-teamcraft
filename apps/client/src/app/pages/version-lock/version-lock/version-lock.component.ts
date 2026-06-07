@@ -11,7 +11,6 @@ import { FullpageMessageComponent } from '../../../modules/fullpage-message/full
     selector: 'app-version-lock',
     templateUrl: './version-lock.component.html',
     styleUrls: ['./version-lock.component.less'],
-    standalone: true,
     imports: [FullpageMessageComponent, TranslateModule]
 })
 export class VersionLockComponent {

@@ -21,11 +21,10 @@ import { NzButtonModule } from 'ng-zorro-antd/button';
 import { AsyncPipe, DecimalPipe, NgFor, NgIf } from '@angular/common';
 
 @Component({
-  selector: 'app-rotation-picker-drawer',
-  templateUrl: './rotation-picker-drawer.component.html',
-  styleUrls: ['./rotation-picker-drawer.component.less'],
-  standalone: true,
-  imports: [NgIf, NzButtonModule, RouterLink, NzIconModule, NzDividerModule, NzInputModule, FormsModule, FlexModule, NzListModule, NzToolTipModule, NgFor, AsyncPipe, DecimalPipe, TranslateModule]
+    selector: 'app-rotation-picker-drawer',
+    templateUrl: './rotation-picker-drawer.component.html',
+    styleUrls: ['./rotation-picker-drawer.component.less'],
+    imports: [NgIf, NzButtonModule, RouterLink, NzIconModule, NzDividerModule, NzInputModule, FormsModule, FlexModule, NzListModule, NzToolTipModule, NgFor, AsyncPipe, DecimalPipe, TranslateModule]
 })
 export class RotationPickerDrawerComponent {
 

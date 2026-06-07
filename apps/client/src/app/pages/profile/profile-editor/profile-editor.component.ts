@@ -39,7 +39,6 @@ import { NgIf, NgFor, AsyncPipe } from '@angular/common';
     selector: 'app-profile-editor',
     templateUrl: './profile-editor.component.html',
     styleUrls: ['./profile-editor.component.less'],
-    standalone: true,
     imports: [NgIf, FlexModule, NzAvatarModule, NzSelectModule, FormsModule, NgFor, NzButtonModule, NzIconModule, NzToolTipModule, NzWaveModule, RouterLink, NzTagModule, NzGridModule, NzCardModule, NzListModule, NzSliderModule, NzPopconfirmModule, UserAvatarComponent, AsyncPipe, TranslateModule, IfMobilePipe, CharacterNamePipe, JobUnicodePipe, I18nPipe, I18nRowPipe]
 })
 export class ProfileEditorComponent {

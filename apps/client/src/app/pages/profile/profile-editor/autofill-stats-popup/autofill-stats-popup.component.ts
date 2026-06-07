@@ -15,12 +15,11 @@ import { NzAlertModule } from 'ng-zorro-antd/alert';
 import { FlexModule } from '@angular/flex-layout/flex';
 
 @Component({
-  selector: 'app-autofill-stats-popup',
-  templateUrl: './autofill-stats-popup.component.html',
-  styleUrls: ['./autofill-stats-popup.component.less'],
-  changeDetection: ChangeDetectionStrategy.OnPush,
-  standalone: true,
-  imports: [FlexModule, NzAlertModule, NzListModule, NzButtonModule, NzIconModule, AsyncPipe, TranslateModule, I18nPipe, I18nRowPipe]
+    selector: 'app-autofill-stats-popup',
+    templateUrl: './autofill-stats-popup.component.html',
+    styleUrls: ['./autofill-stats-popup.component.less'],
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    imports: [FlexModule, NzAlertModule, NzListModule, NzButtonModule, NzIconModule, AsyncPipe, TranslateModule, I18nPipe, I18nRowPipe]
 })
 export class AutofillStatsPopupComponent extends TeamcraftComponent {
 

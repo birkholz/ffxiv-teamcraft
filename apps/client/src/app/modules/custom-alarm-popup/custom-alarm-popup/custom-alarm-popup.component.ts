@@ -30,7 +30,6 @@ import { uniq } from 'lodash';
     selector: 'app-custom-alarm-popup',
     templateUrl: './custom-alarm-popup.component.html',
     styleUrls: ['./custom-alarm-popup.component.less'],
-    standalone: true,
     imports: [FormsModule, NzFormModule, ReactiveFormsModule, NzGridModule, NzInputModule, NzButtonModule, NzInputNumberModule, MouseWheelDirective, NzCheckboxModule, NzToolTipModule, NzSelectModule, NzSpinModule, NzWaveModule, AsyncPipe, TranslateModule, I18nPipe, I18nRowPipe, NodeTypeNamePipe, MapNamePipe]
 })
 export class CustomAlarmPopupComponent implements OnInit {

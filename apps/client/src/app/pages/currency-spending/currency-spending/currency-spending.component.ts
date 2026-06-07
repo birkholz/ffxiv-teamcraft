@@ -31,11 +31,10 @@ import { NzSelectModule } from 'ng-zorro-antd/select';
 import { FlexModule } from '@angular/flex-layout/flex';
 
 @Component({
-  selector: 'app-currency-spending',
-  templateUrl: './currency-spending.component.html',
-  styleUrls: ['./currency-spending.component.less'],
-  standalone: true,
-  imports: [FlexModule, NzSelectModule, FormsModule, I18nNameComponent, NzInputNumberModule, NzProgressModule, NzListModule, NzEmptyModule, DbButtonComponent, ItemIconComponent, MarketboardIconComponent, AsyncPipe, DecimalPipe, I18nPipe, TranslateModule, I18nRowPipe, ItemNamePipe, FloorPipe, LazyIconPipe]
+    selector: 'app-currency-spending',
+    templateUrl: './currency-spending.component.html',
+    styleUrls: ['./currency-spending.component.less'],
+    imports: [FlexModule, NzSelectModule, FormsModule, I18nNameComponent, NzInputNumberModule, NzProgressModule, NzListModule, NzEmptyModule, DbButtonComponent, ItemIconComponent, MarketboardIconComponent, AsyncPipe, DecimalPipe, I18nPipe, TranslateModule, I18nRowPipe, ItemNamePipe, FloorPipe, LazyIconPipe]
 })
 export class CurrencySpendingComponent extends TeamcraftComponent implements OnInit {
 

@@ -14,22 +14,21 @@ import { NzCardModule } from 'ng-zorro-antd/card';
 import { Observable } from 'rxjs';
 
 @Component({
-  selector: 'app-fish-mooches',
-  templateUrl: './fish-mooches.component.html',
-  styleUrls: ['./fish-mooches.component.less', '../../common-db.less'],
-  changeDetection: ChangeDetectionStrategy.OnPush,
-  standalone: true,
-  imports: [
-    NzCardModule,
-    FlexModule,
-    ItemIconComponent,
-    I18nNameComponent,
-    NzSpinModule,
-    NzEmptyModule,
-    AsyncPipe,
-    TranslateModule,
-    LazyIconPipe
-]
+    selector: 'app-fish-mooches',
+    templateUrl: './fish-mooches.component.html',
+    styleUrls: ['./fish-mooches.component.less', '../../common-db.less'],
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    imports: [
+        NzCardModule,
+        FlexModule,
+        ItemIconComponent,
+        I18nNameComponent,
+        NzSpinModule,
+        NzEmptyModule,
+        AsyncPipe,
+        TranslateModule,
+        LazyIconPipe
+    ]
 })
 export class FishMoochesComponent {
   public readonly loading$ = this.fishCtx.moochesByFish$.pipe(

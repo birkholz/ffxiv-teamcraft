@@ -14,7 +14,6 @@ import { FlexModule } from '@angular/flex-layout/flex';
     templateUrl: './fired-feedback-popup.component.html',
     styleUrls: ['./fired-feedback-popup.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [FlexModule, NzRadioModule, FormsModule, NzButtonModule, NzWaveModule, TranslateModule]
 })
 export class FiredFeedbackPopupComponent {

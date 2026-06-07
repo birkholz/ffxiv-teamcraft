@@ -14,7 +14,6 @@ import { AsyncPipe, DecimalPipe } from '@angular/common';
     selector: 'app-list-contributions',
     templateUrl: './list-contributions.component.html',
     styleUrls: ['./list-contributions.component.less'],
-    standalone: true,
     imports: [NzTableModule, AsyncPipe, DecimalPipe, TranslateModule, CharacterNamePipe]
 })
 export class ListContributionsComponent {

@@ -12,7 +12,6 @@ import { NzAlertModule } from 'ng-zorro-antd/alert';
     selector: 'app-patreon-redirect',
     templateUrl: './patreon-redirect.component.html',
     styleUrls: ['./patreon-redirect.component.less'],
-    standalone: true,
     imports: [NzAlertModule]
 })
 export class PatreonRedirectComponent {

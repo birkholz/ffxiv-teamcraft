@@ -50,7 +50,6 @@ const LS_KEY = 'retainers:prices';
     templateUrl: './retainers.component.html',
     styleUrls: ['./retainers.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [PageLoaderComponent, FlexModule, NzSwitchModule, FormsModule, NzButtonModule, NzWaveModule, NgTemplateOutlet, NzDividerModule, NzToolTipModule, NzIconModule, NzCollapseModule, NzGridModule, ItemIconComponent, NzTagModule, FullpageMessageComponent, AsyncPipe, DecimalPipe, DatePipe, I18nPipe, TranslateModule, TimerPipe, I18nRowPipe, ItemNamePipe, JobUnicodePipe]
 })
 export class RetainersComponent {

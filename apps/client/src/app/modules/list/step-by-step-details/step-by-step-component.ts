@@ -22,7 +22,10 @@ import { ListDisplay } from '../../../core/layout/list-display';
 import { MapListStep } from './model/map-list-step';
 import { uniqBy } from 'lodash';
 
-@Component({ template: '' })
+@Component({
+    template: '',
+    standalone: false
+})
 export abstract class StepByStepComponent extends TeamcraftComponent implements OnInit {
 
   selectedMap$ = new BehaviorSubject(0);

@@ -25,7 +25,6 @@ import { NzGridModule } from 'ng-zorro-antd/grid';
     selector: 'app-list-import-popup',
     templateUrl: './list-import-popup.component.html',
     styleUrls: ['./list-import-popup.component.less'],
-    standalone: true,
     imports: [NzGridModule, NzFormModule, NzInputModule, FormsModule, FlexModule, NzCheckboxModule, NzButtonModule, NzWaveModule, PageLoaderComponent, TranslateModule]
 })
 export class ListImportPopupComponent {

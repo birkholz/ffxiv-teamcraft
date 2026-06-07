@@ -27,11 +27,10 @@ import { DialogComponent } from '../../../core/dialog.component';
 import { ProcessedListAggregate } from '../../list-aggregate/model/processed-list-aggregate';
 
 @Component({
-  selector: 'app-navigation-map',
-  templateUrl: './navigation-map.component.html',
-  styleUrls: ['./navigation-map.component.less'],
-  standalone: true,
-  imports: [MapComponent, NzListModule, NzToolTipModule, ClipboardDirective, FlexModule, NzButtonModule, NzWaveModule, NzIconModule, AsyncPipe, DecimalPipe, NodeTypeIconPipe, XivapiIconPipe, LazyIconPipe, LazyRowPipe, I18nPipe, TranslateModule, I18nRowPipe]
+    selector: 'app-navigation-map',
+    templateUrl: './navigation-map.component.html',
+    styleUrls: ['./navigation-map.component.less'],
+    imports: [MapComponent, NzListModule, NzToolTipModule, ClipboardDirective, FlexModule, NzButtonModule, NzWaveModule, NzIconModule, AsyncPipe, DecimalPipe, NodeTypeIconPipe, XivapiIconPipe, LazyIconPipe, LazyRowPipe, I18nPipe, TranslateModule, I18nRowPipe]
 })
 export class NavigationMapComponent extends DialogComponent implements OnInit {
 

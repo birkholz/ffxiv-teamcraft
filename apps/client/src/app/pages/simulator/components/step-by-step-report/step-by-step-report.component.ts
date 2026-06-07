@@ -8,11 +8,10 @@ import { NzTableModule } from 'ng-zorro-antd/table';
 import { NZ_MODAL_DATA } from 'ng-zorro-antd/modal';
 
 @Component({
-  selector: 'app-step-by-step-report',
-  templateUrl: './step-by-step-report.component.html',
-  styleUrls: ['./step-by-step-report.component.less'],
-  standalone: true,
-  imports: [NzTableModule, ActionComponent, IfMobilePipe, CraftingActionPipe]
+    selector: 'app-step-by-step-report',
+    templateUrl: './step-by-step-report.component.html',
+    styleUrls: ['./step-by-step-report.component.less'],
+    imports: [NzTableModule, ActionComponent, IfMobilePipe, CraftingActionPipe]
 })
 export class StepByStepReportComponent {
 

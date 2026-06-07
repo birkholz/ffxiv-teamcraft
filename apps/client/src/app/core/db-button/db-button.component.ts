@@ -10,7 +10,6 @@ import { NzButtonModule } from 'ng-zorro-antd/button';
     templateUrl: './db-button.component.html',
     styleUrls: ['./db-button.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [NzButtonModule, NzToolTipModule, RouterLink, NzIconModule, TranslateModule]
 })
 export class DbButtonComponent {

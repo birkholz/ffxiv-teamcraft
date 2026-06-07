@@ -13,7 +13,6 @@ import { FlexModule } from '@angular/flex-layout/flex';
     templateUrl: './report-source-display.component.html',
     styleUrls: ['./report-source-display.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [FlexModule, NzButtonModule, NzIconModule, TranslateModule, NodeTypeIconPipe, LazyIconPipe]
 })
 export class ReportSourceDisplayComponent {

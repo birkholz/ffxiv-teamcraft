@@ -55,7 +55,6 @@ import { AsyncPipe } from '@angular/common';
     templateUrl: './item-row.component.html',
     styleUrls: ['./item-row.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [FlexModule, NzGridModule, ItemIconComponent, NzButtonModule, NzIconModule, NzToolTipModule, ItemNameClipboardDirective, I18nNameComponent, NzTagModule, UserAvatarComponent, ItemRowButtonsComponent, InventoryPositionComponent, NzDropDownModule, NzMenuModule, NzInputModule, FormsModule, NzAutocompleteModule, TutorialStepDirective, AlarmButtonComponent, MapPositionComponent, NgForTrackByIdDirective, NzWaveModule, NzPopoverModule, NzInputNumberModule, CompactAmountInputComponent, ItemSourcesDisplayComponent, AsyncPipe, I18nPipe, TranslateModule, I18nRowPipe, ItemNamePipe, CeilPipe, XivapiIconPipe, LazyIconPipe]
 })
 export class ItemRowComponent extends AbstractItemRowComponent implements OnInit {

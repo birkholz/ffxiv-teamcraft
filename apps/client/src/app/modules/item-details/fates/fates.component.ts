@@ -14,7 +14,6 @@ import { NzListModule } from 'ng-zorro-antd/list';
     templateUrl: './fates.component.html',
     styleUrls: ['./fates.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [NzListModule, FlexModule, DbButtonComponent, AsyncPipe, I18nPipe, I18nRowPipe, XivapiIconPipe, LazyRowPipe]
 })
 export class FatesComponent extends ItemDetailsPopup {

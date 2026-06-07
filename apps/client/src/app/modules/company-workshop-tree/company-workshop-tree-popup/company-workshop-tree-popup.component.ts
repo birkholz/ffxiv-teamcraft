@@ -21,7 +21,6 @@ interface WorkshopTreeNode {
     templateUrl: './company-workshop-tree-popup.component.html',
     styleUrls: ['./company-workshop-tree-popup.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [AsyncPipe, TranslateModule, ItemNamePipe, I18nPipe]
 })
 export class CompanyWorkshopTreePopupComponent extends DialogComponent implements OnInit {

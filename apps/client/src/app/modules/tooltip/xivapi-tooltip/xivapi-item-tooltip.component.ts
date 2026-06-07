@@ -36,7 +36,6 @@ import { NzGridModule } from 'ng-zorro-antd/grid';
     templateUrl: './xivapi-item-tooltip.component.html',
     styleUrls: ['./xivapi-item-tooltip.component.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [NzGridModule, FlexModule, ItemRarityDirective, I18nNameComponent, NzToolTipModule, NzButtonModule, NzIconModule, MapComponent, NodeDetailsComponent, AsyncPipe, TranslateModule, ItemNamePipe, ActionIconPipe, NodeTypeIconPipe, ClosestAetherytePipe, XivapiIconPipe, LazyIconPipe, MapNamePipe, JobUnicodePipe, TugNamePipe, HooksetActionIdPipe, LazyRowPipe, I18nPipe, I18nRowPipe, NzPipesModule]
 })
 export class XivapiItemTooltipComponent implements OnInit {

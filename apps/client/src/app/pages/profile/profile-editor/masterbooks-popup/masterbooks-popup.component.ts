@@ -15,11 +15,10 @@ import { AsyncPipe } from '@angular/common';
 import { DialogComponent } from '../../../../core/dialog.component';
 
 @Component({
-  selector: 'app-masterbooks-popup',
-  templateUrl: './masterbooks-popup.component.html',
-  styleUrls: ['./masterbooks-popup.component.less'],
-  standalone: true,
-  imports: [FlexModule, NzCheckboxModule, FormsModule, NzButtonModule, NzWaveModule, AsyncPipe, TranslateModule, ItemNamePipe, I18nPipe]
+    selector: 'app-masterbooks-popup',
+    templateUrl: './masterbooks-popup.component.html',
+    styleUrls: ['./masterbooks-popup.component.less'],
+    imports: [FlexModule, NzCheckboxModule, FormsModule, NzButtonModule, NzWaveModule, AsyncPipe, TranslateModule, ItemNamePipe, I18nPipe]
 })
 export class MasterbooksPopupComponent extends DialogComponent implements OnInit {
 

@@ -17,11 +17,10 @@ import { FlexModule } from '@angular/flex-layout/flex';
 import { DialogComponent } from '../../../../core/dialog.component';
 
 @Component({
-  selector: 'app-simulation-share-popup',
-  templateUrl: './simulation-share-popup.component.html',
-  styleUrls: ['./simulation-share-popup.component.less'],
-  standalone: true,
-  imports: [FlexModule, NzCheckboxModule, FormsModule, NzButtonModule, NzInputModule, NzWaveModule, ClipboardDirective, TranslateModule]
+    selector: 'app-simulation-share-popup',
+    templateUrl: './simulation-share-popup.component.html',
+    styleUrls: ['./simulation-share-popup.component.less'],
+    imports: [FlexModule, NzCheckboxModule, FormsModule, NzButtonModule, NzInputModule, NzWaveModule, ClipboardDirective, TranslateModule]
 })
 export class SimulationSharePopupComponent extends DialogComponent {
 

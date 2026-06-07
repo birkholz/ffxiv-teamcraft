@@ -41,7 +41,6 @@ import { AsyncPipe, DatePipe } from '@angular/common';
     selector: 'app-public-profile',
     templateUrl: './public-profile.component.html',
     styleUrls: ['./public-profile.component.less'],
-    standalone: true,
     imports: [FlexModule, NzButtonModule, NzIconModule, NzToolTipModule, NzTagModule, UserRatingDisplayComponent, NzDividerModule, NzCollapseModule, NzListModule, ListPanelComponent, RotationPanelComponent, CdkVirtualScrollViewport, CdkFixedSizeVirtualScroll, CdkVirtualForOf, NzSkeletonModule, ItemIconComponent, FullpageMessageComponent, AsyncPipe, DatePipe, TranslateModule, ItemNamePipe, IfMobilePipe, JobUnicodePipe, I18nPipe]
 })
 export class PublicProfileComponent {

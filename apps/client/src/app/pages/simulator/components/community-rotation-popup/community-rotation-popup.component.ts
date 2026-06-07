@@ -16,11 +16,10 @@ import { FlexModule } from '@angular/flex-layout/flex';
 import { DialogComponent } from '../../../../core/dialog.component';
 
 @Component({
-  selector: 'app-community-rotation-popup',
-  templateUrl: './community-rotation-popup.component.html',
-  styleUrls: ['./community-rotation-popup.component.less'],
-  standalone: true,
-  imports: [FlexModule, NzSwitchModule, FormsModule, NzFormModule, NzGridModule, NzSelectModule, NzInputNumberModule, MouseWheelDirective, TranslateModule]
+    selector: 'app-community-rotation-popup',
+    templateUrl: './community-rotation-popup.component.html',
+    styleUrls: ['./community-rotation-popup.component.less'],
+    imports: [FlexModule, NzSwitchModule, FormsModule, NzFormModule, NzGridModule, NzSelectModule, NzInputNumberModule, MouseWheelDirective, TranslateModule]
 })
 export class CommunityRotationPopupComponent extends DialogComponent implements OnInit {
 
