@@ -917320,7 +917320,7 @@
     "en": "Xbalyav Ty'e kitchen hand",
     "ja": "シャバーブチェの従業員",
     "de": "Küchenhelferin",
-    "fr": "employé de Xbalyav Ty'e",
+    "fr": "employée de Xbalyav Ty'e",
     "title": {
       "en": "",
       "ja": "",
@@ -961599,10 +961599,10 @@
     "defaultTalks": []
   },
   "1053378": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Namingway",
+    "ja": "ネミングウェイ",
+    "de": "Namingway",
+    "fr": "Namingway",
     "title": {
       "en": "",
       "ja": "",
@@ -961612,10 +961612,10 @@
     "defaultTalks": []
   },
   "1053379": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Sewal",
+    "ja": "セウァル",
+    "de": "Sewal",
+    "fr": "Sewal",
     "title": {
       "en": "",
       "ja": "",
@@ -992036,10 +992036,10 @@
     "defaultTalks": []
   },
   "1055138": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Searchingway",
+    "ja": "サーチングウェイ",
+    "de": "Searchingway",
+    "fr": "Searchingway",
     "title": {
       "en": "",
       "ja": "",
@@ -992049,10 +992049,10 @@
     "defaultTalks": []
   },
   "1055139": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Namingway",
+    "ja": "ネミングウェイ",
+    "de": "Namingway",
+    "fr": "Namingway",
     "title": {
       "en": "",
       "ja": "",
@@ -992062,10 +992062,10 @@
     "defaultTalks": []
   },
   "1055140": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Nagylvi bud",
+    "ja": "ナギュルヴィの芽",
+    "de": "Nagylvi-Keimling",
+    "fr": "bourgeon des Nagylvi",
     "title": {
       "en": "",
       "ja": "",
@@ -1014173,36 +1014173,36 @@
     "defaultTalks": []
   },
   "1056818": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Cruisingway",
+    "ja": "クルージングウェイ",
+    "de": "Cruisingway",
+    "fr": "Cruisingway",
     "title": {
-      "en": "",
-      "ja": "",
-      "de": "",
-      "fr": ""
+      "en": "Starship",
+      "ja": "SPACE VOYAGE",
+      "de": "Weltraum-Reise",
+      "fr": "Voyages spatiaux"
     },
     "defaultTalks": []
   },
   "1056819": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Lefleda",
+    "ja": "レフレダ",
+    "de": "Lefleda",
+    "fr": "Lefleda",
     "title": {
-      "en": "",
-      "ja": "",
-      "de": "",
-      "fr": ""
+      "en": "Emergency Transport",
+      "ja": "ALERT",
+      "de": "Alarmstufe Rot",
+      "fr": "Alertes"
     },
     "defaultTalks": []
   },
   "1056820": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Phasingway",
+    "ja": "フェイジングウェイ",
+    "de": "Phasingway",
+    "fr": "Phasingway",
     "title": {
       "en": "",
       "ja": "",
@@ -1014212,88 +1014212,88 @@
     "defaultTalks": []
   },
   "1056821": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Researchingway",
+    "ja": "リサーチングウェイ",
+    "de": "Researchingway",
+    "fr": "Researchingway",
     "title": {
-      "en": "",
-      "ja": "",
-      "de": "",
-      "fr": ""
+      "en": "Cosmic Research",
+      "ja": "RESEARCHER",
+      "de": "Forschung",
+      "fr": "Chercheur"
     },
     "defaultTalks": []
   },
   "1056822": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Scanningway",
+    "ja": "スキャニングウェイ",
+    "de": "Scanningway",
+    "fr": "Scanningway",
     "title": {
-      "en": "",
-      "ja": "",
-      "de": "",
-      "fr": ""
+      "en": "Stellar Analyst",
+      "ja": "ANALYST",
+      "de": "Aufzeichnung",
+      "fr": "Analyste"
     },
     "defaultTalks": []
   },
   "1056823": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Alerot",
+    "ja": "アレロット",
+    "de": "Alerot",
+    "fr": "Alerot",
     "title": {
-      "en": "",
-      "ja": "",
-      "de": "",
-      "fr": ""
+      "en": "Mech Ops",
+      "ja": "MECH OPS",
+      "de": "Mecha-Einsätze",
+      "fr": "Interventions mécaniques"
     },
     "defaultTalks": []
   },
   "1056824": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Mesouaidonque",
+    "ja": "メズエードンク",
+    "de": "Mesouaidonque",
+    "fr": "Mesouaidonque",
     "title": {
-      "en": "",
-      "ja": "",
-      "de": "",
-      "fr": ""
+      "en": "Credit Exchange",
+      "ja": "TRADE",
+      "de": "Kosmo-Kohle",
+      "fr": "Échange de crédits"
     },
     "defaultTalks": []
   },
   "1056825": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Godgyth",
+    "ja": "ゴッドギス",
+    "de": "Godgyth",
+    "fr": "Godgyth",
     "title": {
-      "en": "",
-      "ja": "",
-      "de": "",
-      "fr": ""
+      "en": "Merchant & Mender",
+      "ja": "SHOP & REPAIRS",
+      "de": "Handel & Reparatur",
+      "fr": "Équipements et réparations"
     },
     "defaultTalks": []
   },
   "1056826": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Orbitingway",
+    "ja": "オービティングウェイ",
+    "de": "Orbitingway",
+    "fr": "Orbitingway",
     "title": {
-      "en": "",
-      "ja": "",
-      "de": "",
-      "fr": ""
+      "en": "Cosmic Fortunes",
+      "ja": "COSMIC FORTUNE",
+      "de": "Kosmo-Glück",
+      "fr": "Roue de la fortune cosmique"
     },
     "defaultTalks": []
   },
   "1056827": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Spina",
+    "ja": "スピーナ",
+    "de": "Spina",
+    "fr": "Spina",
     "title": {
       "en": "",
       "ja": "",
@@ -1014303,23 +1014303,23 @@
     "defaultTalks": []
   },
   "1056828": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Kaede",
+    "ja": "カエデ",
+    "de": "Kaede",
+    "fr": "Kaede",
     "title": {
-      "en": "",
-      "ja": "",
-      "de": "",
-      "fr": ""
+      "en": "Artifact Search",
+      "ja": "ARTIFACT SEARCH",
+      "de": "Artefaktsuche",
+      "fr": "Fouilles archéologiques"
     },
     "defaultTalks": []
   },
   "1056829": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Searchingway",
+    "ja": "サーチングウェイ",
+    "de": "Searchingway",
+    "fr": "Searchingway",
     "title": {
       "en": "",
       "ja": "",
@@ -1014329,10 +1014329,10 @@
     "defaultTalks": []
   },
   "1056830": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Namingway",
+    "ja": "ネミングウェイ",
+    "de": "Namingway",
+    "fr": "Namingway",
     "title": {
       "en": "",
       "ja": "",
@@ -1014342,10 +1014342,10 @@
     "defaultTalks": []
   },
   "1056831": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Searchingway",
+    "ja": "サーチングウェイ",
+    "de": "Searchingway",
+    "fr": "Searchingway",
     "title": {
       "en": "",
       "ja": "",
@@ -1014355,10 +1014355,10 @@
     "defaultTalks": []
   },
   "1056832": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Namingway",
+    "ja": "ネミングウェイ",
+    "de": "Namingway",
+    "fr": "Namingway",
     "title": {
       "en": "",
       "ja": "",
@@ -1014368,10 +1014368,10 @@
     "defaultTalks": []
   },
   "1056833": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Searchingway",
+    "ja": "サーチングウェイ",
+    "de": "Searchingway",
+    "fr": "Searchingway",
     "title": {
       "en": "",
       "ja": "",
@@ -1014381,10 +1014381,10 @@
     "defaultTalks": []
   },
   "1056834": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Namingway",
+    "ja": "ネミングウェイ",
+    "de": "Namingway",
+    "fr": "Namingway",
     "title": {
       "en": "",
       "ja": "",
@@ -1014394,10 +1014394,10 @@
     "defaultTalks": []
   },
   "1056835": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Nagylvi bud",
+    "ja": "ナギュルヴィの芽",
+    "de": "Nagylvi-Keimling",
+    "fr": "bourgeon des Nagylvi",
     "title": {
       "en": "",
       "ja": "",
@@ -1014407,10 +1014407,10 @@
     "defaultTalks": []
   },
   "1056836": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Dylise",
+    "ja": "ディリズ",
+    "de": "Dylise",
+    "fr": "Dylise",
     "title": {
       "en": "",
       "ja": "",
@@ -1014420,10 +1014420,10 @@
     "defaultTalks": []
   },
   "1056837": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Searchingway",
+    "ja": "サーチングウェイ",
+    "de": "Searchingway",
+    "fr": "Searchingway",
     "title": {
       "en": "",
       "ja": "",
@@ -1014433,10 +1014433,10 @@
     "defaultTalks": []
   },
   "1056838": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Namingway",
+    "ja": "ネミングウェイ",
+    "de": "Namingway",
+    "fr": "Namingway",
     "title": {
       "en": "",
       "ja": "",
@@ -1014472,10 +1014472,10 @@
     "defaultTalks": []
   },
   "1056841": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Namingway",
+    "ja": "ネミングウェイ",
+    "de": "Namingway",
+    "fr": "Namingway",
     "title": {
       "en": "",
       "ja": "",
@@ -1014485,10 +1014485,10 @@
     "defaultTalks": []
   },
   "1056842": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "resting elder",
+    "ja": "休憩中の老婆",
+    "de": "entspannend[a] Greisin",
+    "fr": "doyenne paisible",
     "title": {
       "en": "",
       "ja": "",
@@ -1014498,10 +1014498,10 @@
     "defaultTalks": []
   },
   "1056843": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "veteran stonecutter",
+    "ja": "壮年の石切職人",
+    "de": "beseelt[a] Steinmetz",
+    "fr": "tailleur de pierre âgé",
     "title": {
       "en": "",
       "ja": "",
@@ -1014511,10 +1014511,10 @@
     "defaultTalks": []
   },
   "1056844": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "apprehensive apprentice",
+    "ja": "石工見習いの若者",
+    "de": "traditionsbewusst[a] Jüngling",
+    "fr": "apprenti carrier",
     "title": {
       "en": "",
       "ja": "",
@@ -1014524,10 +1014524,10 @@
     "defaultTalks": []
   },
   "1056845": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Namingway",
+    "ja": "ネミングウェイ",
+    "de": "Namingway",
+    "fr": "Namingway",
     "title": {
       "en": "",
       "ja": "",
@@ -1014550,10 +1014550,10 @@
     "defaultTalks": []
   },
   "1056847": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Namingway",
+    "ja": "ネミングウェイ",
+    "de": "Namingway",
+    "fr": "Namingway",
     "title": {
       "en": "",
       "ja": "",
@@ -1014563,10 +1014563,10 @@
     "defaultTalks": []
   },
   "1056848": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Namingway",
+    "ja": "ネミングウェイ",
+    "de": "Namingway",
+    "fr": "Namingway",
     "title": {
       "en": "",
       "ja": "",
@@ -1014576,10 +1014576,10 @@
     "defaultTalks": []
   },
   "1056849": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Sewal",
+    "ja": "セウァル",
+    "de": "Sewal",
+    "fr": "Sewal",
     "title": {
       "en": "",
       "ja": "",
@@ -1014589,10 +1014589,10 @@
     "defaultTalks": []
   },
   "1056850": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Namingway",
+    "ja": "ネミングウェイ",
+    "de": "Namingway",
+    "fr": "Namingway",
     "title": {
       "en": "",
       "ja": "",
@@ -1014602,10 +1014602,10 @@
     "defaultTalks": []
   },
   "1056851": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Mumukko",
+    "ja": "ムムッコ",
+    "de": "Mumukko",
+    "fr": "Mumukko",
     "title": {
       "en": "",
       "ja": "",
@@ -1014615,10 +1014615,10 @@
     "defaultTalks": []
   },
   "1056852": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "earnest exozoologist",
+    "ja": "宇宙獣医学の研究員",
+    "de": "Astroveterinärin",
+    "fr": "chercheuse vétérinaire",
     "title": {
       "en": "",
       "ja": "",
@@ -1014628,10 +1014628,10 @@
     "defaultTalks": []
   },
   "1056853": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Dylise",
+    "ja": "ディリズ",
+    "de": "Dylise",
+    "fr": "Dylise",
     "title": {
       "en": "",
       "ja": "",
@@ -1014641,10 +1014641,10 @@
     "defaultTalks": []
   },
   "1056854": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Justa",
+    "ja": "ユスタ",
+    "de": "Justa",
+    "fr": "Justa",
     "title": {
       "en": "",
       "ja": "",
@@ -1014654,10 +1014654,10 @@
     "defaultTalks": []
   },
   "1056855": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Commandingway",
+    "ja": "コマンディングウェイ",
+    "de": "Commandingway",
+    "fr": "Commandingway",
     "title": {
       "en": "",
       "ja": "",
@@ -1014667,10 +1014667,10 @@
     "defaultTalks": []
   },
   "1056856": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Phasingway",
+    "ja": "フェイジングウェイ",
+    "de": "Phasingway",
+    "fr": "Phasingway",
     "title": {
       "en": "",
       "ja": "",
@@ -1014680,10 +1014680,10 @@
     "defaultTalks": []
   },
   "1056857": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Commandingway",
+    "ja": "コマンディングウェイ",
+    "de": "Commandingway",
+    "fr": "Commandingway",
     "title": {
       "en": "",
       "ja": "",
@@ -1014693,10 +1014693,10 @@
     "defaultTalks": []
   },
   "1056858": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Justa",
+    "ja": "ユスタ",
+    "de": "Justa",
+    "fr": "Justa",
     "title": {
       "en": "",
       "ja": "",
@@ -1014706,10 +1014706,10 @@
     "defaultTalks": []
   },
   "1056859": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Phasingway",
+    "ja": "フェイジングウェイ",
+    "de": "Phasingway",
+    "fr": "Phasingway",
     "title": {
       "en": "",
       "ja": "",
@@ -1014719,10 +1014719,10 @@
     "defaultTalks": []
   },
   "1056860": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Dylise",
+    "ja": "ディリズ",
+    "de": "Dylise",
+    "fr": "Dylise",
     "title": {
       "en": "",
       "ja": "",
@@ -1014732,10 +1014732,10 @@
     "defaultTalks": []
   },
   "1056861": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "lively Loporrit",
+    "ja": "いきいきレポリット",
+    "de": "munter[a] Loporrit",
+    "fr": "Loporrite pêchue",
     "title": {
       "en": "",
       "ja": "",
@@ -1014745,10 +1014745,10 @@
     "defaultTalks": []
   },
   "1056862": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "stealthy Loporrit",
+    "ja": "こそこそレポリット",
+    "de": "unauffällig[a] Loporrit",
+    "fr": "Loporrite discret",
     "title": {
       "en": "",
       "ja": "",
@@ -1014758,10 +1014758,10 @@
     "defaultTalks": []
   },
   "1056863": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "sneaky Loporrit",
+    "ja": "にんにんレポリット",
+    "de": "schleichlustig[a] Loporrit",
+    "fr": "Loporrite furtif",
     "title": {
       "en": "",
       "ja": "",
@@ -1014797,10 +1014797,10 @@
     "defaultTalks": []
   },
   "1056866": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Theorizingway",
+    "ja": "セオライジングウェイ",
+    "de": "Theorizingway",
+    "fr": "Theorizingway",
     "title": {
       "en": "",
       "ja": "",
@@ -1014810,10 +1014810,10 @@
     "defaultTalks": []
   },
   "1056867": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Rurusha",
+    "ja": "ルルシャ",
+    "de": "Rurusha",
+    "fr": "Rurusha",
     "title": {
       "en": "",
       "ja": "",
@@ -1014823,10 +1014823,10 @@
     "defaultTalks": []
   },
   "1056868": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Jude",
+    "ja": "ジュード",
+    "de": "Jules",
+    "fr": "Jude",
     "title": {
       "en": "",
       "ja": "",
@@ -1014836,10 +1014836,10 @@
     "defaultTalks": []
   },
   "1056869": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Hinageshi",
+    "ja": "ヒナゲシ",
+    "de": "Hinageshi",
+    "fr": "Hinageshi",
     "title": {
       "en": "",
       "ja": "",
@@ -1014849,10 +1014849,10 @@
     "defaultTalks": []
   },
   "1056870": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Rurusha",
+    "ja": "ルルシャ",
+    "de": "Rurusha",
+    "fr": "Rurusha",
     "title": {
       "en": "",
       "ja": "",
@@ -1014862,10 +1014862,10 @@
     "defaultTalks": []
   },
   "1056871": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Jude",
+    "ja": "ジュード",
+    "de": "Jules",
+    "fr": "Jude",
     "title": {
       "en": "",
       "ja": "",
@@ -1014875,10 +1014875,10 @@
     "defaultTalks": []
   },
   "1056872": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Hinageshi",
+    "ja": "ヒナゲシ",
+    "de": "Hinageshi",
+    "fr": "Hinageshi",
     "title": {
       "en": "",
       "ja": "",
@@ -1023182,10 +1023182,10 @@
     "defaultTalks": []
   },
   "1057511": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Commandingway",
+    "ja": "コマンディングウェイ",
+    "de": "Commandingway",
+    "fr": "Commandingway",
     "title": {
       "en": "",
       "ja": "",
@@ -1024300,413 +1024300,413 @@
     "defaultTalks": []
   },
   "1057597": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Dylise",
+    "ja": "ディリズ",
+    "de": "Dylise",
+    "fr": "Dylise",
     "title": {
-      "en": "",
-      "ja": "",
-      "de": "",
-      "fr": ""
+      "en": "Project Specialist",
+      "ja": "COSMIC EXPLORATION",
+      "de": "Kosmo-Erkundung",
+      "fr": "Exploration cosmique"
     },
     "defaultTalks": []
   },
   "1057598": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Dylise",
+    "ja": "ディリズ",
+    "de": "Dylise",
+    "fr": "Dylise",
     "title": {
-      "en": "",
-      "ja": "",
-      "de": "",
-      "fr": ""
+      "en": "Project Specialist",
+      "ja": "COSMIC EXPLORATION",
+      "de": "Kosmo-Erkundung",
+      "fr": "Exploration cosmique"
     },
     "defaultTalks": []
   },
   "1057599": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Dylise",
+    "ja": "ディリズ",
+    "de": "Dylise",
+    "fr": "Dylise",
     "title": {
-      "en": "",
-      "ja": "",
-      "de": "",
-      "fr": ""
+      "en": "Project Specialist",
+      "ja": "COSMIC EXPLORATION",
+      "de": "Kosmo-Erkundung",
+      "fr": "Exploration cosmique"
     },
     "defaultTalks": []
   },
   "1057600": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Dylise",
+    "ja": "ディリズ",
+    "de": "Dylise",
+    "fr": "Dylise",
     "title": {
-      "en": "",
-      "ja": "",
-      "de": "",
-      "fr": ""
+      "en": "Project Specialist",
+      "ja": "COSMIC EXPLORATION",
+      "de": "Kosmo-Erkundung",
+      "fr": "Exploration cosmique"
     },
     "defaultTalks": []
   },
   "1057601": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Dylise",
+    "ja": "ディリズ",
+    "de": "Dylise",
+    "fr": "Dylise",
     "title": {
-      "en": "",
-      "ja": "",
-      "de": "",
-      "fr": ""
+      "en": "Project Specialist",
+      "ja": "COSMIC EXPLORATION",
+      "de": "Kosmo-Erkundung",
+      "fr": "Exploration cosmique"
     },
     "defaultTalks": []
   },
   "1057602": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Dylise",
+    "ja": "ディリズ",
+    "de": "Dylise",
+    "fr": "Dylise",
     "title": {
-      "en": "",
-      "ja": "",
-      "de": "",
-      "fr": ""
+      "en": "Project Specialist",
+      "ja": "COSMIC EXPLORATION",
+      "de": "Kosmo-Erkundung",
+      "fr": "Exploration cosmique"
     },
     "defaultTalks": []
   },
   "1057603": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Dylise",
+    "ja": "ディリズ",
+    "de": "Dylise",
+    "fr": "Dylise",
     "title": {
-      "en": "",
-      "ja": "",
-      "de": "",
-      "fr": ""
+      "en": "Project Specialist",
+      "ja": "COSMIC EXPLORATION",
+      "de": "Kosmo-Erkundung",
+      "fr": "Exploration cosmique"
     },
     "defaultTalks": []
   },
   "1057604": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Dylise",
+    "ja": "ディリズ",
+    "de": "Dylise",
+    "fr": "Dylise",
     "title": {
-      "en": "",
-      "ja": "",
-      "de": "",
-      "fr": ""
+      "en": "Project Specialist",
+      "ja": "COSMIC EXPLORATION",
+      "de": "Kosmo-Erkundung",
+      "fr": "Exploration cosmique"
     },
     "defaultTalks": []
   },
   "1057605": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Dylise",
+    "ja": "ディリズ",
+    "de": "Dylise",
+    "fr": "Dylise",
     "title": {
-      "en": "",
-      "ja": "",
-      "de": "",
-      "fr": ""
+      "en": "Project Specialist",
+      "ja": "COSMIC EXPLORATION",
+      "de": "Kosmo-Erkundung",
+      "fr": "Exploration cosmique"
     },
     "defaultTalks": []
   },
   "1057606": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Dylise",
+    "ja": "ディリズ",
+    "de": "Dylise",
+    "fr": "Dylise",
     "title": {
-      "en": "",
-      "ja": "",
-      "de": "",
-      "fr": ""
+      "en": "Project Specialist",
+      "ja": "COSMIC EXPLORATION",
+      "de": "Kosmo-Erkundung",
+      "fr": "Exploration cosmique"
     },
     "defaultTalks": []
   },
   "1057607": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Dylise",
+    "ja": "ディリズ",
+    "de": "Dylise",
+    "fr": "Dylise",
     "title": {
-      "en": "",
-      "ja": "",
-      "de": "",
-      "fr": ""
+      "en": "Project Specialist",
+      "ja": "COSMIC EXPLORATION",
+      "de": "Kosmo-Erkundung",
+      "fr": "Exploration cosmique"
     },
     "defaultTalks": []
   },
   "1057608": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Dylise",
+    "ja": "ディリズ",
+    "de": "Dylise",
+    "fr": "Dylise",
     "title": {
-      "en": "",
-      "ja": "",
-      "de": "",
-      "fr": ""
+      "en": "Project Specialist",
+      "ja": "COSMIC EXPLORATION",
+      "de": "Kosmo-Erkundung",
+      "fr": "Exploration cosmique"
     },
     "defaultTalks": []
   },
   "1057609": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Dylise",
+    "ja": "ディリズ",
+    "de": "Dylise",
+    "fr": "Dylise",
     "title": {
-      "en": "",
-      "ja": "",
-      "de": "",
-      "fr": ""
+      "en": "Project Specialist",
+      "ja": "COSMIC EXPLORATION",
+      "de": "Kosmo-Erkundung",
+      "fr": "Exploration cosmique"
     },
     "defaultTalks": []
   },
   "1057610": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Dylise",
+    "ja": "ディリズ",
+    "de": "Dylise",
+    "fr": "Dylise",
     "title": {
-      "en": "",
-      "ja": "",
-      "de": "",
-      "fr": ""
+      "en": "Project Specialist",
+      "ja": "COSMIC EXPLORATION",
+      "de": "Kosmo-Erkundung",
+      "fr": "Exploration cosmique"
     },
     "defaultTalks": []
   },
   "1057611": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Dylise",
+    "ja": "ディリズ",
+    "de": "Dylise",
+    "fr": "Dylise",
     "title": {
-      "en": "",
-      "ja": "",
-      "de": "",
-      "fr": ""
+      "en": "Project Specialist",
+      "ja": "COSMIC EXPLORATION",
+      "de": "Kosmo-Erkundung",
+      "fr": "Exploration cosmique"
     },
     "defaultTalks": []
   },
   "1057612": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Dylise",
+    "ja": "ディリズ",
+    "de": "Dylise",
+    "fr": "Dylise",
     "title": {
-      "en": "",
-      "ja": "",
-      "de": "",
-      "fr": ""
+      "en": "Project Specialist",
+      "ja": "COSMIC EXPLORATION",
+      "de": "Kosmo-Erkundung",
+      "fr": "Exploration cosmique"
     },
     "defaultTalks": []
   },
   "1057613": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Dylise",
+    "ja": "ディリズ",
+    "de": "Dylise",
+    "fr": "Dylise",
     "title": {
-      "en": "",
-      "ja": "",
-      "de": "",
-      "fr": ""
+      "en": "Project Specialist",
+      "ja": "COSMIC EXPLORATION",
+      "de": "Kosmo-Erkundung",
+      "fr": "Exploration cosmique"
     },
     "defaultTalks": []
   },
   "1057614": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Dylise",
+    "ja": "ディリズ",
+    "de": "Dylise",
+    "fr": "Dylise",
     "title": {
-      "en": "",
-      "ja": "",
-      "de": "",
-      "fr": ""
+      "en": "Project Specialist",
+      "ja": "COSMIC EXPLORATION",
+      "de": "Kosmo-Erkundung",
+      "fr": "Exploration cosmique"
     },
     "defaultTalks": []
   },
   "1057615": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Dylise",
+    "ja": "ディリズ",
+    "de": "Dylise",
+    "fr": "Dylise",
     "title": {
-      "en": "",
-      "ja": "",
-      "de": "",
-      "fr": ""
+      "en": "Project Specialist",
+      "ja": "COSMIC EXPLORATION",
+      "de": "Kosmo-Erkundung",
+      "fr": "Exploration cosmique"
     },
     "defaultTalks": []
   },
   "1057616": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Dylise",
+    "ja": "ディリズ",
+    "de": "Dylise",
+    "fr": "Dylise",
     "title": {
-      "en": "",
-      "ja": "",
-      "de": "",
-      "fr": ""
+      "en": "Project Specialist",
+      "ja": "COSMIC EXPLORATION",
+      "de": "Kosmo-Erkundung",
+      "fr": "Exploration cosmique"
     },
     "defaultTalks": []
   },
   "1057617": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Dylise",
+    "ja": "ディリズ",
+    "de": "Dylise",
+    "fr": "Dylise",
     "title": {
-      "en": "",
-      "ja": "",
-      "de": "",
-      "fr": ""
+      "en": "Project Specialist",
+      "ja": "COSMIC EXPLORATION",
+      "de": "Kosmo-Erkundung",
+      "fr": "Exploration cosmique"
     },
     "defaultTalks": []
   },
   "1057618": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Dylise",
+    "ja": "ディリズ",
+    "de": "Dylise",
+    "fr": "Dylise",
     "title": {
-      "en": "",
-      "ja": "",
-      "de": "",
-      "fr": ""
+      "en": "Project Specialist",
+      "ja": "COSMIC EXPLORATION",
+      "de": "Kosmo-Erkundung",
+      "fr": "Exploration cosmique"
     },
     "defaultTalks": []
   },
   "1057619": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Dylise",
+    "ja": "ディリズ",
+    "de": "Dylise",
+    "fr": "Dylise",
     "title": {
-      "en": "",
-      "ja": "",
-      "de": "",
-      "fr": ""
+      "en": "Project Specialist",
+      "ja": "COSMIC EXPLORATION",
+      "de": "Kosmo-Erkundung",
+      "fr": "Exploration cosmique"
     },
     "defaultTalks": []
   },
   "1057620": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Dylise",
+    "ja": "ディリズ",
+    "de": "Dylise",
+    "fr": "Dylise",
     "title": {
-      "en": "",
-      "ja": "",
-      "de": "",
-      "fr": ""
+      "en": "Project Specialist",
+      "ja": "COSMIC EXPLORATION",
+      "de": "Kosmo-Erkundung",
+      "fr": "Exploration cosmique"
     },
     "defaultTalks": []
   },
   "1057621": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Dylise",
+    "ja": "ディリズ",
+    "de": "Dylise",
+    "fr": "Dylise",
     "title": {
-      "en": "",
-      "ja": "",
-      "de": "",
-      "fr": ""
+      "en": "Project Specialist",
+      "ja": "COSMIC EXPLORATION",
+      "de": "Kosmo-Erkundung",
+      "fr": "Exploration cosmique"
     },
     "defaultTalks": []
   },
   "1057622": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Dylise",
+    "ja": "ディリズ",
+    "de": "Dylise",
+    "fr": "Dylise",
     "title": {
-      "en": "",
-      "ja": "",
-      "de": "",
-      "fr": ""
+      "en": "Project Specialist",
+      "ja": "COSMIC EXPLORATION",
+      "de": "Kosmo-Erkundung",
+      "fr": "Exploration cosmique"
     },
     "defaultTalks": []
   },
   "1057623": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Dylise",
+    "ja": "ディリズ",
+    "de": "Dylise",
+    "fr": "Dylise",
     "title": {
-      "en": "",
-      "ja": "",
-      "de": "",
-      "fr": ""
+      "en": "Project Specialist",
+      "ja": "COSMIC EXPLORATION",
+      "de": "Kosmo-Erkundung",
+      "fr": "Exploration cosmique"
     },
     "defaultTalks": []
   },
   "1057624": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Dylise",
+    "ja": "ディリズ",
+    "de": "Dylise",
+    "fr": "Dylise",
     "title": {
-      "en": "",
-      "ja": "",
-      "de": "",
-      "fr": ""
+      "en": "Project Specialist",
+      "ja": "COSMIC EXPLORATION",
+      "de": "Kosmo-Erkundung",
+      "fr": "Exploration cosmique"
     },
     "defaultTalks": []
   },
   "1057625": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Dylise",
+    "ja": "ディリズ",
+    "de": "Dylise",
+    "fr": "Dylise",
     "title": {
-      "en": "",
-      "ja": "",
-      "de": "",
-      "fr": ""
+      "en": "Project Specialist",
+      "ja": "COSMIC EXPLORATION",
+      "de": "Kosmo-Erkundung",
+      "fr": "Exploration cosmique"
     },
     "defaultTalks": []
   },
   "1057626": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Dylise",
+    "ja": "ディリズ",
+    "de": "Dylise",
+    "fr": "Dylise",
     "title": {
-      "en": "",
-      "ja": "",
-      "de": "",
-      "fr": ""
+      "en": "Project Specialist",
+      "ja": "COSMIC EXPLORATION",
+      "de": "Kosmo-Erkundung",
+      "fr": "Exploration cosmique"
     },
     "defaultTalks": []
   },
   "1057627": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Dylise",
+    "ja": "ディリズ",
+    "de": "Dylise",
+    "fr": "Dylise",
     "title": {
-      "en": "",
-      "ja": "",
-      "de": "",
-      "fr": ""
+      "en": "Project Specialist",
+      "ja": "COSMIC EXPLORATION",
+      "de": "Kosmo-Erkundung",
+      "fr": "Exploration cosmique"
     },
     "defaultTalks": []
   },
   "1057628": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Inspectingway",
+    "ja": "インスペクティングウェイ",
+    "de": "Inspectingway",
+    "fr": "Inspectingway",
     "title": {
       "en": "",
       "ja": "",
@@ -1025080,10 +1025080,10 @@
     "defaultTalks": []
   },
   "1057657": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "docile dhalmel",
+    "ja": "穏やかそうなスペースダルメル",
+    "de": "entspannt[a] Weltall-Dhalmel",
+    "fr": "dhalmel de l'espace tranquille",
     "title": {
       "en": "",
       "ja": "",
@@ -1025093,10 +1025093,10 @@
     "defaultTalks": []
   },
   "1057658": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "fidgety dhalmel",
+    "ja": "ソワソワしたスペースダルメル",
+    "de": "unruhig[a] Weltall-Dhalmel",
+    "fr": "dhalmel de l'espace agité",
     "title": {
       "en": "",
       "ja": "",
@@ -1025106,10 +1025106,10 @@
     "defaultTalks": []
   },
   "1057659": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "listless dhalmel",
+    "ja": "おとなしいスペースダルメル",
+    "de": "zahm[a] Weltall-Dhalmel",
+    "fr": "dhalmel de l'espace allongé",
     "title": {
       "en": "",
       "ja": "",
@@ -1028239,10 +1028239,10 @@
     "defaultTalks": []
   },
   "1057900": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Justa",
+    "ja": "ユスタ",
+    "de": "Justa",
+    "fr": "Justa",
     "title": {
       "en": "",
       "ja": "",
@@ -1031697,10 +1031697,10 @@
     "defaultTalks": []
   },
   "1058166": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Hhuki",
+    "ja": "フーキ",
+    "de": "Hhuki",
+    "fr": "Hhuki",
     "title": {
       "en": "",
       "ja": "",
@@ -1031710,10 +1031710,10 @@
     "defaultTalks": []
   },
   "1058167": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Tiisol Ja",
+    "ja": "チーソジャ",
+    "de": "Tiisol Ja",
+    "fr": "Tiisol Ja",
     "title": {
       "en": "",
       "ja": "",
@@ -1031723,15 +1031723,15 @@
     "defaultTalks": []
   },
   "1058168": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Bol Javaw",
+    "ja": "ボジャバー",
+    "de": "Bol Javaw",
+    "fr": "Bol Javaw",
     "title": {
-      "en": "",
-      "ja": "",
+      "en": "Trinket Trader",
+      "ja": "SHOP",
       "de": "",
-      "fr": ""
+      "fr": "Matériaux"
     },
     "defaultTalks": []
   },
@@ -1034791,10 +1034791,10 @@
     "defaultTalks": []
   },
   "1058404": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Hhuki",
+    "ja": "フーキ",
+    "de": "Hhuki",
+    "fr": "Hhuki",
     "title": {
       "en": "",
       "ja": "",
@@ -1034804,10 +1034804,10 @@
     "defaultTalks": []
   },
   "1058405": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Hhuki",
+    "ja": "フーキ",
+    "de": "Hhuki",
+    "fr": "Hhuki",
     "title": {
       "en": "",
       "ja": "",
@@ -1034817,10 +1034817,10 @@
     "defaultTalks": []
   },
   "1058406": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Strata",
+    "ja": "ストラタ",
+    "de": "Strata",
+    "fr": "Strata",
     "title": {
       "en": "",
       "ja": "",
@@ -1034830,10 +1034830,10 @@
     "defaultTalks": []
   },
   "1058407": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Taquito",
+    "ja": "タコちゃん",
+    "de": "Taquito",
+    "fr": "Tortilla",
     "title": {
       "en": "",
       "ja": "",
@@ -1034843,10 +1034843,10 @@
     "defaultTalks": []
   },
   "1058408": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "harried cook",
+    "ja": "慌てた様子の調理師",
+    "de": "gestresst[a] Koch",
+    "fr": "cusinier paniqué",
     "title": {
       "en": "",
       "ja": "",
@@ -1034856,10 +1034856,10 @@
     "defaultTalks": []
   },
   "1058409": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "curious mother",
+    "ja": "帰還民らしき母親",
+    "de": "neugierig[a] Mutter",
+    "fr": "mère curieuse",
     "title": {
       "en": "",
       "ja": "",
@@ -1034869,10 +1034869,10 @@
     "defaultTalks": []
   },
   "1058410": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "curious child",
+    "ja": "帰還民らしき娘",
+    "de": "neugierig[a] Kind",
+    "fr": "fille curieuse",
     "title": {
       "en": "",
       "ja": "",
@@ -1034973,10 +1034973,10 @@
     "defaultTalks": []
   },
   "1058418": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "reminiscent customer",
+    "ja": "タコスを懐かしむ注文客",
+    "de": "nostalgisch[a] Kundin",
+    "fr": "cliente nostalgique",
     "title": {
       "en": "",
       "ja": "",
@@ -1034986,10 +1034986,10 @@
     "defaultTalks": []
   },
   "1058419": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "intrigued friend",
+    "ja": "友人に連れられた客",
+    "de": "interessiert[a] Freund",
+    "fr": "ami intrigué",
     "title": {
       "en": "",
       "ja": "",
@@ -1036247,10 +1036247,10 @@
     "defaultTalks": []
   },
   "1058516": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Hhuki",
+    "ja": "フーキ",
+    "de": "Hhuki",
+    "fr": "Hhuki",
     "title": {
       "en": "",
       "ja": "",
@@ -1036260,10 +1036260,10 @@
     "defaultTalks": []
   },
   "1058517": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Hhuki",
+    "ja": "フーキ",
+    "de": "Hhuki",
+    "fr": "Hhuki",
     "title": {
       "en": "",
       "ja": "",
@@ -1036273,10 +1036273,10 @@
     "defaultTalks": []
   },
   "1058518": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Hhuki",
+    "ja": "フーキ",
+    "de": "Hhuki",
+    "fr": "Hhuki",
     "title": {
       "en": "",
       "ja": "",
@@ -1036286,10 +1036286,10 @@
     "defaultTalks": []
   },
   "1058519": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Hhuki",
+    "ja": "フーキ",
+    "de": "Hhuki",
+    "fr": "Hhuki",
     "title": {
       "en": "",
       "ja": "",
@@ -1036312,10 +1036312,10 @@
     "defaultTalks": []
   },
   "1058521": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Strata",
+    "ja": "ストラタ",
+    "de": "Strata",
+    "fr": "Strata",
     "title": {
       "en": "",
       "ja": "",
@@ -1036325,10 +1036325,10 @@
     "defaultTalks": []
   },
   "1058522": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "yowling cat",
+    "ja": "ふくよかな野良ネコ",
+    "de": "maunzend[a] Katze",
+    "fr": "chat rondelet",
     "title": {
       "en": "",
       "ja": "",
@@ -1036338,10 +1036338,10 @@
     "defaultTalks": []
   },
   "1058523": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Taquito",
+    "ja": "タコちゃん",
+    "de": "Taquito",
+    "fr": "Tortilla",
     "title": {
       "en": "",
       "ja": "",
@@ -1036364,10 +1036364,10 @@
     "defaultTalks": []
   },
   "1058525": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Taquito",
+    "ja": "タコちゃん",
+    "de": "Taquito",
+    "fr": "Tortilla",
     "title": {
       "en": "",
       "ja": "",
@@ -1036429,10 +1036429,10 @@
     "defaultTalks": []
   },
   "1058530": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "elderly customer",
+    "ja": "年配の注文客",
+    "de": "älter[a] Kunde",
+    "fr": "client âgé",
     "title": {
       "en": "",
       "ja": "",
@@ -1036442,10 +1036442,10 @@
     "defaultTalks": []
   },
   "1058531": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "reminiscent customer",
+    "ja": "タコスを懐かしむ注文客",
+    "de": "nostalgisch[a] Kundin",
+    "fr": "cliente nostalgique",
     "title": {
       "en": "",
       "ja": "",
@@ -1036455,10 +1036455,10 @@
     "defaultTalks": []
   },
   "1058532": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "trend-conscious customer",
+    "ja": "流行に乗る注文客",
+    "de": "trendbewusst[a] Kunde",
+    "fr": "client branché",
     "title": {
       "en": "",
       "ja": "",
@@ -1036481,10 +1036481,10 @@
     "defaultTalks": []
   },
   "1058534": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Xiisal Ja",
+    "ja": "シーサジャ",
+    "de": "Xiisal Ja",
+    "fr": "Xiisal Ja",
     "title": {
       "en": "",
       "ja": "",
@@ -1047102,10 +1047102,10 @@
     "defaultTalks": []
   },
   "1059351": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Nagylvi bud",
+    "ja": "ナギュルヴィの芽",
+    "de": "Nagylvi-Keimling",
+    "fr": "bourgeon des Nagylvi",
     "title": {
       "en": "",
       "ja": "",
@@ -1047388,10 +1047388,10 @@
     "defaultTalks": []
   },
   "1059373": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Mumukko",
+    "ja": "ムムッコ",
+    "de": "Mumukko",
+    "fr": "Mumukko",
     "title": {
       "en": "",
       "ja": "",
@@ -1048662,10 +1048662,10 @@
     "defaultTalks": []
   },
   "1059471": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "Sewal",
+    "ja": "セウァル",
+    "de": "Sewal",
+    "fr": "Sewal",
     "title": {
       "en": "",
       "ja": "",
@@ -1049988,10 +1049988,10 @@
     "defaultTalks": []
   },
   "1059573": {
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": "",
+    "en": "unspoken voice",
+    "ja": "意識に届く声",
+    "de": "thelepathisch[a] Stimme",
+    "fr": "voix intérieure",
     "title": {
       "en": "",
       "ja": "",

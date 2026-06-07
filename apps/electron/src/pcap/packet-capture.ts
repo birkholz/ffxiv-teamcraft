@@ -1,14 +1,13 @@
 import { MainWindow } from '../window/main-window';
 import { Store } from '../store';
 import { join, resolve } from 'path';
-import { existsSync } from 'fs';
+import { copyFileSync, existsSync, mkdirSync } from 'fs';
 import { spawn, execSync, ChildProcess } from 'child_process';
 import log from 'electron-log';
 import type { CaptureInterface, CaptureInterfaceOptions, Message, Region } from '@ffxiv-teamcraft/pcap-ffxiv';
 import { app, dialog, ipcMain, OpenDialogOptions } from 'electron';
 
 export class PacketCapture {
-
   private static readonly ACCEPTED_PACKETS: Message['type'][] = [
     'actorCast',
     'actorControl',
@@ -65,7 +64,7 @@ export class PacketCapture {
     'updatePositionHandler',
     'updatePositionInstance',
     'weatherChange',
-    'statusEffectList'
+    'statusEffectList',
   ];
 
   private static readonly PACKETS_FROM_OTHERS = [
@@ -80,7 +79,7 @@ export class PacketCapture {
     'eventPlay64',
     'systemLogMessage',
     'npcSpawn',
-    'objectSpawn'
+    'objectSpawn',
   ];
 
   private captureInterface: CaptureInterface;
@@ -94,7 +93,8 @@ export class PacketCapture {
     });
 
     if (process.platform !== 'win32') {
-      this.registerWinePathIpc();
+      const region = this.store.get<Region>('region', 'Global');
+      this.registerWinePathIpc(region);
     }
   }
 
@@ -102,17 +102,18 @@ export class PacketCapture {
    * Starts the deucalion bridge using the Wine paths from the store.
    * Throws if the paths are not configured or if spawning fails.
    */
-  private startBridge(): void {
+  private startBridge(region: Region): void {
     const winePrefix = this.store.get<string>('winePrefix', '');
     const wineBin = this.store.get<string>('wineBin', '');
     if (!winePrefix || !wineBin) {
       throw new Error('Wine paths not configured');
     }
-    const dllWinPath = this.toWinePath(this.getDeucalionDllPath());
-    this.spawnBridge(dllWinPath, 31594, winePrefix, wineBin);
+    const dllWinPath = process.platform === 'darwin' ? this.stageXivOnMacDeucalionFiles(winePrefix, region) : this.toWinePath(this.getDeucalionDllPath(region));
+    const extraEnv = process.platform === 'darwin' ? this.getXivOnMacWineEnv() : {};
+    this.spawnBridge(dllWinPath, 31594, winePrefix, wineBin, extraEnv);
   }
 
-  private registerWinePathIpc(): void {
+  private registerWinePathIpc(region: Region): void {
     ipcMain.on('bridge:wineprefix:get', (event) => {
       event.sender.send('bridge:wineprefix:value', this.store.get<string>('winePrefix', ''));
     });
@@ -121,7 +122,7 @@ export class PacketCapture {
       const current = this.store.get<string>('winePrefix', '');
       const opts: OpenDialogOptions = {
         defaultPath: current || app.getPath('home'),
-        properties: ['openDirectory']
+        properties: ['openDirectory'],
       };
       dialog.showOpenDialog(this.mainWindow.win, opts).then((result) => {
         if (result.canceled) return;
@@ -129,7 +130,7 @@ export class PacketCapture {
         event.sender.send('bridge:wineprefix:value', this.store.get<string>('winePrefix', ''));
         if (this.captureInterface) {
           try {
-            this.startBridge();
+            this.startBridge(region);
           } catch (e) {
             log.error('[bridge] Failed to restart bridge after settings change:', e);
           }
@@ -145,7 +146,7 @@ export class PacketCapture {
       const current = this.store.get<string>('wineBin', '');
       const opts: OpenDialogOptions = {
         defaultPath: current ? join(current, '..') : app.getPath('home'),
-        properties: ['openFile']
+        properties: ['openFile'],
       };
       dialog.showOpenDialog(this.mainWindow.win, opts).then((result) => {
         if (result.canceled) return;
@@ -153,7 +154,7 @@ export class PacketCapture {
         event.sender.send('bridge:winebin:value', this.store.get<string>('wineBin', ''));
         if (this.captureInterface) {
           try {
-            this.startBridge();
+            this.startBridge(region);
           } catch (e) {
             log.error('[bridge] Failed to restart bridge after settings change:', e);
           }
@@ -183,24 +184,24 @@ export class PacketCapture {
   }
 
   public registerOverlayListener(id: string, listener: (packet: Message) => void): void {
-    if (this.overlayListeners.some(l => l.id === id)) {
+    if (this.overlayListeners.some((l) => l.id === id)) {
       this.unregisterOverlayListener(id);
     }
     this.overlayListeners.push({
       id,
-      listener
+      listener,
     });
   }
 
   public unregisterOverlayListener(id: string): void {
-    this.overlayListeners = this.overlayListeners.filter(l => l.id === id);
+    this.overlayListeners = this.overlayListeners.filter((l) => l.id === id);
   }
 
   sendToRenderer(packet: Message): void {
     if (this.mainWindow?.win) {
       try {
         this.mainWindow.win.webContents.send('packet', packet);
-        this.overlayListeners.forEach(l => {
+        this.overlayListeners.forEach((l) => {
           try {
             l.listener(packet);
           } catch (e) {
@@ -251,10 +252,10 @@ export class PacketCapture {
           }
           return PacketCapture.PACKETS_FROM_OTHERS.includes(typeName);
         },
-        logger: message => {
+        logger: (message) => {
           log[message.type || 'warn'](message.message);
         },
-        name: 'FFXIV_Teamcraft'
+        name: 'FFXIV_Teamcraft',
       };
 
       if (process.platform !== 'win32') {
@@ -273,7 +274,7 @@ export class PacketCapture {
         // With some launchers, the bridge process (Wine) prevents the game from
         // booting if it starts before ffxiv_dx11.exe is already running.  Fail
         // fast with a clear error so the user knows to launch the game first.
-        if (!this.isGameRunningViaWine()) {
+        if (process.platform !== 'darwin' && !this.isGameRunningViaWine()) {
           log.error('[pcap] ffxiv_dx11.exe is not running; refusing to start bridge');
           this.store.set('machina', false);
           this.mainWindow.win.webContents.send('toggle-pcap:value', false);
@@ -285,7 +286,7 @@ export class PacketCapture {
         // deucalion-bridge.exe runs under Wine and forwards the deucalion
         // named pipe over TCP.
         try {
-          this.startBridge();
+          this.startBridge(region);
           options.bridgeTcpPort = 31594;
         } catch (e) {
           log.error('[pcap] Failed to set up deucalion bridge:', e);
@@ -300,15 +301,15 @@ export class PacketCapture {
           log.info('[pcap] Using localOpcodes:', localDataPath);
         }
       } else {
-        options.deucalionDllPath = this.getDeucalionDllPath();
+        options.deucalionDllPath = this.getDeucalionDllPath(region);
       }
 
       log.info(`Starting PacketCapture with options: ${JSON.stringify(options)}`);
       this.captureInterface = new CaptureInterface(options);
-      this.captureInterface.on('error', err => {
+      this.captureInterface.on('error', (err) => {
         this.mainWindow.win.webContents.send('pcap:status', 'error');
         this.mainWindow.win.webContents.send('pcap:error:raw', {
-          message: err
+          message: err,
         });
         log.error(err);
       });
@@ -326,7 +327,8 @@ export class PacketCapture {
         // Give it 200ms to make sure pipe is created
         setTimeout(() => {
           if (!this.captureInterface) return;
-          this.captureInterface.start()
+          this.captureInterface
+            .start()
             .then(() => {
               this.mainWindow.win.webContents.send('pcap:status', 'running');
               log.info('Packet capture started');
@@ -338,15 +340,15 @@ export class PacketCapture {
 
               if (ErrorCodes[errCode]) {
                 this.mainWindow.win.webContents.send('pcap:error', {
-                  message: ErrorCodes[errCode]
+                  message: ErrorCodes[errCode],
                 });
               } else if (errCode.toString().includes('ENOENT')) {
                 this.mainWindow.win.webContents.send('pcap:error', {
-                  message: 'RESTART_GAME'
+                  message: 'RESTART_GAME',
                 });
               } else {
                 this.mainWindow.win.webContents.send('pcap:error', {
-                  message: 'Default'
+                  message: 'Default',
                 });
               }
             });
@@ -356,13 +358,39 @@ export class PacketCapture {
       if (e.message.includes('dll-inject')) {
         this.mainWindow.win.webContents.send('pcap:status', 'error');
         this.mainWindow.win.webContents.send('pcap:error', {
-          message: 'MISSING_INJECTOR'
+          message: 'MISSING_INJECTOR',
         });
         log.error('[pcap] MISSING_INJECTOR');
       } else {
         log.error(e);
       }
     }
+  }
+
+  private getXivOnMacWineEnv(): Record<string, string> {
+    return {
+      WINEDEBUG: '-all',
+      WINEESYNC: '1',
+      WINEMSYNC: '1',
+      WINEDLLOVERRIDES: 'bcryptprimitives=n,b',
+    };
+  }
+
+  private getBcryptPrimitivesDllPath(): string {
+    const bridgeDir = app.isPackaged ? join(app.getAppPath(), '../../deucalion-bridge') : join(__dirname, '../../../deucalion-bridge');
+
+    return join(bridgeDir, 'bcryptprimitives.dll');
+  }
+
+  private stageXivOnMacDeucalionFiles(winePrefix: string, region: Region): string {
+    const targetDir = join(winePrefix, 'drive_c', 'deucalion');
+
+    mkdirSync(targetDir, { recursive: true });
+
+    copyFileSync(this.getDeucalionDllPath(region), join(targetDir, 'deucalion.dll'));
+    copyFileSync(this.getBcryptPrimitivesDllPath(), join(targetDir, 'bcryptprimitives.dll'));
+
+    return 'C:\\deucalion\\deucalion.dll';
   }
 
   /**
@@ -404,9 +432,9 @@ export class PacketCapture {
    * Packaged builds find it in extraFiles next to the app; dev builds walk up
    * from __dirname to locate it inside node_modules.
    */
-  private getDeucalionDllPath(): string {
+  private getDeucalionDllPath(region: Region): string {
     if (app.isPackaged) {
-      return join(app.getAppPath(), '../../deucalion/deucalion.dll');
+      return region === 'TW' ? join(app.getAppPath(), '../../deucalion/deucalion_12.dll') : join(app.getAppPath(), '../../deucalion/deucalion.dll');
     }
     return this.findDevDeucalionDll();
   }
@@ -441,7 +469,7 @@ export class PacketCapture {
     log.info(`[bridge] spawning: ${wineBin} ${bridgeExe} --dll-path ${dllWinPath} --port ${port}`);
 
     this.bridgeProcess = spawn(wineBin, [bridgeExe, '--dll-path', dllWinPath, '--port', String(port)], {
-      env: { ...process.env, WINEPREFIX: winePrefix, ...extraEnv }
+      env: { ...process.env, WINEPREFIX: winePrefix, ...extraEnv },
     });
 
     let stderrBuffer = '';
@@ -460,7 +488,7 @@ export class PacketCapture {
       }
     });
 
-    this.bridgeProcess.on('error', err => log.error('[bridge] spawn error:', err));
+    this.bridgeProcess.on('error', (err) => log.error('[bridge] spawn error:', err));
 
     this.bridgeProcess.on('exit', (code, signal) => {
       log.info(`[bridge] exited code=${code} signal=${signal}`);
@@ -477,5 +505,4 @@ export class PacketCapture {
       }
     });
   }
-
 }

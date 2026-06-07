@@ -1,5 +1,5 @@
 import log from 'electron-log';
-import { existsSync, FSWatcher, readdirSync, readFile, readFileSync, statSync, watch } from 'fs';
+import { FSWatcher, existsSync, readdirSync, readFile, readFileSync, statSync, watch } from 'fs';
 import { join } from 'path';
 import { MainWindow } from '../window/main-window';
 import BufferReader from 'buffer-reader';
@@ -92,7 +92,7 @@ export class DatFilesWatcher {
   }
 
   private onEvent(event: string, filename: string, watchDir: string): void {
-    if (event === 'change' && filename?.includes('FFXIV_CHR')) {
+    if ((event === 'change' || event === 'rename') && filename?.includes('FFXIV_CHR')) {
       const contentId = DatFilesWatcher.CONTENT_ID_REGEXP.exec(filename)[1];
       if (this.mainWindow.win) {
         if (filename.endsWith('ITEMODR.DAT')) {
@@ -171,11 +171,33 @@ export class DatFilesWatcher {
     if (customDir) {
       return customDir;
     }
+    if (process.platform === 'linux') {
+      const home = app.getPath('home');
+      // Steam first: try both Documents and My Documents (varies by Proton version)
+      const steamPrefix = join(home, '.local', 'share', 'Steam', 'steamapps', 'compatdata', '39210', 'pfx');
+      for (const docs of ['Documents', 'My Documents']) {
+        const p = join(steamPrefix, 'drive_c', 'users', 'steamuser', docs, 'My Games', 'FINAL FANTASY XIV - A Realm Reborn');
+        if (existsSync(p)) return p;
+      }
+      // XIVLauncher second
+      const xlcorePath = join(home, '.xlcore', 'ffxivConfig');
+      if (existsSync(xlcorePath)) return xlcorePath;
+      // Nothing found
+      return null;
+    }
+    if (process.platform === 'darwin') {
+      const xivOnMacConfigDir = join(app.getPath('appData'), 'XIV on Mac', 'ffxivConfig');
+      if (existsSync(xivOnMacConfigDir)) {
+        return xivOnMacConfigDir;
+      }
+    }
     switch (region) {
       case 'KR':
         return join(app.getPath('documents'), 'My Games', 'FINAL FANTASY XIV - KOREA');
       case 'CN':
         return join('C:\\', 'Program Files (x86)', '上海数龙科技有限公司', '最终幻想XIV', 'game', 'My Games', 'FINAL FANTASY XIV - A Realm Reborn');
+      case 'TW':
+        return join(app.getPath('documents'), 'My Games', 'FINAL FANTASY XIV - TC');
       default:
         return join(app.getPath('documents'), 'My Games', 'FINAL FANTASY XIV - A Realm Reborn');
     }
