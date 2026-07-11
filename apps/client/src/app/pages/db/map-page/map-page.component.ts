@@ -242,7 +242,7 @@ export class MapPageComponent extends TeamcraftPageComponent {
               },
               marker: {
                 iconType: 'img',
-                iconImg: `https://xivapi.com${fate.icon}`,
+                iconImg: `https://v2.xivapi.com${fate.icon}`,
                 x: fate.position.x,
                 y: fate.position.y,
                 tooltip: this.i18n.getName(fate.name)
